@@ -1,0 +1,319 @@
+
+
+
+🚀 JavaScript Roadmap (Node.js Developer - 2 Years Experience)
+📘 Module 1 - JavaScript Fundamentals ✅ (Completed)
+What is JavaScript?
+Why JavaScript?
+High-Level vs Low-Level
+Dynamic Typing
+Weak Typing
+V8 Engine
+Parser
+AST
+Interpreter
+JIT Compiler
+Compilation vs Interpretation
+Single Thread
+ECMAScript
+Browser vs Node (Basic)
+Interview: JavaScript Fundamentals
+
+
+📘 Module 2 - Variables (Foundation)
+Why Variables?
+Variable Declaration
+Initialization
+Assignment
+Identifier Rules
+var
+let
+const
+Redeclaration
+Reassignment
+Hoisting (Introduction)
+TDZ (Introduction)
+Memory Creation (Introduction)
+Interview Questions
+Coding Questions
+Interview: Variables (var, let, const)
+
+
+📘 Module 3 - Primitive Data Types
+Number
+String
+Boolean
+Undefined
+Null
+Symbol
+BigInt
+typeof
+NaN
+Infinity
+Primitive Immutability
+Copy by Value
+Type Conversion
+Type Coercion (Deep Dive)
+Interview + Coding
+
+
+📘 Module 4 - Non-Primitive Data Types
+Objects
+Arrays
+Functions (as objects)
+Dates
+Maps
+Sets
+Stack vs Heap
+References
+Copy by Reference
+Shallow Copy
+Deep Copy
+Spread Operator
+Object.assign()
+Interview + Coding
+
+
+📘 Module 5 - Functions (Very Important)
+Function Declaration
+Function Expression
+Anonymous Functions
+Arrow Functions
+IIFE
+Parameters vs Arguments
+Default Parameters
+Rest Parameters
+Callback Functions
+Higher Order Functions
+First Class Functions
+Pure Functions
+Interview + Coding
+
+
+📘 Module 6 - Scope & Execution Context
+Now you'll finally understand this naturally.
+
+Global Scope
+Function Scope
+Block Scope
+Lexical Scope
+Scope Chain
+Global Execution Context
+Function Execution Context
+Memory Creation Phase
+Execution Phase
+Call Stack
+Hoisting (Deep Dive)
+TDZ (Deep Dive)
+🔥 Grand Mock Interview (Modules 1–6)
+
+
+📘 Module 7 - Loops & Iteration
+for
+while
+do...while
+for...in
+for...of
+break
+continue
+Labels
+Iterators (Introduction)
+
+📘 Module 8 - Arrays
+Array Methods
+map()
+filter()
+reduce()
+find()
+findIndex()
+some()
+every()
+sort()
+flat()
+flatMap()
+Array Destructuring
+Coding Heavy Module
+
+
+📘 Module 9 - Strings
+String Methods
+Template Literals
+Regular Expressions (Basics)
+Interview Coding Problems
+
+📘 Module 10 - Numbers & Math
+Number Methods
+Math Methods
+parseInt()
+parseFloat()
+Number()
+NaN
+isNaN()
+BigInt
+Floating Point Issues
+
+📘 Module 11 - Objects (Advanced)
+this
+Object Methods
+Property Descriptors
+Object.keys()
+Object.values()
+Object.entries()
+Optional Chaining
+Nullish Coalescing
+Destructuring
+Spread
+Freeze
+Seal
+
+📘 Module 12 - Closures
+Lexical Environment
+Closures
+Private Variables
+Encapsulation
+Closures & Memory
+Interview Questions
+Node.js Examples
+🔥 Grand Mock Interview (Modules 7–12)
+
+
+📘 Module 13 - Prototype & Inheritance
+Prototype
+Prototype Chain
+__proto__
+Constructor Functions
+ES6 Classes
+Inheritance
+new Keyword
+
+📘 Module 14 - Asynchronous JavaScript
+Synchronous vs Asynchronous
+Callbacks
+Callback Hell
+Promises
+Promise Chaining
+Promise.all()
+Promise.any()
+Promise.race()
+Promise.allSettled()
+async/await
+
+📘 Module 15 - Event Loop & JavaScript Internals
+This is my favorite module. 😄
+
+Event Loop
+Call Stack
+Callback Queue
+Microtask Queue
+Macrotask Queue
+Timers
+Browser APIs
+Node.js Runtime
+libuv (Introduction)
+
+📘 Module 16 - Memory Management
+Stack
+Heap
+Garbage Collection
+Memory Leaks
+Closures & Memory Leaks
+WeakMap
+WeakSet
+
+📘 Module 17 - Advanced JavaScript
+Debounce
+Throttle
+Currying
+Memoization
+Recursion
+Factory Pattern
+Singleton Pattern
+Module Pattern
+Polyfills (map, filter, reduce)
+
+📘 Module 18 - JavaScript Interview Master
+Frequently Asked Questions
+Tricky Output Questions
+Coding Round
+Polyfills
+Deep Clone
+Flatten Array
+Anagram
+Promise Implementation
+Debounce
+Throttle
+Final JavaScript Revision
+🔥 Grand Mock Interview (Modules 13–18)
+
+
+🚀 After JavaScript
+Then we move to Node.js.
+
+Event Loop (Node.js Deep Dive)
+libuv Internals
+Streams
+Buffers
+File System
+Process
+EventEmitter
+Cluster
+Worker Threads
+Child Process
+Express Internals
+Authentication
+JWT
+Security
+Redis
+MongoDB
+PostgreSQL
+Performance
+Scaling
+System Design
+Backend Interview Questions
+
+⭐ One thing I changed from the old roadmap
+I intentionally moved Execution Context to Module 6.
+
+Why?
+
+Because by then you'll already know:
+
+Variables ✅
+Primitives ✅
+Objects ✅
+Functions ✅
+Then when we study:
+
+console.log(a);
+
+var a = 10;
+
+You won't memorize "hoisting."
+
+You'll actually understand why V8 behaves that way.
+
+
+I genuinely think this roadmap is much stronger.
+It follows the principle:
+
+Basics
+↓
+Memory
+↓
+Functions
+↓
+Execution Context
+↓
+Arrays & Objects
+↓
+Closures
+↓
+Async JavaScript
+↓
+Event Loop
+↓
+Advanced JavaScript
+↓
+Node.js
+
+Everything builds naturally on the previous module, which means less memorization and more understanding. I honestly think this is the roadmap that will prepare you best for the ACL Digital client interviews. 🚀
