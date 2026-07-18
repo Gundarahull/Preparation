@@ -1,0 +1,1135 @@
+
+
+# SQL Mastery Roadmap for Backend/Product Company Interviews
+
+This roadmap is designed specifically for:
+
+* Node.js Backend Developers
+* Product Company Interviews
+* ACL Client Interviews
+* SQL Server / MySQL / PostgreSQL environments
+
+# Phase 0 — SQL Mindset and Database Foundations
+
+## Module 0.1
+
+* What is a Database?
+* RDBMS vs NoSQL
+* Rows and Columns
+* Tables and Relationships
+* OLTP vs OLAP
+
+## Module 0.2
+
+* SQL Execution Order
+
+```text
+FROM
+JOIN
+WHERE
+GROUP BY
+HAVING
+SELECT
+DISTINCT
+ORDER BY
+LIMIT/OFFSET
+```
+
+This single topic explains 50% of interview confusion.
+
+## Module 0.3
+
+* Logical query processing
+* Query optimizer
+* Execution plan basics
+
+---
+
+# Phase 1 — Schema Design Fundamentals
+
+## Module 1.1 Keys
+
+* Primary Key
+* Foreign Key
+* Candidate Key
+* Alternate Key
+* Composite Key
+* Unique Key
+* Surrogate Key
+* Natural Key
+
+## Module 1.2 Constraints
+
+* NOT NULL
+* UNIQUE
+* CHECK
+* DEFAULT
+* AUTO_INCREMENT / IDENTITY
+
+## Module 1.3 Relationships
+
+* One-to-One
+* One-to-Many
+* Many-to-Many
+
+## Module 1.4 Normalization
+
+* 1NF
+* 2NF
+* 3NF
+* BCNF
+* Denormalization
+
+---
+
+# Phase 2 — Query Fundamentals
+
+## Module 2.1 Data Retrieval
+
+* SELECT
+* DISTINCT
+* LIMIT
+* TOP
+* OFFSET
+
+## Module 2.2 Filtering
+
+* WHERE
+* AND
+* OR
+* NOT
+* IN
+* BETWEEN
+* LIKE
+* IS NULL
+
+## Module 2.3 Sorting
+
+* ORDER BY
+* ASC
+* DESC
+* Multiple columns
+
+---
+
+# Phase 3 — Data Modification
+
+## Module 3.1
+
+* INSERT
+* UPDATE
+* DELETE
+* TRUNCATE
+* MERGE
+* UPSERT
+
+## Module 3.2
+
+* Transactions
+* COMMIT
+* ROLLBACK
+* SAVEPOINT
+
+---
+
+# Phase 4 — Functions
+
+## Aggregate Functions
+
+* COUNT
+* SUM
+* AVG
+* MAX
+* MIN
+
+## String Functions
+
+* LENGTH
+* SUBSTRING
+* REPLACE
+* TRIM
+* CONCAT
+* LOWER
+* UPPER
+
+## Numeric Functions
+
+* ROUND
+* CEIL
+* FLOOR
+* ABS
+
+## Date Functions
+
+* DATEADD
+* DATEDIFF
+* NOW
+* CURRENT_DATE
+* INTERVAL
+
+## NULL Functions
+
+* COALESCE
+* NULLIF
+* ISNULL
+
+## Type Conversion
+
+* CAST
+* CONVERT
+
+---
+
+# Phase 5 — Grouping
+
+## Topics
+
+* GROUP BY
+* HAVING
+* Aggregations
+* Conditional Aggregations
+* Grouping by multiple columns
+
+---
+
+# Phase 6 — Joins
+
+## Core Joins
+
+* INNER JOIN
+* LEFT JOIN
+* RIGHT JOIN
+* FULL JOIN
+* CROSS JOIN
+* SELF JOIN
+
+## Advanced Join Topics
+
+* Join order
+* Join cardinality
+* Duplicate explosion
+* Missing rows analysis
+
+---
+
+# Phase 7 — Set Operations
+
+* UNION
+* UNION ALL
+* INTERSECT
+* EXCEPT
+
+---
+
+# Phase 8 — Subqueries
+
+## Types
+
+* Scalar Subquery
+* Multi-row Subquery
+* Correlated Subquery
+
+## Operators
+
+* EXISTS
+* NOT EXISTS
+* IN
+* ANY
+* ALL
+
+---
+
+# Phase 9 — Common Table Expressions
+
+* Basic CTE
+* Multiple CTE
+* Recursive CTE
+
+---
+
+# Phase 10 — Window Functions
+
+## Ranking
+
+* ROW_NUMBER
+* RANK
+* DENSE_RANK
+* NTILE
+
+## Analytics
+
+* Running Total
+* Rolling Total
+* Moving Average
+* Cumulative Sum
+
+## Navigation
+
+* LEAD
+* LAG
+* FIRST_VALUE
+* LAST_VALUE
+
+## Window Frames
+
+* PARTITION BY
+* ORDER BY
+* ROWS BETWEEN
+
+---
+
+# Phase 11 — Conditional Logic
+
+* CASE WHEN
+* Nested CASE
+* Conditional Aggregation
+
+---
+
+# Phase 12 — Database Objects
+
+## Views
+
+* Simple Views
+* Materialized Views
+
+## Temporary Objects
+
+* Temp Tables
+* Table Variables
+
+## Stored Procedures
+
+* Input Parameters
+* Output Parameters
+* Error Handling
+
+## Functions
+
+* Scalar Functions
+* Table Valued Functions
+
+## Triggers
+
+* Before Trigger
+* After Trigger
+
+---
+
+# Phase 13 — Indexing
+
+This is where many 2-3 year developers become uncomfortable.
+
+## Index Types
+
+* Clustered Index
+* Non-Clustered Index
+* Composite Index
+* Covering Index
+* Partial Index
+* Unique Index
+
+## Concepts
+
+* Selectivity
+* Cardinality
+* Index Scan
+* Index Seek
+
+---
+
+# Phase 14 — Query Optimization
+
+## Topics
+
+* Execution Plan
+* Cost Based Optimizer
+* Predicate Pushdown
+* SARGable Queries
+* Avoiding Functions on Indexed Columns
+* Join Optimization
+
+---
+
+# Phase 15 — Pagination
+
+## Offset Pagination
+
+```sql
+LIMIT 20 OFFSET 1000
+```
+
+## Keyset Pagination
+
+```sql
+WHERE id > last_id
+LIMIT 20
+```
+
+---
+
+# Phase 16 — Transactions and Concurrency
+
+## ACID
+
+* Atomicity
+* Consistency
+* Isolation
+* Durability
+
+## Isolation Levels
+
+* Read Uncommitted
+* Read Committed
+* Repeatable Read
+* Serializable
+
+## Problems
+
+* Dirty Read
+* Non Repeatable Read
+* Phantom Read
+
+## Locks
+
+* Shared Lock
+* Exclusive Lock
+* Deadlocks
+
+---
+
+# Phase 17 — Advanced Database Design
+
+* Partitioning
+* Sharding
+* Replication
+* Read Replicas
+* CQRS basics
+
+---
+
+# Phase 18 — PostgreSQL and MySQL Specific Topics
+
+## PostgreSQL
+
+* JSONB
+* GIN Index
+* Partial Index
+* Arrays
+* UUID
+
+## MySQL
+
+* InnoDB
+* MyISAM
+* AUTO_INCREMENT internals
+
+## SQL Server
+
+* IDENTITY
+* Included Columns
+* Execution Plan tools
+
+---
+
+# Phase 19 — Backend Engineering SQL Patterns
+
+This is probably the most valuable phase.
+
+## Authentication System
+
+* Users
+* Roles
+* Permissions
+
+## Ecommerce
+
+* Orders
+* Payments
+* Inventory
+
+## Chat Application
+
+* Conversations
+* Messages
+* Unread counts
+
+## Analytics
+
+* DAU
+* WAU
+* MAU
+* Retention
+
+## Ride Sharing
+
+* Nearby drivers
+* Geospatial queries
+
+## Notification System
+
+* Read/Unread counts
+
+---
+
+# Phase 20 — Product Company Interview Round
+
+## Category 1
+
+Write SQL queries.
+
+## Category 2
+
+Optimize SQL queries.
+
+## Category 3
+
+Design schema.
+
+## Category 4
+
+Scale the database.
+
+## Category 5
+
+Debug slow production issues.
+
+---
+
+# Our Training Format for Every Module
+
+For every topic:
+
+### 1. Theory
+
+Understand the concept.
+
+### 2. Production Example
+
+Where you used it in real backend projects.
+
+### 3. Interview Questions
+
+What ACL clients ask.
+
+### 4. Coding Problems
+
+Hands-on query writing.
+
+### 5. Optimization Discussion
+
+How to make it production-ready.
+
+### 6. Product Company Expectation
+
+What separates average candidates from strong backend engineers.
+
+---
+
+## Success Criteria
+
+By the end of this roadmap you should be able to answer questions like:
+
+* Why is this query slow?
+* Which index should I create?
+* Why is OFFSET pagination bad?
+* Why is EXISTS faster than IN in some cases?
+* Why is a LEFT JOIN returning duplicates?
+* What isolation level should this transaction use?
+* Why did the deadlock happen?
+* How would you design this schema for 100 million rows?
+
+
+
+===================================================================================================================================
+===================================================================================================================================
+===================================================================================================================================
+===================================================================================================================================
+===================================================================================================================================
+===================================================================================================================================
+===================================================================================================================================
+===================================================================================================================================
+===================================================================================================================================
+===================================================================================================================================
+
+
+Exactly. The goal is not just to "cover SQL topics."
+
+The goal is:
+
+> **No surprises in a client interview.**
+
+So here's the refined roadmap I'd use for a **2-year Node.js backend developer targeting ACL client interviews and product companies**.
+
+# SQL Arena Roadmap v2
+
+## ✅ Phase 0 — Database Foundations
+
+* Database basics
+* RDBMS vs NoSQL
+* OLTP vs OLAP
+* Execution Order
+* Query Optimizer
+* Execution Plans
+
+Status: **Completed**
+
+---
+
+## ✅ Phase 1 — Schema Design Fundamentals
+
+* Keys
+* Constraints
+* Relationships
+* Normalization
+* Denormalization
+
+Status: **Completed**
+
+---
+
+# 🔥 Phase 2 — Query Fundamentals
+
+## Data Retrieval
+
+* SELECT
+* DISTINCT
+* WHERE
+* AND
+* OR
+* NOT
+* IN
+* BETWEEN
+* LIKE
+* IS NULL
+
+## Sorting & Pagination
+
+* ORDER BY
+* ASC/DESC
+* LIMIT
+* OFFSET
+* TOP (SQL Server)
+
+Status: **In Progress**
+
+---
+
+# Phase 3 — Aggregations & Grouping
+
+These topics are inseparable in production.
+
+## Aggregates
+
+* COUNT
+* SUM
+* AVG
+* MIN
+* MAX
+
+## Grouping
+
+* GROUP BY
+* HAVING
+* Multiple GROUP BY columns
+* Conditional Aggregation
+
+Examples:
+
+```sql
+SUM(CASE WHEN status='delivered' THEN total_amount END)
+```
+
+This phase is huge in interviews.
+
+---
+
+# Phase 4 — Functions
+
+## String
+
+* LENGTH
+* SUBSTRING
+* REPLACE
+* TRIM
+* CONCAT
+* LOWER
+* UPPER
+
+## Numeric
+
+* ROUND
+* FLOOR
+* CEIL
+* ABS
+
+## Date
+
+* DATEADD
+* DATEDIFF
+* NOW
+* CURRENT_DATE
+* INTERVAL
+* EXTRACT
+
+## NULL
+
+* COALESCE
+* NULLIF
+* ISNULL
+
+## Conversion
+
+* CAST
+* CONVERT
+
+---
+
+# Phase 5 — Joins
+
+## Core Joins
+
+* INNER
+* LEFT
+* RIGHT
+* FULL
+* CROSS
+* SELF
+
+## Advanced Join Topics
+
+* Join order
+* Duplicate explosion
+* Missing rows
+* Cardinality
+
+---
+
+# Phase 6 — Set Operations
+
+* UNION
+* UNION ALL
+* INTERSECT
+* EXCEPT
+
+---
+
+# Phase 7 — Subqueries
+
+## Types
+
+* Scalar
+* Multi-row
+* Correlated
+
+## Operators
+
+* EXISTS
+* NOT EXISTS
+* IN
+* ANY
+* ALL
+
+---
+
+# Phase 8 — CTEs
+
+* Basic CTE
+* Multiple CTEs
+* Recursive CTE
+
+---
+
+# Phase 9 — Window Functions
+
+This is where many 2-3 year developers struggle.
+
+## Ranking
+
+* ROW_NUMBER
+* RANK
+* DENSE_RANK
+* NTILE
+
+## Analytics
+
+* Running Total
+* Rolling Average
+* Moving Average
+
+## Navigation
+
+* LEAD
+* LAG
+* FIRST_VALUE
+* LAST_VALUE
+
+## Frames
+
+* PARTITION BY
+* ROWS BETWEEN
+
+---
+
+# Phase 10 — Conditional Logic
+
+* CASE WHEN
+* Nested CASE
+* Conditional Aggregation
+
+---
+
+# Phase 11 — Database Objects
+
+* Views
+* Materialized Views
+* Temp Tables
+* Stored Procedures
+* Functions
+* Triggers
+
+---
+
+# Phase 12 — Data Modification
+
+* INSERT
+* UPDATE
+* DELETE
+* TRUNCATE
+* MERGE
+* UPSERT
+
+---
+
+# Phase 13 — Transactions & Concurrency
+
+This is one of the most important backend topics.
+
+## ACID
+
+* Atomicity
+* Consistency
+* Isolation
+* Durability
+
+## Isolation Levels
+
+* Read Uncommitted
+* Read Committed
+* Repeatable Read
+* Serializable
+
+## Problems
+
+* Dirty Reads
+* Non-repeatable Reads
+* Phantom Reads
+
+## Locks
+
+* Shared
+* Exclusive
+* Deadlocks
+
+---
+
+# Phase 14 — Indexing
+
+This is where many backend interviews become difficult.
+
+## Index Types
+
+* Clustered
+* Non-clustered
+* Composite
+* Covering
+* Partial
+* Unique
+
+## Concepts
+
+* Selectivity
+* Cardinality
+* Index Scan
+* Index Seek
+
+---
+
+# Phase 15 — Query Optimization
+
+This is probably the highest ROI phase.
+
+* Execution Plans
+* Cost Based Optimizer
+* Predicate Pushdown
+* SARGability
+* Function on indexed columns
+* Join optimization
+
+---
+
+# Phase 16 — Pagination
+
+## Offset Pagination
+
+```sql
+LIMIT 20 OFFSET 1000
+```
+
+## Keyset Pagination
+
+```sql
+WHERE id > last_id
+LIMIT 20
+```
+
+This is asked frequently for backend roles.
+
+---
+
+# Phase 17 — Scaling Concepts
+
+* Partitioning
+* Replication
+* Read Replicas
+* Sharding
+* CQRS basics
+
+---
+
+# Phase 18 — PostgreSQL vs MySQL vs SQL Server
+
+## PostgreSQL
+
+* JSONB
+* GIN indexes
+* Arrays
+* UUID
+
+## MySQL
+
+* InnoDB
+* AUTO_INCREMENT
+
+## SQL Server
+
+* IDENTITY
+* Included Columns
+
+---
+
+# Phase 19 — Backend Patterns
+
+This is where SQL meets your Node experience.
+
+## Ecommerce
+
+* Orders
+* Inventory
+* Payments
+
+## Chat
+
+* Conversations
+* Latest message
+* Unread counts
+
+## Analytics
+
+* DAU
+* WAU
+* MAU
+* Retention
+
+## Notifications
+
+* Read/unread counts
+
+---
+
+# Phase 20 — Mock Product Company Interviews
+
+## Query Round
+
+Write SQL.
+
+## Optimization Round
+
+Improve SQL.
+
+## Design Round
+
+Design schema.
+
+## Scale Round
+
+Handle millions of rows.
+
+## Debug Round
+
+Find production issues.
+
+---
+
+# What are the "must-win" phases?
+
+If you become strong in these:
+
+* Phase 3 (Grouping)
+* Phase 5 (Joins)
+* Phase 7 (Subqueries)
+* Phase 9 (Window Functions)
+* Phase 13 (Transactions)
+* Phase 14 (Indexing)
+* Phase 15 (Optimization)
+
+you'll outperform most 2-year backend candidates in SQL interviews.
+
+And importantly:
+
+> We are not dropping anything from the original roadmap.
+
+We're only reordering some modules so concepts are learned in the order they're used in real projects and interviews.
+
+Next stop:
+
+🔥 **GROUP BY and HAVING** — probably the single most used analytical SQL feature in backend systems.
+
+
+
+
+✅ JavaScript
+✅ PostgreSQL Querying
+✅ SQL Functions
+✅ Window Functions
+✅ Indexing
+✅ Query Optimization
+
+━━━━━━━━━━━━━━━━━━━━
+
+🔜 Transactions & Concurrency
+🔜 Partitioning
+🔜 Replication
+🔜 Performance Tuning
+🔜 Database Scaling
+🔜 System Design
+
+
+13.1 Why Transactions Exist
+
+13.2 ACID Properties
+
+13.3 Concurrency Problems
+      - Dirty Read
+      - Non-repeatable Read
+      - Phantom Read
+
+13.4 Isolation Levels
+      - Read Uncommitted
+      - Read Committed
+      - Repeatable Read
+      - Serializable
+
+13.5 Locks
+      - Shared Lock
+      - Exclusive Lock
+      - Row Lock
+      - Table Lock
+      - FOR UPDATE
+      - FOR SHARE
+
+13.6 Deadlocks
+
+13.7 Optimistic vs Pessimistic Locking
+
+13.8 Backend Case Studies
+
+13.9 Interview Arena
+
+
+
+
+
+We'll go even deeper into PostgreSQL internals.
+
+Phase 15
+
+Partitioning
+
+Horizontal Partitioning
+
+Vertical Partitioning
+
+Range Partitioning
+
+List Partitioning
+
+Hash Partitioning
+
+Declarative Partitioning
+
+Partition Pruning
+
+Then
+
+Phase 16
+
+Replication
+
+Streaming Replication
+
+Logical Replication
+
+Physical Replication
+
+Read Replica
+
+Primary-Replica
+
+Failover
+
+High Availability
+
+Then
+
+Phase 17
+
+Performance
+
+Connection Pooling
+
+PgBouncer
+
+Prepared Statements
+
+Statement Timeout
+
+Autovacuum
+
+VACUUM FULL
+
+Analyze
+
+Monitoring
+
+Then
+
+Phase 18
+
+System Design
+
+Database Selection
+
+Caching
+
+Redis
+
+Read/Write Splitting
+
+CQRS Basics
+
+Event Driven Architecture
+
+CAP Theorem
+
+Scaling PostgreSQL

@@ -1,0 +1,109 @@
+Arena  🔥
+
+Run these on your dataset.
+
+Mission 1
+
+Count total users.
+
+Mission 2
+
+Find all distinct cities.
+
+Mission 3
+
+Find active users from Bengaluru.
+
+Mission 4
+
+Find products priced between ₹1000 and ₹5000.
+
+Mission 5
+
+Find top 10 expensive products.
+
+Mission 6
+
+Find all orders paid via UPI.
+
+Mission 7
+
+Find products created in the last 30 days.
+
+Mission 8
+
+Find inactive users created before 2025.
+
+Mission 9
+
+Find orders which are either cancelled or returned.
+
+Mission 10
+
+Find the first 20 users ordered by newest account creation.
+
+Bonus Question
+
+Which query is better?
+
+SELECT *
+FROM users
+WHERE city = 'Bengaluru';
+
+or
+
+SELECT id, name, email
+FROM users
+WHERE city = 'Bengal
+
+
+
+
+Arena Missions 🔥
+
+Run these:
+
+Mission 1
+
+Total number of products.
+
+Mission 2
+
+Total revenue across all orders.
+
+Mission 3
+
+Revenue generated from delivered orders only.
+
+Mission 4
+
+Average order value.
+
+Mission 5
+
+Cheapest product price.
+
+Mission 6
+
+Most expensive product price.
+
+Mission 7
+
+Earliest user registration date.
+
+Mission 8
+
+Latest order date.
+
+Mission 9
+
+Count users with inactive status.
+
+Mission 10
+
+Find average product price between Electronics and Fashion categories.
+
+Hint:
+You don't know joins yet officially 😄
+
+So try solving after Phase 3 if needed.
