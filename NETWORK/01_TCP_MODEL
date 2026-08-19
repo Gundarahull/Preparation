@@ -1,0 +1,50 @@
+You have the absolute right idea, but you have the direction and the layer order flipped!
+When Device A (Source) sends data, the data does not start at the Physical Layer. It actually moves down from the Application Layer to the Physical Layer. Then, when it reaches Device B (Destination), it travels up from the Physical Layer to the Application Layer. [1, 2, 3, 4] 
+Let’s trace the journey step-by-step to put your exact concepts into the perfect order.
+------------------------------
+## ⬇️ Inside Device A (The Sender: Top-to-Bottom)
+Think of Device A as a manufacturing factory. It starts with the final product and boxes it up layer by layer before sending it out the door.
+
+   1. Application Layer (Layer 7): You type "Hey". This layer takes your human action and converts it into standard text data bytes. [5, 6, 7, 8] 
+   2. Transport Layer (Layer 4): It takes those bytes, assigns the Port Numbers, and stamps Sequence Numbers onto the segments. [9, 10, 11, 12] 
+   3. Network Layer (Layer 3): It takes those segments and wraps them into Packets, stamping the Source and Destination IP Addresses. [13, 14, 15, 16, 17] 
+   4. Data Link Layer (Layer 2): It takes those packets, wraps them into Frames, attaches the local MAC Addresses, and calculates the mathematical security code (CRC). [18, 19, 20, 21, 22] 
+   5. Physical Layer (Layer 1): Finally, it turns those digital frames into physical Signals (radio waves for Wi-Fi or electrical pulses for cables) and shoots them out into the world. [23, 24, 25, 26, 27] 
+
+------------------------------
+## 🛣️ In Transit (The Hop)
+The signal travels through the air to your Wi-Fi router. The router's Data Link Layer (Layer 2) opens the frame, checks the security code to make sure it isn't corrupted, and uses the Network Layer (Layer 3) to forward it across the internet until it reaches Device B. [28, 29, 30, 31, 32] 
+------------------------------
+## ⬆️ Inside Device B (The Receiver: Bottom-to-Top)
+When the data hits Device B, it acts like a customer unboxing a package. It moves in the exact opposite direction—from the physical wires up to your screen. [33] 
+
+  [ SCREEN / APP ]  <-- Human Readable Format
+         ▲
+         │
+ 7. APPLICATION     <-- Translates data bytes into text/images
+         ▲
+         │
+ 4. TRANSPORT       <-- Reads sequence numbers, sums up all segments
+         ▲
+         │
+ 3. NETWORK         <-- Verifies the destination IP address matches
+         ▲
+         │
+ 2. DATA LINK       <-- Verifies local MAC address & checks security math
+         ▲
+         │
+ 1. PHYSICAL        <-- Receives raw radio signals/pulses from the antenna
+         ▲
+         │
+   [ THE WIRELESS / CABLE SIGNAL ]
+
+
+   1. Physical Layer: Device B’s antenna catches the raw wireless signals and turns them back into digital 1s and 0s.
+   2. Data Link Layer: It checks the MAC address to ensure the frame was meant for it, and runs the security math to ensure nothing was corrupted. [34, 35, 36] 
+   3. Network Layer: It strips off the outer frame, looks at the packet, and verifies the IP Address matches its own global identity. [37, 38, 39, 40] 
+   4. Transport Layer: It strips off the packet header, looks at the Port Number to know which app gets the data, tracks the Sequence Numbers, and sums up/reassembles all the segments into the original continuous stream. [41, 42, 43, 44, 45] 
+   5. Application Layer: It reads the application code and length markers, cuts the data stream precisely, and converts those bytes into the human-readable format (the chat bubble "Hey") right on your screen. [46, 47] 
+
+## 🎯 The Clarification
+So, to summarize your thought: You have all the correct functions, but remember: Sender goes 7 $\rightarrow$ 1 (wraps the data), and Receiver goes 1 $\rightarrow$ 7 (unwraps the data).
+Does seeing the flow move down the stack on one side and up the stack on the other make the whole system click into place? If you want, we can do a quick practice scenario to see how you track a packet through this path!
