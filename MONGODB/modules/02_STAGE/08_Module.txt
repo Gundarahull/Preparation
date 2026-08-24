@@ -1,0 +1,458 @@
+| Operator | Meaning                    | Example             |
+| -------- | -------------------------- | ------------------- |
+| `$eq`    | Equal                      | age = 25            |
+| `$ne`    | Not Equal                  | age ≠ 25            |
+| `$gt`    | Greater Than               | age > 25            |
+| `$gte`   | Greater Than or Equal      | age ≥ 25            |
+| `$lt`    | Less Than                  | age < 25            |
+| `$lte`   | Less Than or Equal         | age ≤ 25            |
+| `$in`    | Match any value in a list  | status IN (...)     |
+| `$nin`   | Match values not in a list | status NOT IN (...) |
+
+between - {
+   salary:{
+      $gte:50000,
+      $lte:100000
+   }
+}
+
+
+=============================================================================================================
+                                                   LOGICAL OPERATORS
+==================================================================================================
+
+
+| Operator | Meaning                        | Use Case             |
+| -------- | ------------------------------ | -------------------- |
+| `$and`   | All conditions must match      | Multiple filters     |
+| `$or`    | At least one condition matches | Flexible search      |
+| `$not`   | Negate one condition           | Reverse a comparison |
+| `$nor`   | None of the conditions match   | Exclusions           |
+
+db.users.find({
+   $nor: [
+      { city: "Delhi" },
+      { age: { $lt: 18 } }
+   ]
+})
+
+NOT Delhi
+
+AND
+
+NOT age <18
+
+
+`
+`=============================================================================================================
+`                                                   ELEMENT OPERATORS
+`==================================================================================================
+`
+`
+| Operator      | Purpose                           | Common Use                |
+| ------------- | --------------------------------- | ------------------------- |
+| `$expr`       | Compare fields or use expressions | Business rules            |
+| `$mod`        | Modulo operation                  | Batch selection, sampling |
+| `$text`       | Full-text search                  | Search APIs               |
+| `$jsonSchema` | Schema-based matching/validation  | Enterprise validation     |
+| `$regex`      | Pattern matching                  | Search by pattern         |
+
+`
+`=============================================================================================================
+`                                                   ARRAY OPERATORS
+`==================================================================================================
+`
+
+
+| Operator     | Meaning                                         | Use Case                     |
+| ------------ | ----------------------------------------------- | ---------------------------- |
+| `$all`       | Array contains all specified values             | Skills, tags, categories     |
+| `$size`      | Array has exactly N elements                    | Images, items, members       |
+| `$elemMatch` | One array element satisfies multiple conditions | Arrays of embedded documents |
+
+
+db.users.find(
+    {
+        skills:
+            {
+                $all:['Nodejs','docker']
+            }
+    }
+    )
+
+1>>
+db.users.find({
+    address.type:"Home",
+    address.city:"Tirupati",
+
+})
+2 >>
+db.users.find({
+    address:{
+        $elemMatch:{
+            type:"home",
+            city:"Kolkata"
+        }
+    }
+})
+
+
+=============================================================================================================
+                                                   REGEX PATTERNS
+==================================================================================================
+
+
+| Regex | Meaning        |
+| ----- | -------------- |
+| `^`   | Starts with    |
+| `$`   | Ends with      |
+| `.`   | Any character  |
+| `*`   | Zero or more   |
+| `+`   | One or more    |
+| `?`   | Optional       |
+| `[]`  | Character set  |
+| `\d`  | Digit          |
+| `\w`  | Word character |
+| `\s`  | Whitespace     |
+
+
+=============================================================================================================
+                                                   PROJECTION
+==================================================================================================
+
+
+| Concept    | Meaning                                         |
+| ---------- | ----------------------------------------------- |
+| Filter     | Which documents?                                |
+| Projection | Which fields?                                   |
+| Inclusion  | `field: 1`                                      |
+| Exclusion  | `field: 0`                                      |
+| `_id`      | Included by default, can be excluded explicitly |
+
+1. Can you mix inclusion and exclusion?
+
+❌ No.
+
+Example:
+
+{
+    name: 1,
+    phone: 0
+}
+
+is invalid.
+
+The only exception is:
+
+{
+    name: 1,
+    _id: 0
+}
+Q2. Why use Projection?
+
+Not just to reduce response size.
+
+Also to:
+
+Reduce network bandwidth
+Reduce memory usage
+Improve response time
+Enable covered queries with indexes
+📍
+
+
+
+
+What is a Cursor?
+
+A Cursor is simply
+
+A pointer to the query result.
+
+Not the actual result.
+
+
+
+
+
+=============================================================================================================
+                                                   Questions
+==================================================================================================
+
+
+🟢 Level 1 — Basics
+Problem 1
+
+Find all users.
+
+
+db.users.find({})
+
+Problem 2
+
+Find users from Bengaluru.
+db.users.find({
+    city:"Bengaluru"
+})
+
+Problem 3
+
+Find users whose status is active.
+db.users.find({
+    status:'active'
+})
+
+Problem 4
+
+Find users from either Bengaluru or Hyderabad.
+
+db.users.find({
+    city:{
+        $in:['Bengaluru','Hyderabad']
+    }
+})
+
+Problem 5
+
+Find users who are not from Kolkata.
+
+db.users.find({
+    city:{
+        $nin:['Kolkata']
+    }
+})
+
+🟡 Level 2 — Embedded Array of Objects
+
+Remember
+
+addresses: [
+    {
+        type: "Home",
+        city: "Kolkata",
+        country: "India",
+        pincode: 545042
+    }
+]
+Problem 6
+
+Find users having a Home address.
+db.users.find({
+    addresses:{
+        $elemMatch:{
+            type:'Home'
+        }
+    }
+})
+
+Problem 7
+
+Find users having an address in Kolkata.
+db.users.find({
+    addresses:{
+        $elemMatch:{
+            city:'Kolkata'
+        }
+    }
+})
+
+Problem 8
+
+Find users whose Home address is in Kolkata.
+
+db.users.find({
+    address:{
+        $elemMatch:{
+            city:'Kolkata',
+            type:'Home'
+        }
+    }
+})
+db.users.find({
+    address:{
+        $elemMatch:{
+            $and:[   
+                {city:'Kolkata'},
+                {type:'Home'}
+            ]
+        }
+    }
+})
+
+This is where $elemMatch should immediately come to your mind.
+
+Problem 9
+
+Find users whose address country is India.
+db.users.find({
+    addresses:{
+        $elemMatch:{
+            country:'India'
+        }
+    }
+})
+
+Problem 10
+
+Find users whose address pincode is 545042.
+db.users.find({
+    addresses:{
+        $elemMatch:{
+            pincode:545042
+        }
+    }
+})
+
+
+🟠 Level 3 — Projection
+Problem 11
+
+Return only
+
+firstName
+email
+
+db.users.find({},{firstName:1,email:1,_id:0})
+
+Hide _id.
+
+Problem 12
+
+Return
+
+firstName
+lastName
+city
+db.users.find({},{firstName:1,lastName:1,city:1})
+Problem 13
+
+Return every field except phone.
+db.users.find({},{phone:0})
+
+🔵 Level 4 — Sorting
+Problem 14
+
+Sort users by firstName (A → Z).
+db.users.find({}).sort({firstName:1})
+Problem 15
+
+Sort users by createdAt (Newest first).
+db.users.find({}).sort({createdAt:-1})
+
+Problem 16
+
+Sort by
+
+city ascending
+firstName ascending
+
+db.users.find({}).sort({city:1},{firstName:1})
+🟣 Level 5 — Pagination
+Problem 17
+
+Return first 5 users.
+db.users.find({}).limit(5)
+
+Problem 18
+
+Return page 3
+
+Page Size = 10
+
+db.users.find({}).limit(10).skip(pageSize*(return_page-1))
+Problem 19
+
+Return page 8
+
+Page Size = 20
+db.users.find({}).limit(20).skip(pageSize*(return_page-1))
+
+🔴 Level 6 — Mixed
+Problem 20
+
+Return
+
+Active users
+City = Bengaluru
+Only firstName & email
+Sort by firstName
+First 10 records
+
+db.users.find({
+    status:'active',
+    city:'Bengaluru'
+},{
+    firstName:1,email:1
+}).sort({firstName:1}).limit(10)
+
+Problem 21
+
+Find users
+
+Home address
+Kolkata
+Status Active
+Hide _id
+Return firstName and phone
+db.users.find({
+    addresses:{
+        $elemMatch:{
+            type:'Home',
+            city:'Kolkata'
+        }
+    },
+    status:'active'
+},{_id:0,firstName:1,phone:1})
+Problem 22
+
+Find users
+
+Address exists
+Sort by createdAt descending
+Return firstName and city
+🟡 Bonus (Interview)
+Problem 23
+
+Write one query that:
+
+Status = active
+Address type = Home
+Address city = Kolkata
+Return only
+firstName
+lastName
+email
+Sort by createdAt descending
+Return first 5 users
+🧠 Principal Engineer Twist
+
+Once we complete these 23 problems, I'll give you another set called:
+
+"Spot the Bug" 🐞
+
+Instead of writing queries, I'll give you queries like:
+
+db.users.find({
+    addresses: {
+        city: "Kolkata"
+    }
+})
+
+or
+
+db.users.find({
+    firstName: {
+        $in: "Rahul"
+    }
+})
+
+You'll tell me:
+
+❌ What's wrong?
+✅ How MongoDB interprets it.
+🚀 What's the correct version.
+
+wrong in 1st one, address are array embbed one,
+for $in also needs a array
+
+Trust me—that exercise is gold for interviews because it trains you to reason about MongoDB rather than just copy syntax.

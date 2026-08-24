@@ -1,0 +1,323 @@
+| Native Driver             | Mongoose                       |
+| ------------------------- | ------------------------------ |
+| Official MongoDB driver   | ODM built on top of the driver |
+| Talks directly to MongoDB | Talks to the driver            |
+| No schema enforcement     | Schema support                 |
+| No validation             | Built-in validation            |
+| Plain JavaScript objects  | Mongoose Documents             |
+| Lightweight               | Feature-rich                   |
+| Maximum flexibility       | More developer convenience     |
+
+
+
+4. Why was Mongoose created?
+
+To provide application-level features such as:
+
+Schema definitions
+Validation
+Middleware
+Models
+Virtuals
+Plugins
+
+without changing how MongoDB itself works.
+
+
+===========================================================================
+Interview Questions ⭐
+1. Does MongoDB have schemas?
+
+Correct answer:
+
+MongoDB supports a flexible (dynamic) schema by default, and it also supports optional schema validation. Mongoose adds application-level schemas on top of that.
+
+2. Why does Mongoose use schemas?
+
+To provide:
+
+Consistent document structure
+Validation
+Better maintainability
+Team-wide conventions
+3. Who enforces a Mongoose schema?
+
+Not MongoDB.
+
+Your Node.js application does, before the request reaches the MongoDB server.
+
+4. Is a Mongoose schema stored in MongoDB?
+
+No.
+
+A Mongoose schema exists in your application code.
+
+MongoDB only stores the resulting documents.
+
+=============================================================================================================
+                                                   SCHEMA TYPES
+==================================================================================================
+
+| Mongoose Type | Stores                  |
+| ------------- | ----------------------- |
+| String        | Text                    |
+| Number        | Numeric values          |
+| Boolean       | true / false            |
+| Date          | Date & Time             |
+| Buffer        | Binary data             |
+| ObjectId      | References              |
+| Array         | Lists                   |
+| Mixed         | Anything                |
+| Decimal128    | High-precision decimals |
+| Map           | Dynamic key-value pairs |
+
+
+Interview Questions ⭐
+1. Is String in a Mongoose schema the same as MongoDB's BSON String?
+
+Not exactly.
+
+String is a Mongoose Schema Type. Mongoose maps it to the appropriate BSON type when writing to MongoDB.
+
+2. Which schema type is used for relationships?
+mongoose.Schema.Types.ObjectId
+
+Usually with the ref option.
+
+3. When should you use Decimal128 instead of Number?
+
+When precision is critical, such as financial or monetary values.
+
+4. Why avoid overusing Mixed?
+
+Because you lose many of the benefits of schemas, such as validation and predictable structure.
+
+"Mongoose first tries to cast the value according to the schema type. If casting succeeds, it proceeds. If casting fails, it throws a CastError and the document is not saved."
+
+
+=============================================================================================================
+                                                   SCHEMA OPTIONS
+==================================================================================================
+
+
+| Option      | Purpose               | Example            |
+| ----------- | --------------------- | ------------------ |
+| `type`      | Data type             | `String`           |
+| `required`  | Mandatory field       | Name               |
+| `default`   | Default value         | `status: "active"` |
+| `unique`    | Database uniqueness   | Email              |
+| `trim`      | Remove spaces         | Name               |
+| `lowercase` | Convert to lowercase  | Email              |
+| `uppercase` | Convert to uppercase  | Country code       |
+| `min`       | Minimum number        | Age ≥ 18           |
+| `max`       | Maximum number        | Age ≤ 60           |
+| `enum`      | Allowed values        | Role               |
+| `select`    | Hide by default       | Password           |
+| `immutable` | Cannot change         | Employee ID        |
+| `match`     | Regex validation      | Email format       |
+| `minlength` | Minimum string length | Password           |
+| `maxlength` | Maximum string length | Username           |
+
+
+Incoming Request
+        │
+        ▼
+Apply Defaults
+        │
+        ▼
+Trim Strings
+        │
+        ▼
+Lowercase/Uppercase
+        │
+        ▼
+Type Casting
+        │
+        ▼
+Validation
+(required, enum, min, max, match, minlength, maxlength)
+        │
+        ▼
+Generate Mongoose Document
+        │
+        ▼
+Native Driver
+        │
+        ▼
+MongoDB
+        │
+        ▼
+Unique Index Check (Database Level)
+        │
+        ▼
+Store Document
+
+
+
+=============================================================================================================
+                                                   MODEL
+==================================================================================================
+
+Model is which interacts with DB
+const User = mongoose.model("User-coll", userSchema);
+
+User-coll is a collection name
+
+User is a application thing
+he Model exists in your Node.js application.
+
+The Collection exists in MongoDB.
+
+The Model represents the Collection.
+
+
+
+
+
+Schema = Blueprint 📋
+
+Model = Factory Manager 🏭
+
+Document = Actual Product 📦
+
+Collection = Warehouse 🏬
+
+
+
+1. What is a Model?
+
+A Model is a compiled version of a Schema that provides an interface for interacting with a MongoDB collection.
+
+2. Can a Schema perform CRUD operations?
+
+❌ No.
+
+Only a Model can.
+
+3. What does mongoose.model() do?
+
+It compiles a Schema into a Model by attaching CRUD methods, validation, middleware, virtuals, plugins, and the connection to the MongoDB Native Driver.
+
+4. Is a Model the same as a Collection?
+
+No.
+
+The Model exists in your Node.js application.
+
+The Collection exists in MongoDB.
+
+The Model represents the Collection.
+
+5. Does new User() save data?
+
+No.
+
+It creates a Mongoose Document in memory.
+
+You must call save() or use methods like create() to persist it.
+
+
+
+=============================================================================================================
+                                                   Validation
+==================================================================================================
+
+
+
+Application
+      │
+      ▼
+      --MONGOOSE STARTS
+Create Mongoose Document
+      │
+      ▼
+Apply Defaults
+      │
+      ▼
+Type Casting
+      │
+      ▼
+Validation ⭐
+      │
+      ▼
+Middleware
+      │
+      ▼
+      --MONGOOSE ENDS (between THIS IF ANUTHING WRONG happens MONGGOSE REJECT AND RAISE ERRORS)
+Native Driver
+      │
+      ▼
+MongoDB
+
+employeeId: {
+    type: String,
+    validate: {
+        validator(value) {
+            return value.startsWith("EMP-");
+        },
+        message: "Employee ID must start with EMP-"
+    }
+}
+
+
+=============================================================================================================
+                                                   PLUGINS
+==================================================================================================
+
+
+const orderSchema = new Schema({
+    total: Number,
+
+    createdBy: ObjectId,
+    updatedBy: ObjectId,
+    deletedAt: Date,
+    isDeleted: Boolean
+});
+
+
+repeated fields, we can set in one plugin
+
+then we can add those fields in every Schema
+
+function auditPlugin(schema) {
+    schema.add({
+        createdBy: mongoose.Schema.Types.ObjectId,
+        updatedBy: mongoose.Schema.Types.ObjectId
+    });
+}
+
+userSchema.plugin(auditPlugin);
+
+productSchema.plugin(auditPlugin);
+
+orderSchema.plugin(auditPlugin);
+
+
+
+=============================================================================================================
+                                                   LEAN
+==================================================================================================
+
+
+1. What does lean() do?
+
+It tells Mongoose to skip document hydration and return plain JavaScript objects instead of Mongoose documents.
+
+2. Why is lean() faster?
+
+Because Mongoose doesn't create document instances or attach document behavior such as change tracking and instance methods.
+
+3. What do we lose with lean()?
+Document methods (save(), etc.)
+Change tracking
+Virtuals (by default)
+Getters/Setters (by default)
+4. When should we use lean()?
+
+Read-only queries where you only need data and won't modify or save the returned documents.
+
+5. When should we avoid lean()?
+
+When you need document behavior such as calling save(), relying on middleware tied to documents, or using document instance methods.
+
+Principal En

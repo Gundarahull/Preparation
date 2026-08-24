@@ -1,0 +1,92 @@
+[
+  {
+    "_id": {
+      "$oid": "67e72643b7fa41318c90e69f"
+    },
+    "name": "Mobiles"
+  },
+  {
+    "_id": {
+      "$oid": "b3a4e54a083642ad81532472"
+    },
+    "name": "Laptops"
+  },
+  {
+    "_id": {
+      "$oid": "22609f0babff4dc6befc16b8"
+    },
+    "name": "Audio"
+  },
+  {
+    "_id": {
+      "$oid": "41c9e9e9826c4ac2864eb5bd"
+    },
+    "name": "Fashion"
+  },
+  {
+    "_id": {
+      "$oid": "68410c9204a448a08668ae74"
+    },
+    "name": "Footwear"
+  },
+  {
+    "_id": {
+      "$oid": "866a93c0434d4d459227927d"
+    },
+    "name": "Books"
+  },
+  {
+    "_id": {
+      "$oid": "77a43035e9ac412bbb6222ce"
+    },
+    "name": "Furniture"
+  },
+  {
+    "_id": {
+      "$oid": "4807eeab087c4c39a448cc19"
+    },
+    "name": "Kitchen"
+  },
+  {
+    "_id": {
+      "$oid": "27cb46b9be05466c85a445b7"
+    },
+    "name": "Beauty"
+  },
+  {
+    "_id": {
+      "$oid": "d6f8c5bcf92146369b02ab76"
+    },
+    "name": "Sports"
+  },
+  {
+    "_id": {
+      "$oid": "1c3625238c6b4662bc7080c3"
+    },
+    "name": "Gaming"
+  },
+  {
+    "_id": {
+      "$oid": "416253566a4d4d1ca70381ea"
+    },
+    "name": "Groceries"
+  },
+  {
+    "_id": {
+      "$oid": "a53b8cd58a2e4e67b864e283"
+    },
+    "name": "Watches"
+  },
+  {
+    "_id": {
+      "$oid": "d887219dc3fd4bf580619757"
+    },
+    "name": "Accessories"
+  },
+  {
+    "_id": {
+      "$oid": "d7808a264c3a4f43bdaa63c4"
+    },
+    "name": "Cameras"
+  }
+]

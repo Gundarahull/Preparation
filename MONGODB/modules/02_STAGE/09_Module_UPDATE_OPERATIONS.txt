@@ -1,0 +1,330 @@
+
+=============================================================================================================
+                                                   UPDATE OPERATORS
+==================================================================================================
+
+
+
+| Operator       | Purpose                                   |  Creates Field?  |   Removes Field?   | Used With                 |
+| -------------- | ----------------------------------------- | :--------------: | :----------------: | ------------------------- |
+| `$set`         | Add or update a field                     |       ✅ Yes      |        ❌ No        | `updateOne`, `updateMany` |
+| `$unset`       | Remove a field                            |       ❌ No       |        ✅ Yes       | `updateOne`, `updateMany` |
+| `$rename`      | Rename a field                            |    ✅ New name    | ✅ Old name removed | `updateOne`, `updateMany` |
+| `$setOnInsert` | Set fields only when inserting via upsert | ✅ On insert only |        ❌ No        | `upsert: true`            |
+
+
+
+
+=============================================================================================================
+                                                   ARRAY OPERATORS
+==================================================================================================
+
+
+
+| Business Requirement         | Operator                                                |
+| ---------------------------- | ------------------------------------------------------- |
+| User adds a skill            | `$push`                                                 |
+| User adds a unique role      | `$addToSet`                                             |
+| Remove oldest notification   | `$pop` (or more commonly `$slice` in advanced patterns) |
+| Remove an item from wishlist | `$pull`                                                 |
+| Delete a specific address    | `$pull`                                                 |
+| Remove failed exam marks     | `$pull` with condition                                  |
+
+
+
+| Requirement                   | Modifier           |
+| ----------------------------- | ------------------ |
+| Add many skills               | `$each`            |
+| Add notification at beginning | `$position`        |
+| Keep last 20 searches         | `$slice`           |
+| Maintain leaderboard          | `$sort` + `$slice` |
+| Import multiple tags          | `$each`            |
+
+
+🏆 Update Operators Practice Arena
+🟢 Level 1 (Warm-up)
+Exercise 1 — $set
+
+Update Rahul's city to Hyderabad.
+
+db.users.updateOne({
+    firstName:'Rahul'
+},
+{
+    $set:{
+        city:'Hyderabad'
+    }
+})
+
+Collection: users
+
+Exercise 2 — $unset
+
+Remove the phone field from Rahul's document.
+db.users,updateMany({},{$unset:{
+    phone:1
+}})
+
+Exercise 3 — $rename
+
+Rename the field
+
+phone
+
+to
+
+mobileNumber
+
+db.users.updateMany({},{$rename:{phone:mobileNumber}})
+Exercise 4 — $inc
+
+Increase Rahul's rewardPoints by 250.
+
+
+db.users.updateOne({
+    firstName:'Rahul'
+},{
+    $inc:{
+        rewardPoints:250
+    }
+})
+
+Exercise 5 — $mul
+
+Double Rahul's salary.
+db.users.updateOne({
+    firstName:'Rahul'
+},{
+    $mul:{
+        salary:2
+    }
+})
+
+🟡 Level 2 (Arrays)
+Exercise 6 — $push
+
+Rahul learned Docker.
+
+Add it into
+
+skills
+db.users.updateOne({
+    firstName:"Rahul"
+},{
+    $push:{
+        skills:'Docker'
+    }
+})
+Exercise 7 — $addToSet
+
+Add
+
+MongoDB
+
+into skills.
+
+It should not be duplicated if already present.
+db.users.updateOne({
+    firstName:"Rahul"
+},{
+    $addToSet:{
+        skills:'Docker'
+    }
+})
+
+Exercise 8 — $pull
+
+Remove
+
+Redis
+
+from Rahul's skills.
+db.users.updateOne({
+    firstName:"Rahul"
+},{
+    $pull:{
+        skills:'Redis'
+    }
+})
+
+Exercise 9 — $pullAll
+
+Remove
+
+Node.js
+Redis
+Docker
+
+from the skills array in one update.
+db.users.updateOne({
+    firstName:'Rahul'
+},{
+    $pullAll:{
+        skills:['Nodejs','Redis','Docker']
+    }
+})
+
+Exercise 10 — $pop
+
+Remove the last notification.
+db.users.updateOne({
+    firstName:'rahul'
+},{
+    $pop:{
+        notifications:1
+    }
+})
+🟠 Level 3 (Advanced Push)
+
+Assume
+
+recentSearches:[]
+Exercise 11 — $each
+
+Insert
+
+iPhone
+
+MacBook
+
+AirPods
+
+in one query.
+
+db.users.updateOne({
+    firstName:'Rahul'
+},{
+    $push:{
+        skills:{
+            $each:['iPhone',....]
+        }
+    }
+})
+
+Exercise 12 — $position
+
+Insert
+
+MongoDB
+
+at index 0.
+db.users.updateOne({
+    firstName:'Rahul'
+},{
+    $push:{
+        skills:{
+            $each:['iPhone',....],
+            $position:0
+        }
+    }
+})
+
+Exercise 13 — $slice
+
+Keep only the latest 5 searches.
+db.users.updateOne({
+    firstName:'Rahul'
+},{$slice:{
+    searches:-5
+}})
+
+Exercise 14 — $sort
+
+Maintain leaderboard scores in descending order.
+
+
+🔴 Level 4 (Positional Operators)
+
+Assume
+
+addresses:[
+{
+type:"Home",
+city:"Bengaluru"
+},
+{
+type:"Office",
+city:"Hyderabad"
+},
+{
+type:"Office",
+city:"Mumbai"
+}
+]
+Exercise 15 — $
+
+Change the first Office city to Pune.
+
+Exercise 16 — $[]
+
+Add
+
+country:"India"
+
+to every address.
+
+Exercise 17 — $[identifier]
+
+Only Office addresses should receive
+
+country:"India"
+
+Home addresses should remain unchanged.
+
+🔥 Interview Challenge
+
+Assume
+
+cart:[
+{
+productId:1,
+quantity:2
+},
+{
+productId:2,
+quantity:5
+},
+{
+productId:3,
+quantity:8
+}
+]
+Exercise 18
+
+Increase the quantity of productId = 2 by 3.
+db.users.updateOne({
+    $elemMatch:{
+        cart:{
+            productId:2
+        }
+    }
+},
+{
+    $inc:{
+        'cart.$.quantity'=3
+    }
+})
+
+(Hint: Think about which positional operator fits.)
+
+Exercise 19
+
+Set
+
+status:"Expired"
+
+for every coupon whose expiry date has already passed.
+
+(Hint: This is where $[identifier] shines.)
+
+Exercise 20 (Principal Engineer)
+
+A user has 100 addresses.
+
+Update only the first Office address.
+
+Then tell me:
+
+Why did you choose $ instead of $[] or $[identifier]?
+
+If you can explain the reason, not just write the query, you've truly understood the concept.

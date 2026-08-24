@@ -1,0 +1,7002 @@
+[
+  {
+    "_id": {
+      "$oid": "c4a3926b3c154649aeec7dc0"
+    },
+    "productId": {
+      "$oid": "27f5604bd0bc41f0b159cf73"
+    },
+    "operation": "OUT",
+    "quantity": 6,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "af2a1288c01f4e29886a8aa8"
+    },
+    "productId": {
+      "$oid": "74aab4b4b3ee4f73bfcd5c4f"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 9,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "acde7c57592f4848821b98a3"
+    },
+    "productId": {
+      "$oid": "a5d37afabc8042449c62881b"
+    },
+    "operation": "IN",
+    "quantity": 13,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "36df0ee0cc8246ddb7dba556"
+    },
+    "productId": {
+      "$oid": "373bd9534cf146ed8b78d70e"
+    },
+    "operation": "IN",
+    "quantity": 1,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ea77c7d0448f4be3bf2cb484"
+    },
+    "productId": {
+      "$oid": "7d430d9e60f8435faa6390ec"
+    },
+    "operation": "IN",
+    "quantity": 8,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8babd47923454236817e1bd9"
+    },
+    "productId": {
+      "$oid": "a7b066a264734f1a94a89354"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 3,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ab16b1bd5c514bf3bf1df052"
+    },
+    "productId": {
+      "$oid": "be20a95cecd9410cbd5aabd1"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 17,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "17f8afbbb6274452b8771bda"
+    },
+    "productId": {
+      "$oid": "a63a15cfc26445249dab2b6d"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 16,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1531988c09de4803ab6f80af"
+    },
+    "productId": {
+      "$oid": "10121eb7aa474bdca4952e3e"
+    },
+    "operation": "RETURN",
+    "quantity": 4,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f2910f6123524b9a99163130"
+    },
+    "productId": {
+      "$oid": "9db5d5d3788e4ca2bf4f962f"
+    },
+    "operation": "IN",
+    "quantity": 24,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "15001b0f35fb422384e73a74"
+    },
+    "productId": {
+      "$oid": "b37b72899d594891aa39288e"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 15,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5b842ce0cd654362b7da6561"
+    },
+    "productId": {
+      "$oid": "a9d849debd8e4acda51e7c78"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 25,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eecc06776db44ff0aa88f321"
+    },
+    "productId": {
+      "$oid": "5c03ac5a99954ab08e40b821"
+    },
+    "operation": "RETURN",
+    "quantity": 21,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2e303fc8e2ba43ba8e26f2da"
+    },
+    "productId": {
+      "$oid": "7941f475bc7b4896a3f1d64c"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 14,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4c600e1b7ad24c1b83c8022c"
+    },
+    "productId": {
+      "$oid": "b54196c6186649e2bcc108ba"
+    },
+    "operation": "RETURN",
+    "quantity": 9,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "50b6de8396334503b49a99f8"
+    },
+    "productId": {
+      "$oid": "504e937075d746a5a103437e"
+    },
+    "operation": "IN",
+    "quantity": 15,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7130fee129354ddb919960e0"
+    },
+    "productId": {
+      "$oid": "cf317ecfc42649e1a73300eb"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 8,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "478733d0479740a183131905"
+    },
+    "productId": {
+      "$oid": "11a1e83d06d343718edd3330"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 19,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f06e2e2a2f864dc897864cec"
+    },
+    "productId": {
+      "$oid": "28d8dc293e984cd1988cadf6"
+    },
+    "operation": "OUT",
+    "quantity": 20,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "066bb7e4906f4ee982521715"
+    },
+    "productId": {
+      "$oid": "8f9b687aae2b43a09dc12075"
+    },
+    "operation": "RETURN",
+    "quantity": 4,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3c32799960e34a95aea05d3b"
+    },
+    "productId": {
+      "$oid": "6e87cac4d756484cba8de349"
+    },
+    "operation": "IN",
+    "quantity": 15,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ace9b35c6683475092ab48fb"
+    },
+    "productId": {
+      "$oid": "b44ea54d571d4536982bef4c"
+    },
+    "operation": "RETURN",
+    "quantity": 24,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "565da4f4ef71448d82047b70"
+    },
+    "productId": {
+      "$oid": "fe44615a37454026ba5fb79d"
+    },
+    "operation": "RETURN",
+    "quantity": 23,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e231c57238ee4a3ebbdbd65b"
+    },
+    "productId": {
+      "$oid": "b19ed3754e374ec2a0db8bc1"
+    },
+    "operation": "OUT",
+    "quantity": 23,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "969bab4cdda04e70b6fd5522"
+    },
+    "productId": {
+      "$oid": "7d430d9e60f8435faa6390ec"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 9,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bb63e5b3c37246209a233570"
+    },
+    "productId": {
+      "$oid": "d9660efcfe39464a82870607"
+    },
+    "operation": "IN",
+    "quantity": 21,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "be38972e87cd4aedba36543a"
+    },
+    "productId": {
+      "$oid": "5c8d58e643c44724812ad2f8"
+    },
+    "operation": "OUT",
+    "quantity": 2,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3aa35a88471d4bcab9cc93c4"
+    },
+    "productId": {
+      "$oid": "2faf985f749d423fa132be42"
+    },
+    "operation": "IN",
+    "quantity": 15,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "81b7881fc36f432f99efbbfa"
+    },
+    "productId": {
+      "$oid": "459dd98b98744398b64d5781"
+    },
+    "operation": "IN",
+    "quantity": 18,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4bc9d7690cb74f73843342a5"
+    },
+    "productId": {
+      "$oid": "3ec693686b63493c956ff0c4"
+    },
+    "operation": "OUT",
+    "quantity": 25,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a71cbb1b34b84ad3925fd337"
+    },
+    "productId": {
+      "$oid": "a7b066a264734f1a94a89354"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 9,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e9f7b12f8e8949848397f645"
+    },
+    "productId": {
+      "$oid": "e248919130974224897fc524"
+    },
+    "operation": "OUT",
+    "quantity": 25,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4271f900088d4d98aa4b4a79"
+    },
+    "productId": {
+      "$oid": "b22f6deecede4aa99102855c"
+    },
+    "operation": "OUT",
+    "quantity": 4,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "690daf71a0f244349ecd34ff"
+    },
+    "productId": {
+      "$oid": "2f0843e57fad440bbda7236f"
+    },
+    "operation": "IN",
+    "quantity": 24,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b22fb3e22ec74918b18ff524"
+    },
+    "productId": {
+      "$oid": "48a3049ee51b4e5cac79f5cc"
+    },
+    "operation": "RETURN",
+    "quantity": 15,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "36cd7ee4ae2a49bd85b247a1"
+    },
+    "productId": {
+      "$oid": "504e937075d746a5a103437e"
+    },
+    "operation": "IN",
+    "quantity": 9,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "55a3ec0928b94345b710672d"
+    },
+    "productId": {
+      "$oid": "635d079a08444b11abb989a3"
+    },
+    "operation": "RETURN",
+    "quantity": 5,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fe0830f30c2b48b99dc3d382"
+    },
+    "productId": {
+      "$oid": "963866dcd122428a887e28ba"
+    },
+    "operation": "IN",
+    "quantity": 14,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fd7c1127deba48918fb575a3"
+    },
+    "productId": {
+      "$oid": "f9ca91cf9bf04426a983c995"
+    },
+    "operation": "RETURN",
+    "quantity": 5,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "799051a7920e4997807268a2"
+    },
+    "productId": {
+      "$oid": "a7bad006bb214cb8a1625a0c"
+    },
+    "operation": "RETURN",
+    "quantity": 7,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ba7e4cb14fd14196ba852a9d"
+    },
+    "productId": {
+      "$oid": "ce7cbcab0cb7463482d787d8"
+    },
+    "operation": "RETURN",
+    "quantity": 4,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8d06cb6ccbfd4c53b3448178"
+    },
+    "productId": {
+      "$oid": "5cd4108c62444a9da62a3b2a"
+    },
+    "operation": "RETURN",
+    "quantity": 9,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "aeb01a3f5b1744f99cf03b90"
+    },
+    "productId": {
+      "$oid": "f9b1f5f68e0c4200990e7ae1"
+    },
+    "operation": "OUT",
+    "quantity": 21,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "927424d5d8c84fdcb52115c3"
+    },
+    "productId": {
+      "$oid": "5632af3c1ea042e8af721c07"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 1,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4af8c01cfcc44acaa6e389b8"
+    },
+    "productId": {
+      "$oid": "568a3e8009ec4fe097e5d48e"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 12,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b8e96a19c175490f99cad084"
+    },
+    "productId": {
+      "$oid": "b6e52903158646c88719850f"
+    },
+    "operation": "RETURN",
+    "quantity": 24,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7952d34edb9a43a1946c4ac6"
+    },
+    "productId": {
+      "$oid": "82c2e0984b0c479b968ab66e"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 23,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f3aa111587b64ee79b122d86"
+    },
+    "productId": {
+      "$oid": "b8abd8e34d55476583148308"
+    },
+    "operation": "OUT",
+    "quantity": 7,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65746d491da74222a1a31ae8"
+    },
+    "productId": {
+      "$oid": "7f965a6292164ece945a1e16"
+    },
+    "operation": "IN",
+    "quantity": 24,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61835b92f21d45ba8e751233"
+    },
+    "productId": {
+      "$oid": "094c3496e19a4a9f8c227420"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 21,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "da148e08bef04f53ada42ecf"
+    },
+    "productId": {
+      "$oid": "013d8903b5b7431b9a2b3b50"
+    },
+    "operation": "IN",
+    "quantity": 24,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a3151f194a704b27b9cd78c2"
+    },
+    "productId": {
+      "$oid": "57f7d56b40984f638c88c332"
+    },
+    "operation": "RETURN",
+    "quantity": 19,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "112091f14dbd44db8b31fcdc"
+    },
+    "productId": {
+      "$oid": "248ea05729404eb8999b45df"
+    },
+    "operation": "IN",
+    "quantity": 8,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ab03f58832c1448d86203905"
+    },
+    "productId": {
+      "$oid": "1dc7dd4b9e304888b039135a"
+    },
+    "operation": "IN",
+    "quantity": 24,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d6c642fe584448dfab851d23"
+    },
+    "productId": {
+      "$oid": "e2938c42837c486cb457c1e3"
+    },
+    "operation": "OUT",
+    "quantity": 8,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cb1806f7211b4e70a131eab7"
+    },
+    "productId": {
+      "$oid": "70162cc8bf4e4757b09f99f5"
+    },
+    "operation": "OUT",
+    "quantity": 1,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7f7061c394f345adadbb23f5"
+    },
+    "productId": {
+      "$oid": "5f2243105ad14466b0c09e79"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 1,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3ad73c86ba434fcc8e4cf2c9"
+    },
+    "productId": {
+      "$oid": "b54196c6186649e2bcc108ba"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 19,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9f4cb9c92c2e48c5af9f3e18"
+    },
+    "productId": {
+      "$oid": "5dda15b3a4ae4272bb87e51d"
+    },
+    "operation": "OUT",
+    "quantity": 7,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "805ad5267e7d48268c7815b4"
+    },
+    "productId": {
+      "$oid": "7bf4dd6445f44515ab7884ab"
+    },
+    "operation": "IN",
+    "quantity": 11,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1946193f22c442eb9553e29e"
+    },
+    "productId": {
+      "$oid": "a63a15cfc26445249dab2b6d"
+    },
+    "operation": "OUT",
+    "quantity": 22,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a6365abe91904934913ffa73"
+    },
+    "productId": {
+      "$oid": "963866dcd122428a887e28ba"
+    },
+    "operation": "RETURN",
+    "quantity": 17,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ea27474828114aba9ed162c7"
+    },
+    "productId": {
+      "$oid": "01ce852523614307b4dbf572"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 17,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3a04b6859c6a4b37bf8da5a7"
+    },
+    "productId": {
+      "$oid": "5c03ac5a99954ab08e40b821"
+    },
+    "operation": "OUT",
+    "quantity": 4,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4cbada2f0cc2435180417dcc"
+    },
+    "productId": {
+      "$oid": "b8abd8e34d55476583148308"
+    },
+    "operation": "RETURN",
+    "quantity": 12,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5b55a0c7884a429ca1a83120"
+    },
+    "productId": {
+      "$oid": "639f498a7a9e4a9faf267dda"
+    },
+    "operation": "OUT",
+    "quantity": 3,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6dd92267065a47ecb385d339"
+    },
+    "productId": {
+      "$oid": "f14048af02a5425c94553a0c"
+    },
+    "operation": "RETURN",
+    "quantity": 8,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ff4c3fecaf164d1fac0652b0"
+    },
+    "productId": {
+      "$oid": "bb3bf23c340f42ea9587420d"
+    },
+    "operation": "IN",
+    "quantity": 11,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "269ead19278a48f1bf8ec40d"
+    },
+    "productId": {
+      "$oid": "bb65f698e99c44fb98b1fb61"
+    },
+    "operation": "IN",
+    "quantity": 17,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c8b76e943da242ed88dea91b"
+    },
+    "productId": {
+      "$oid": "cb5d8bcf56cf4941a58f662a"
+    },
+    "operation": "OUT",
+    "quantity": 21,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7b3469eb0b9d45ed858f6ddf"
+    },
+    "productId": {
+      "$oid": "0c718d76da7c46129fb82885"
+    },
+    "operation": "IN",
+    "quantity": 4,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "59ac8f22b6504319bc831a06"
+    },
+    "productId": {
+      "$oid": "963866dcd122428a887e28ba"
+    },
+    "operation": "RETURN",
+    "quantity": 6,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "08714143c87348a5adfea841"
+    },
+    "productId": {
+      "$oid": "49ac019b2fad4316ab840261"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 23,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c70f61a6b6ae40f38273cbd6"
+    },
+    "productId": {
+      "$oid": "ba647aecfeeb41a5abf69679"
+    },
+    "operation": "RETURN",
+    "quantity": 16,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "93bd90ab600e4fe98a1937ea"
+    },
+    "productId": {
+      "$oid": "35e47aec4ca241c6b365c960"
+    },
+    "operation": "RETURN",
+    "quantity": 14,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5051a5597d3c452ab484c266"
+    },
+    "productId": {
+      "$oid": "5dbb5582429647d79b9be514"
+    },
+    "operation": "IN",
+    "quantity": 20,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "19478bb703e340358e0ba366"
+    },
+    "productId": {
+      "$oid": "28f1dbd3009c40d3bf1a1be2"
+    },
+    "operation": "IN",
+    "quantity": 19,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "96619fc624d7429184fb04fa"
+    },
+    "productId": {
+      "$oid": "07da54813f6b4926a7fb7390"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 20,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1b54a7658f0b4b69902a0e75"
+    },
+    "productId": {
+      "$oid": "5dda15b3a4ae4272bb87e51d"
+    },
+    "operation": "RETURN",
+    "quantity": 24,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4cff5596ad3d4837931d9ea7"
+    },
+    "productId": {
+      "$oid": "f670d8076f68454aa97b4ab4"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 13,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8a472292f1c441d59001d681"
+    },
+    "productId": {
+      "$oid": "8cb45361297f4e389ae0b922"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 11,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7b7923d192284912a9c58346"
+    },
+    "productId": {
+      "$oid": "7d430d9e60f8435faa6390ec"
+    },
+    "operation": "RETURN",
+    "quantity": 20,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4b4640d4fe5c439093f81fbf"
+    },
+    "productId": {
+      "$oid": "42d314c3e0b848b1b4be2c81"
+    },
+    "operation": "RETURN",
+    "quantity": 16,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a56c37b29cf143429729c2bf"
+    },
+    "productId": {
+      "$oid": "5632af3c1ea042e8af721c07"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 4,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e41acae02871400cb9ca841b"
+    },
+    "productId": {
+      "$oid": "f555060985804b35ad8431fe"
+    },
+    "operation": "RETURN",
+    "quantity": 23,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0831eacef3b640b6b9179975"
+    },
+    "productId": {
+      "$oid": "080a3a186c5b4e1096c1596e"
+    },
+    "operation": "RETURN",
+    "quantity": 23,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6628d19a96684fbfabda0f84"
+    },
+    "productId": {
+      "$oid": "57f7d56b40984f638c88c332"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 13,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3d9584dbdc4847c4ba214de6"
+    },
+    "productId": {
+      "$oid": "b3f4b8793a584a618455a9a7"
+    },
+    "operation": "OUT",
+    "quantity": 15,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "38fd6d793454408c9929d0f3"
+    },
+    "productId": {
+      "$oid": "05e5c7f685a64d40bd33d145"
+    },
+    "operation": "IN",
+    "quantity": 18,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8f2b0272d09f4ac5a7bef704"
+    },
+    "productId": {
+      "$oid": "01f0edb7ad2749b3816c9a40"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 10,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2197e682e9bd4c038a180878"
+    },
+    "productId": {
+      "$oid": "8cb45361297f4e389ae0b922"
+    },
+    "operation": "OUT",
+    "quantity": 6,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f6dcbc3a9991466fbf0939b6"
+    },
+    "productId": {
+      "$oid": "a5d37afabc8042449c62881b"
+    },
+    "operation": "OUT",
+    "quantity": 3,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61ddc4260df2425cbd1f405a"
+    },
+    "productId": {
+      "$oid": "c6b802d0a7b6484eb5bfd1df"
+    },
+    "operation": "OUT",
+    "quantity": 4,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ab7adb92d36c4c9787fb8f31"
+    },
+    "productId": {
+      "$oid": "21262b945baf4b01b04c14c5"
+    },
+    "operation": "IN",
+    "quantity": 2,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2a26ecb8b7434fc1b141c0d3"
+    },
+    "productId": {
+      "$oid": "65a09f6d86cd4d999bd597fa"
+    },
+    "operation": "RETURN",
+    "quantity": 7,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "37b692cd76014fafadabfd57"
+    },
+    "productId": {
+      "$oid": "47e450527d724b4097262a07"
+    },
+    "operation": "IN",
+    "quantity": 2,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d8a6633d550e4a5380a0d3b5"
+    },
+    "productId": {
+      "$oid": "7242738bc6714e35a6790273"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 11,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8a607b05fae34b5ca4a7ec03"
+    },
+    "productId": {
+      "$oid": "383dc0b87b594eaf9356a3a2"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 9,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8385bccd0db347d9ac742700"
+    },
+    "productId": {
+      "$oid": "ba647aecfeeb41a5abf69679"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 11,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8a59d4c136694ceb869973af"
+    },
+    "productId": {
+      "$oid": "6fb1726e70bf4ffaa50a2d7e"
+    },
+    "operation": "IN",
+    "quantity": 16,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d05fad1074d049619e235002"
+    },
+    "productId": {
+      "$oid": "3b08922fea53469cb1fc49f9"
+    },
+    "operation": "IN",
+    "quantity": 24,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "163fb30d16e444d183ab0cda"
+    },
+    "productId": {
+      "$oid": "01ce852523614307b4dbf572"
+    },
+    "operation": "RETURN",
+    "quantity": 7,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "51788f8792cc43d398e11941"
+    },
+    "productId": {
+      "$oid": "55e1d7d68a104848ba78f927"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 10,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7c14545086b140d1846c8bc3"
+    },
+    "productId": {
+      "$oid": "1ce80b38fee34bbbac437d1c"
+    },
+    "operation": "OUT",
+    "quantity": 14,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ef26a77feb2443c0b79f3d49"
+    },
+    "productId": {
+      "$oid": "45bf2e68348b487c9336fe01"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 7,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "47e10777e9df4dfd9e140101"
+    },
+    "productId": {
+      "$oid": "e248919130974224897fc524"
+    },
+    "operation": "OUT",
+    "quantity": 2,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "373353f99b0c4bd7a609455e"
+    },
+    "productId": {
+      "$oid": "0d1296b308854ce799022b24"
+    },
+    "operation": "RETURN",
+    "quantity": 4,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "acb0d9c8332c4cddac30247c"
+    },
+    "productId": {
+      "$oid": "48a3049ee51b4e5cac79f5cc"
+    },
+    "operation": "OUT",
+    "quantity": 11,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54d49287a45345228ac71fc0"
+    },
+    "productId": {
+      "$oid": "e5deaf15acdc4efc88480e76"
+    },
+    "operation": "OUT",
+    "quantity": 10,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4bf1d91db5144d989065781a"
+    },
+    "productId": {
+      "$oid": "c8d47e650dd741b9954279a1"
+    },
+    "operation": "OUT",
+    "quantity": 18,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8ce30def5c57420a97bb2e7d"
+    },
+    "productId": {
+      "$oid": "6db8e560a4d64dd2b4c7e594"
+    },
+    "operation": "RETURN",
+    "quantity": 9,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dda21d3381da45f79a97dd97"
+    },
+    "productId": {
+      "$oid": "16adf414c6fe49d08b26ef7e"
+    },
+    "operation": "OUT",
+    "quantity": 2,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "96fe576ff9a64670b7fb97ca"
+    },
+    "productId": {
+      "$oid": "9ec9129d25c844ebb7a33143"
+    },
+    "operation": "IN",
+    "quantity": 19,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "76e805e9d52e48b2bab17c76"
+    },
+    "productId": {
+      "$oid": "0a91816509d74dd7a2e1f370"
+    },
+    "operation": "IN",
+    "quantity": 13,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eba4fb23b9074e0dbc9db0d1"
+    },
+    "productId": {
+      "$oid": "4f7d84e600704e00a9ed3eef"
+    },
+    "operation": "RETURN",
+    "quantity": 1,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b9a4d25c805241f58d45351a"
+    },
+    "productId": {
+      "$oid": "cf317ecfc42649e1a73300eb"
+    },
+    "operation": "IN",
+    "quantity": 17,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eab17a31ae664028b6f62cac"
+    },
+    "productId": {
+      "$oid": "6dc962ac529a4660a63c4973"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 17,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f9a1d794b55f41fab5c82006"
+    },
+    "productId": {
+      "$oid": "705964f882ab45f3833e1447"
+    },
+    "operation": "RETURN",
+    "quantity": 15,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "027d4ffc78294636814b52e0"
+    },
+    "productId": {
+      "$oid": "6290d9c67587422494d8a44f"
+    },
+    "operation": "RETURN",
+    "quantity": 17,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "96e41bd3288f4db999ca2134"
+    },
+    "productId": {
+      "$oid": "6751043059f54763a1e62e0b"
+    },
+    "operation": "IN",
+    "quantity": 9,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dc4bb8ad8e40469ba365dac3"
+    },
+    "productId": {
+      "$oid": "963866dcd122428a887e28ba"
+    },
+    "operation": "RETURN",
+    "quantity": 6,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5d2afe52177f4fbdb181d7c3"
+    },
+    "productId": {
+      "$oid": "e3770df77481430c9742da73"
+    },
+    "operation": "RETURN",
+    "quantity": 6,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "19246cc4c60340149d22a838"
+    },
+    "productId": {
+      "$oid": "8df2cb2543844a0a8079cb28"
+    },
+    "operation": "OUT",
+    "quantity": 7,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6745ff7d2788438face2938c"
+    },
+    "productId": {
+      "$oid": "a6932ffde2a24d65b4794c4b"
+    },
+    "operation": "RETURN",
+    "quantity": 5,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3ccd64a4e7d94753b70927ba"
+    },
+    "productId": {
+      "$oid": "56f0c6ea1e814c929b45c40d"
+    },
+    "operation": "RETURN",
+    "quantity": 7,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69ac72058de246a3b0c67abf"
+    },
+    "productId": {
+      "$oid": "6e87cac4d756484cba8de349"
+    },
+    "operation": "OUT",
+    "quantity": 5,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c292223c510d4f8893f01586"
+    },
+    "productId": {
+      "$oid": "e99d9d8afede41f78f6491a2"
+    },
+    "operation": "RETURN",
+    "quantity": 19,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c046450ef97b493096259ecd"
+    },
+    "productId": {
+      "$oid": "7bf4dd6445f44515ab7884ab"
+    },
+    "operation": "OUT",
+    "quantity": 2,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5b5e5c2134ea4bea8452a5d0"
+    },
+    "productId": {
+      "$oid": "b44ea54d571d4536982bef4c"
+    },
+    "operation": "RETURN",
+    "quantity": 13,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8cd6a1addc654077b046e167"
+    },
+    "productId": {
+      "$oid": "705964f882ab45f3833e1447"
+    },
+    "operation": "OUT",
+    "quantity": 4,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c3a0d55b29ba43b8abea2417"
+    },
+    "productId": {
+      "$oid": "4bc34234b4ad40679ee15635"
+    },
+    "operation": "RETURN",
+    "quantity": 4,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8d15252cc9094aefb6139e1f"
+    },
+    "productId": {
+      "$oid": "a9d849debd8e4acda51e7c78"
+    },
+    "operation": "OUT",
+    "quantity": 20,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ff44533dac0440b58f8fc4c4"
+    },
+    "productId": {
+      "$oid": "bb65f698e99c44fb98b1fb61"
+    },
+    "operation": "IN",
+    "quantity": 23,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e9b3d4b65e744c3fa1be9a4f"
+    },
+    "productId": {
+      "$oid": "8c24a6a41e394de9a83d8abe"
+    },
+    "operation": "OUT",
+    "quantity": 5,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68f0c53894b64531b0f27231"
+    },
+    "productId": {
+      "$oid": "6fe21fc8714345908fc9ea21"
+    },
+    "operation": "RETURN",
+    "quantity": 8,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cbb9db1fdf1645c098f9d3e1"
+    },
+    "productId": {
+      "$oid": "885c97b089144f509e0bec95"
+    },
+    "operation": "IN",
+    "quantity": 3,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "822dad8a57cc459185ad2c38"
+    },
+    "productId": {
+      "$oid": "8c83d7de70f34507b35801e1"
+    },
+    "operation": "RETURN",
+    "quantity": 11,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e67f5e3032f745a9960ad5df"
+    },
+    "productId": {
+      "$oid": "14776a07955642029392121e"
+    },
+    "operation": "RETURN",
+    "quantity": 15,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f8c9d63d5be144c4a45ebc37"
+    },
+    "productId": {
+      "$oid": "6fe21fc8714345908fc9ea21"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 13,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "226275dc5129443eb6a55b56"
+    },
+    "productId": {
+      "$oid": "013d8903b5b7431b9a2b3b50"
+    },
+    "operation": "OUT",
+    "quantity": 8,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "19051aa0a2d54e31ade8492a"
+    },
+    "productId": {
+      "$oid": "9b9cf9a9fbc94410a489b574"
+    },
+    "operation": "IN",
+    "quantity": 11,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fadf616d176e496084517c48"
+    },
+    "productId": {
+      "$oid": "6d1627931e4648ad8c993b40"
+    },
+    "operation": "OUT",
+    "quantity": 15,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "912269373d644ac794302d07"
+    },
+    "productId": {
+      "$oid": "e2938c42837c486cb457c1e3"
+    },
+    "operation": "IN",
+    "quantity": 2,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1dabf0b6a5994e77aaf573fe"
+    },
+    "productId": {
+      "$oid": "121dc05842484f4daf3ed169"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 19,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5bf6e162df454d01af371c0d"
+    },
+    "productId": {
+      "$oid": "7f965a6292164ece945a1e16"
+    },
+    "operation": "IN",
+    "quantity": 18,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cf2d45bf4ff949b492fa60fe"
+    },
+    "productId": {
+      "$oid": "705964f882ab45f3833e1447"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 21,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0ce5fe92e2b641f58f06e599"
+    },
+    "productId": {
+      "$oid": "dbf79a52dbb64dcea7f359c6"
+    },
+    "operation": "IN",
+    "quantity": 23,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6f1c2727b55048f4a73f9c23"
+    },
+    "productId": {
+      "$oid": "a3f4c998fa604308b39f88ef"
+    },
+    "operation": "IN",
+    "quantity": 11,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "87a666b79efc4498bd7e11d7"
+    },
+    "productId": {
+      "$oid": "47e450527d724b4097262a07"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 14,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1282c283b82049889674c734"
+    },
+    "productId": {
+      "$oid": "14776a07955642029392121e"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 18,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f198b476d8e040d7ae2273cb"
+    },
+    "productId": {
+      "$oid": "f850bd9598c6447a880ee6f4"
+    },
+    "operation": "IN",
+    "quantity": 12,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "73f795380e0645dbb46d67d9"
+    },
+    "productId": {
+      "$oid": "20e657588e00494b889eefce"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 7,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "34aaca529029426b8f325489"
+    },
+    "productId": {
+      "$oid": "25046d1a15044349a49c0ee2"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 17,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2b17987a94f74a90bec183b8"
+    },
+    "productId": {
+      "$oid": "a2e131e05ea741fba6b5ce75"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 8,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0bf09151c4924af9ae61f410"
+    },
+    "productId": {
+      "$oid": "07da54813f6b4926a7fb7390"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 11,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7059ce84ac204bf391d273a8"
+    },
+    "productId": {
+      "$oid": "bcee3ad0aca94caa8fb4a567"
+    },
+    "operation": "RETURN",
+    "quantity": 9,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a75f3aba0dff4693ac0b9281"
+    },
+    "productId": {
+      "$oid": "e99d9d8afede41f78f6491a2"
+    },
+    "operation": "RETURN",
+    "quantity": 7,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2906e6a4c7f44f4bb9df1faa"
+    },
+    "productId": {
+      "$oid": "07da54813f6b4926a7fb7390"
+    },
+    "operation": "OUT",
+    "quantity": 24,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6b8f02530ed943259efa3b2f"
+    },
+    "productId": {
+      "$oid": "121dc05842484f4daf3ed169"
+    },
+    "operation": "IN",
+    "quantity": 20,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2d6d4f4811b14bda880de9ba"
+    },
+    "productId": {
+      "$oid": "84abe733a5a544fab6f7fac5"
+    },
+    "operation": "IN",
+    "quantity": 13,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e0d664135b0b4a1e87e0d23f"
+    },
+    "productId": {
+      "$oid": "094c3496e19a4a9f8c227420"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 9,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d601d10fedc44d9a8f5211fa"
+    },
+    "productId": {
+      "$oid": "9b9cf9a9fbc94410a489b574"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 13,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "319e1d45342a4a9faddea5c0"
+    },
+    "productId": {
+      "$oid": "16adf414c6fe49d08b26ef7e"
+    },
+    "operation": "IN",
+    "quantity": 20,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "88c697e718204c00ad0f5697"
+    },
+    "productId": {
+      "$oid": "d02d7a8e7d9c4f6d95e36379"
+    },
+    "operation": "IN",
+    "quantity": 17,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "94a5aa779cca40638aa6ab15"
+    },
+    "productId": {
+      "$oid": "ae8fe0369113432da93b827c"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 9,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2afcef2e66d14a61ab4e2cb0"
+    },
+    "productId": {
+      "$oid": "38a656ef17d247b0ad057a64"
+    },
+    "operation": "OUT",
+    "quantity": 7,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "197f5edcb3c448638d71f4be"
+    },
+    "productId": {
+      "$oid": "35f83524264f418aa758bf8d"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 10,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1b0b99c231ab4b8aa89ef81b"
+    },
+    "productId": {
+      "$oid": "35ea370ef63f4edbb58f64de"
+    },
+    "operation": "OUT",
+    "quantity": 12,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8fcf04cc408a4f7daf28395d"
+    },
+    "productId": {
+      "$oid": "cb5d8bcf56cf4941a58f662a"
+    },
+    "operation": "IN",
+    "quantity": 18,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e626170a6b8443f8b38693e7"
+    },
+    "productId": {
+      "$oid": "319b87b0a8984e2493009085"
+    },
+    "operation": "IN",
+    "quantity": 17,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6501c9d518f24b0d81592eb8"
+    },
+    "productId": {
+      "$oid": "cb5d8bcf56cf4941a58f662a"
+    },
+    "operation": "OUT",
+    "quantity": 13,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "77d58e8a7e9442f8813bba94"
+    },
+    "productId": {
+      "$oid": "65a09f6d86cd4d999bd597fa"
+    },
+    "operation": "RETURN",
+    "quantity": 8,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "18a267b4c486431ca1d045c7"
+    },
+    "productId": {
+      "$oid": "8c83d7de70f34507b35801e1"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 10,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "94d18f6a8b8e4162996cea83"
+    },
+    "productId": {
+      "$oid": "fe44615a37454026ba5fb79d"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 3,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1361527a84ae4210a7b3a2a9"
+    },
+    "productId": {
+      "$oid": "0d1296b308854ce799022b24"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 10,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fe6f0db04a42499a83fbee1e"
+    },
+    "productId": {
+      "$oid": "47e450527d724b4097262a07"
+    },
+    "operation": "RETURN",
+    "quantity": 14,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5d06e3b4b41241dca29c091d"
+    },
+    "productId": {
+      "$oid": "8685025bf81e43629b87141c"
+    },
+    "operation": "RETURN",
+    "quantity": 10,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1dcef61485844f4289c1dc3b"
+    },
+    "productId": {
+      "$oid": "b5d76ed5e9334e67bb7f437e"
+    },
+    "operation": "IN",
+    "quantity": 21,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3c5240b59cf3485e86886c0e"
+    },
+    "productId": {
+      "$oid": "690ff4ad60d14f73bb498d9e"
+    },
+    "operation": "OUT",
+    "quantity": 6,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "db8ca5fa06654634a8a97085"
+    },
+    "productId": {
+      "$oid": "a711efcf3a6042ebb518349a"
+    },
+    "operation": "RETURN",
+    "quantity": 18,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "08634c2db89b4320b2cb299f"
+    },
+    "productId": {
+      "$oid": "3469bd54fa6547fb97886ad1"
+    },
+    "operation": "IN",
+    "quantity": 18,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9c998683f35c440bb08bc30e"
+    },
+    "productId": {
+      "$oid": "b444c5d0a9d941f28c935c45"
+    },
+    "operation": "RETURN",
+    "quantity": 11,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "829b3501dc704463aa5b7244"
+    },
+    "productId": {
+      "$oid": "18d6a87960d54cca9d1515b5"
+    },
+    "operation": "RETURN",
+    "quantity": 7,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e7a9e123dc6d43f8a91abb5b"
+    },
+    "productId": {
+      "$oid": "aae111937ec8406d8e22b80b"
+    },
+    "operation": "IN",
+    "quantity": 23,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9b8281d2e9904272a23e3b27"
+    },
+    "productId": {
+      "$oid": "05c096a5dd584230be1e7205"
+    },
+    "operation": "IN",
+    "quantity": 2,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "98d06d2900614e96ab2030e3"
+    },
+    "productId": {
+      "$oid": "5658bde680a74447a1eb3553"
+    },
+    "operation": "OUT",
+    "quantity": 16,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cd501029573742dbb958aa52"
+    },
+    "productId": {
+      "$oid": "7d430d9e60f8435faa6390ec"
+    },
+    "operation": "IN",
+    "quantity": 14,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a8b6ac7a69014f83984b54fc"
+    },
+    "productId": {
+      "$oid": "a53790f7848f440992aef863"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 13,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "be04e300942c4f84af1a4870"
+    },
+    "productId": {
+      "$oid": "cb5b9261cf304f1794060c73"
+    },
+    "operation": "RETURN",
+    "quantity": 10,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8d63313851bb434eb8c42196"
+    },
+    "productId": {
+      "$oid": "134fb65b9547460e8e43c663"
+    },
+    "operation": "RETURN",
+    "quantity": 19,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2433e8b3adf2471c946a5d2f"
+    },
+    "productId": {
+      "$oid": "20009944701741618dee6eec"
+    },
+    "operation": "IN",
+    "quantity": 21,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d0f57ac3d915477895b44a0d"
+    },
+    "productId": {
+      "$oid": "502d0b76cc4649489bbcea03"
+    },
+    "operation": "IN",
+    "quantity": 2,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "842a3b6baec84e778d623eae"
+    },
+    "productId": {
+      "$oid": "d9660efcfe39464a82870607"
+    },
+    "operation": "IN",
+    "quantity": 18,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ad1d2fef997c470baf93d6cb"
+    },
+    "productId": {
+      "$oid": "f3cd41646b244f2a831f7d6c"
+    },
+    "operation": "IN",
+    "quantity": 11,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c3352df8e16a4bf09f046965"
+    },
+    "productId": {
+      "$oid": "8c65532352e7450b95c53300"
+    },
+    "operation": "IN",
+    "quantity": 22,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "59c37cbcb0a54756999f02e6"
+    },
+    "productId": {
+      "$oid": "a2e131e05ea741fba6b5ce75"
+    },
+    "operation": "OUT",
+    "quantity": 24,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bdfd8f339bac478989bb310d"
+    },
+    "productId": {
+      "$oid": "ff97efa4b3c0409093d515b1"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 1,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e7db3fd2132e4f95a3fde83a"
+    },
+    "productId": {
+      "$oid": "7f965a6292164ece945a1e16"
+    },
+    "operation": "OUT",
+    "quantity": 10,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bd9ad0a49bd246cfb7ecc7a2"
+    },
+    "productId": {
+      "$oid": "786f09c0e39243daa991ebdd"
+    },
+    "operation": "IN",
+    "quantity": 10,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c5290f707e6143d68cf68a67"
+    },
+    "productId": {
+      "$oid": "b37b72899d594891aa39288e"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 16,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1214f0277bc14791a6242d1e"
+    },
+    "productId": {
+      "$oid": "3258ee3654714507b7c48ccd"
+    },
+    "operation": "OUT",
+    "quantity": 21,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "55a5b5a299f34eaf86537824"
+    },
+    "productId": {
+      "$oid": "4fa731c9dd9042db8b30ec6b"
+    },
+    "operation": "IN",
+    "quantity": 19,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c8feabbf6c6f4cd196025e7c"
+    },
+    "productId": {
+      "$oid": "50d7e9734fa948b8b6a88188"
+    },
+    "operation": "IN",
+    "quantity": 19,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e07a041faa2f4181a12ba196"
+    },
+    "productId": {
+      "$oid": "134fb65b9547460e8e43c663"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 12,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5341e0fb2b994f2fac52113e"
+    },
+    "productId": {
+      "$oid": "8e6c08a198f74c9a80580bc1"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 18,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5229fb214dc5437bbc6f1764"
+    },
+    "productId": {
+      "$oid": "8c65532352e7450b95c53300"
+    },
+    "operation": "OUT",
+    "quantity": 16,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549324e1c0c24e98880d58bd"
+    },
+    "productId": {
+      "$oid": "58f1cc27505247999d2a00c1"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 1,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4e4dbae357f4478b8d25c15c"
+    },
+    "productId": {
+      "$oid": "8c65532352e7450b95c53300"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 22,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "06b4061019dc41488a2c16d5"
+    },
+    "productId": {
+      "$oid": "2fae22467c97472c8520181f"
+    },
+    "operation": "OUT",
+    "quantity": 19,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ba6fde7ef5f4b02a355535a"
+    },
+    "productId": {
+      "$oid": "8f9b687aae2b43a09dc12075"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 16,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "850fee441fe641a68a488cba"
+    },
+    "productId": {
+      "$oid": "8c24a6a41e394de9a83d8abe"
+    },
+    "operation": "RETURN",
+    "quantity": 21,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7490ee67401549b296409adf"
+    },
+    "productId": {
+      "$oid": "c45515711e9042a6b3674be4"
+    },
+    "operation": "OUT",
+    "quantity": 23,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a37d61877fcc41e1bd46c225"
+    },
+    "productId": {
+      "$oid": "d853c42c340f4197971caf7e"
+    },
+    "operation": "OUT",
+    "quantity": 19,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d22e4e9fbe1b4dd6ac33cb9f"
+    },
+    "productId": {
+      "$oid": "5c03ac5a99954ab08e40b821"
+    },
+    "operation": "RETURN",
+    "quantity": 24,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1e55a9751af24ce1983b054c"
+    },
+    "productId": {
+      "$oid": "d9660efcfe39464a82870607"
+    },
+    "operation": "RETURN",
+    "quantity": 23,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4205105fb0d64810a225b728"
+    },
+    "productId": {
+      "$oid": "c6b8cf95a42f44ee9fc8057c"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 11,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "449dbac268b843cb9676fd0e"
+    },
+    "productId": {
+      "$oid": "20009944701741618dee6eec"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 22,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eb4afd7735b04da3a6be21a5"
+    },
+    "productId": {
+      "$oid": "080a3a186c5b4e1096c1596e"
+    },
+    "operation": "RETURN",
+    "quantity": 16,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "43f7680cf60f45ad86b3ae2d"
+    },
+    "productId": {
+      "$oid": "639f498a7a9e4a9faf267dda"
+    },
+    "operation": "IN",
+    "quantity": 20,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "799ab05207484df497154f30"
+    },
+    "productId": {
+      "$oid": "5c8d58e643c44724812ad2f8"
+    },
+    "operation": "OUT",
+    "quantity": 14,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0b97de995f274492b4808b2e"
+    },
+    "productId": {
+      "$oid": "a96aac4f6b2b4241a9953817"
+    },
+    "operation": "RETURN",
+    "quantity": 9,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "161ff1459c2b4d81831872fd"
+    },
+    "productId": {
+      "$oid": "9db5d5d3788e4ca2bf4f962f"
+    },
+    "operation": "OUT",
+    "quantity": 18,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5698bc320f0e4e0c9b841c4a"
+    },
+    "productId": {
+      "$oid": "a9d849debd8e4acda51e7c78"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 16,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9e586378831945869b6676e3"
+    },
+    "productId": {
+      "$oid": "8f9b687aae2b43a09dc12075"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 20,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0b67b30bbeb64deea07e3880"
+    },
+    "productId": {
+      "$oid": "1a7d6378ceb04d9a8c4b517e"
+    },
+    "operation": "RETURN",
+    "quantity": 16,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9a8a416c811a441e916d36ba"
+    },
+    "productId": {
+      "$oid": "885c97b089144f509e0bec95"
+    },
+    "operation": "RETURN",
+    "quantity": 21,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4939fac1afae40ebb5cc5998"
+    },
+    "productId": {
+      "$oid": "aae111937ec8406d8e22b80b"
+    },
+    "operation": "OUT",
+    "quantity": 13,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d9ebbddebf9441b495731509"
+    },
+    "productId": {
+      "$oid": "f519eb361d7b4adea9f35726"
+    },
+    "operation": "IN",
+    "quantity": 15,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "796a667ace6f485e9997d7d1"
+    },
+    "productId": {
+      "$oid": "3469bd54fa6547fb97886ad1"
+    },
+    "operation": "IN",
+    "quantity": 3,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "daa7f024add1432a91336b29"
+    },
+    "productId": {
+      "$oid": "5dda15b3a4ae4272bb87e51d"
+    },
+    "operation": "IN",
+    "quantity": 7,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "636a98c78eb043e9bd31664a"
+    },
+    "productId": {
+      "$oid": "639f498a7a9e4a9faf267dda"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 24,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "58c08137b86b4155adb10061"
+    },
+    "productId": {
+      "$oid": "e8b8ab2bdb5940528fab77ed"
+    },
+    "operation": "RETURN",
+    "quantity": 10,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c1ca9d6ba2e1418bb5fe7553"
+    },
+    "productId": {
+      "$oid": "be1f7c258964444bb2a2c2de"
+    },
+    "operation": "IN",
+    "quantity": 22,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "45a91f12688f456c9b9b5b01"
+    },
+    "productId": {
+      "$oid": "bcee3ad0aca94caa8fb4a567"
+    },
+    "operation": "OUT",
+    "quantity": 7,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e239544a251343e4b7ed022e"
+    },
+    "productId": {
+      "$oid": "bc0de2cfcb08442698aaf078"
+    },
+    "operation": "OUT",
+    "quantity": 23,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c9e259675716452fbaf560f6"
+    },
+    "productId": {
+      "$oid": "d9660efcfe39464a82870607"
+    },
+    "operation": "RETURN",
+    "quantity": 7,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f611b737d18442058dc49893"
+    },
+    "productId": {
+      "$oid": "84abe733a5a544fab6f7fac5"
+    },
+    "operation": "RETURN",
+    "quantity": 6,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "929c85e3b4a64a3ebdafd603"
+    },
+    "productId": {
+      "$oid": "df6f39abaca4423495c4bb65"
+    },
+    "operation": "OUT",
+    "quantity": 2,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "50bea17b3f484ab1ae915262"
+    },
+    "productId": {
+      "$oid": "1ab5e956a641471b869071c9"
+    },
+    "operation": "IN",
+    "quantity": 11,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "71ad510ec92443c7ad4db1d3"
+    },
+    "productId": {
+      "$oid": "5f1f7cf6d878419ba72a1eae"
+    },
+    "operation": "OUT",
+    "quantity": 13,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "25c068e33838446eb10b57bf"
+    },
+    "productId": {
+      "$oid": "1a7d6378ceb04d9a8c4b517e"
+    },
+    "operation": "RETURN",
+    "quantity": 4,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d63e756381ec4205858a5533"
+    },
+    "productId": {
+      "$oid": "55e1d7d68a104848ba78f927"
+    },
+    "operation": "OUT",
+    "quantity": 16,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5bc3c6589a5b454c8c211d2c"
+    },
+    "productId": {
+      "$oid": "82c2e0984b0c479b968ab66e"
+    },
+    "operation": "OUT",
+    "quantity": 16,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "09ac68672b2742b0b4fa95c5"
+    },
+    "productId": {
+      "$oid": "0a91816509d74dd7a2e1f370"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 16,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "736fb396867f4e50beda0638"
+    },
+    "productId": {
+      "$oid": "080a3a186c5b4e1096c1596e"
+    },
+    "operation": "IN",
+    "quantity": 21,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5af71fd0de98413dad169679"
+    },
+    "productId": {
+      "$oid": "bb3bf23c340f42ea9587420d"
+    },
+    "operation": "RETURN",
+    "quantity": 19,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3738c731ae4d4a45acc168f0"
+    },
+    "productId": {
+      "$oid": "5c8d58e643c44724812ad2f8"
+    },
+    "operation": "RETURN",
+    "quantity": 8,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f8724b71185a4c6880465bc2"
+    },
+    "productId": {
+      "$oid": "080a3a186c5b4e1096c1596e"
+    },
+    "operation": "OUT",
+    "quantity": 4,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "09f90192755d48f08c8d9ee1"
+    },
+    "productId": {
+      "$oid": "5c03ac5a99954ab08e40b821"
+    },
+    "operation": "OUT",
+    "quantity": 6,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1e0cb39b3b754a36a4810493"
+    },
+    "productId": {
+      "$oid": "e2938c42837c486cb457c1e3"
+    },
+    "operation": "IN",
+    "quantity": 8,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6f0fdd9c197847f1960ac591"
+    },
+    "productId": {
+      "$oid": "df6f39abaca4423495c4bb65"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 4,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6c89ef0914f64aac82bcf1bd"
+    },
+    "productId": {
+      "$oid": "fc673f3e392748eca312a43f"
+    },
+    "operation": "OUT",
+    "quantity": 2,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3dac7da5a5234c639f7a5c28"
+    },
+    "productId": {
+      "$oid": "a7bad006bb214cb8a1625a0c"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 18,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7815caebeac04c879c49e680"
+    },
+    "productId": {
+      "$oid": "7dff3ff357b2429e96388e65"
+    },
+    "operation": "RETURN",
+    "quantity": 5,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a6a88fe8bdd64689ab8d77bd"
+    },
+    "productId": {
+      "$oid": "a88494ebe2ed4b04bf0167c7"
+    },
+    "operation": "RETURN",
+    "quantity": 6,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7e4a15ef064b4381afb23ed8"
+    },
+    "productId": {
+      "$oid": "ae8fe0369113432da93b827c"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 1,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9aa7a398e63b4844b7bee377"
+    },
+    "productId": {
+      "$oid": "0711c6d0e8fa4c38b6fd3d7b"
+    },
+    "operation": "RETURN",
+    "quantity": 8,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3d20e75857fa4af19631dd89"
+    },
+    "productId": {
+      "$oid": "f14048af02a5425c94553a0c"
+    },
+    "operation": "IN",
+    "quantity": 12,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3d1103ed6f6141b58a02713a"
+    },
+    "productId": {
+      "$oid": "e10d8797119542a38949ce3c"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 22,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ac7d00745c5c4749903f6be5"
+    },
+    "productId": {
+      "$oid": "74aab4b4b3ee4f73bfcd5c4f"
+    },
+    "operation": "RETURN",
+    "quantity": 18,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "daf1816fe9824d7cbb507797"
+    },
+    "productId": {
+      "$oid": "27f5604bd0bc41f0b159cf73"
+    },
+    "operation": "IN",
+    "quantity": 10,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cbd0f6d61208474e840535a0"
+    },
+    "productId": {
+      "$oid": "26333f304ff742f0abb5b633"
+    },
+    "operation": "RETURN",
+    "quantity": 24,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fe171db8b1fb41e6a2614d58"
+    },
+    "productId": {
+      "$oid": "f3cd41646b244f2a831f7d6c"
+    },
+    "operation": "OUT",
+    "quantity": 22,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "44e6953ab2554908b13d309b"
+    },
+    "productId": {
+      "$oid": "54dc7e2be886418cbdf11217"
+    },
+    "operation": "IN",
+    "quantity": 3,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f02a704ced00448ea23990a2"
+    },
+    "productId": {
+      "$oid": "f6b4570e30d9449babdd5717"
+    },
+    "operation": "IN",
+    "quantity": 7,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bdd5ddf8daae489b93d192a7"
+    },
+    "productId": {
+      "$oid": "a190368aba0043e99a8f6ce4"
+    },
+    "operation": "RETURN",
+    "quantity": 2,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a9ec4a741ec34774bc67b689"
+    },
+    "productId": {
+      "$oid": "e2cd3ca4cca14a5fb6e3076e"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 7,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "73e48431614e4a5398f585c6"
+    },
+    "productId": {
+      "$oid": "3258ee3654714507b7c48ccd"
+    },
+    "operation": "IN",
+    "quantity": 19,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eac3202cbec04b0cad4b51fc"
+    },
+    "productId": {
+      "$oid": "47e450527d724b4097262a07"
+    },
+    "operation": "OUT",
+    "quantity": 6,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8f8e539832b84bdebb909235"
+    },
+    "productId": {
+      "$oid": "20e657588e00494b889eefce"
+    },
+    "operation": "IN",
+    "quantity": 6,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c5206c00868643d08311d769"
+    },
+    "productId": {
+      "$oid": "8f9b687aae2b43a09dc12075"
+    },
+    "operation": "OUT",
+    "quantity": 17,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "26d5a1334e2e4e4d882d51a3"
+    },
+    "productId": {
+      "$oid": "4fa731c9dd9042db8b30ec6b"
+    },
+    "operation": "RETURN",
+    "quantity": 24,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9c53855b093b4fb8b063759a"
+    },
+    "productId": {
+      "$oid": "f9ca91cf9bf04426a983c995"
+    },
+    "operation": "IN",
+    "quantity": 5,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d3a0785424f54ef4aeb8ce77"
+    },
+    "productId": {
+      "$oid": "8568aaa6b2504e07882b473d"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 16,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7be384d951684c0a87f257d8"
+    },
+    "productId": {
+      "$oid": "2f0843e57fad440bbda7236f"
+    },
+    "operation": "IN",
+    "quantity": 6,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2c23cecec99c4df7870b48bf"
+    },
+    "productId": {
+      "$oid": "f519eb361d7b4adea9f35726"
+    },
+    "operation": "OUT",
+    "quantity": 14,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "81153f91ef7d4cbb9bd4ab05"
+    },
+    "productId": {
+      "$oid": "b37b72899d594891aa39288e"
+    },
+    "operation": "IN",
+    "quantity": 13,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9c9f6cbd20e148fabf95476e"
+    },
+    "productId": {
+      "$oid": "cb5d8bcf56cf4941a58f662a"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 21,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "16fc9a2f0e8a47c1b40d812b"
+    },
+    "productId": {
+      "$oid": "e99d9d8afede41f78f6491a2"
+    },
+    "operation": "RETURN",
+    "quantity": 17,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9915ce935bbd4b3392f8b2a5"
+    },
+    "productId": {
+      "$oid": "0711c6d0e8fa4c38b6fd3d7b"
+    },
+    "operation": "OUT",
+    "quantity": 20,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e1155728238a4a10891b7286"
+    },
+    "productId": {
+      "$oid": "ae8fe0369113432da93b827c"
+    },
+    "operation": "RETURN",
+    "quantity": 23,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fc53015fd2d24e7eb7624cb4"
+    },
+    "productId": {
+      "$oid": "b3f4b8793a584a618455a9a7"
+    },
+    "operation": "RETURN",
+    "quantity": 2,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "77b25eddcca14b969609380d"
+    },
+    "productId": {
+      "$oid": "bb4c711a552d4e22affdfbc3"
+    },
+    "operation": "IN",
+    "quantity": 18,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "18136aecf83f4348b09011eb"
+    },
+    "productId": {
+      "$oid": "1a7d6378ceb04d9a8c4b517e"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 5,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "26e97aafd2ca470aa3e67a21"
+    },
+    "productId": {
+      "$oid": "5e8d5c6f2ebd4cf6b421c689"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 4,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2635f535cb41470d9d0b3ee2"
+    },
+    "productId": {
+      "$oid": "6db8e560a4d64dd2b4c7e594"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 13,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fc0586c293794e948ede74c3"
+    },
+    "productId": {
+      "$oid": "28d8dc293e984cd1988cadf6"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 11,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a79e70f0a1146eeb644a0ff"
+    },
+    "productId": {
+      "$oid": "56f0c6ea1e814c929b45c40d"
+    },
+    "operation": "OUT",
+    "quantity": 17,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5e0b42875f914060a6041f6c"
+    },
+    "productId": {
+      "$oid": "6dc962ac529a4660a63c4973"
+    },
+    "operation": "OUT",
+    "quantity": 20,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4bdc1542010e48938b98f959"
+    },
+    "productId": {
+      "$oid": "c6b8cf95a42f44ee9fc8057c"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 19,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "037acf10008945fda21b78a2"
+    },
+    "productId": {
+      "$oid": "58f1cc27505247999d2a00c1"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 4,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "45715614a30f4a2c817f6ab1"
+    },
+    "productId": {
+      "$oid": "dd804ba3d95543b8856856c9"
+    },
+    "operation": "OUT",
+    "quantity": 22,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5dacf984f6c641f493229b7f"
+    },
+    "productId": {
+      "$oid": "6c08595dfb8b480cb65c22e4"
+    },
+    "operation": "IN",
+    "quantity": 3,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1e7dbf2dbd974c38bf9dea09"
+    },
+    "productId": {
+      "$oid": "eb2fa730a5e14965aab69858"
+    },
+    "operation": "IN",
+    "quantity": 3,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "00118ed07319440fa95b5d9b"
+    },
+    "productId": {
+      "$oid": "6290d9c67587422494d8a44f"
+    },
+    "operation": "RETURN",
+    "quantity": 5,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "506d22a29c6d4d2ba8a665f3"
+    },
+    "productId": {
+      "$oid": "e8b8ab2bdb5940528fab77ed"
+    },
+    "operation": "OUT",
+    "quantity": 17,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8baa08c074fd4d8089370f01"
+    },
+    "productId": {
+      "$oid": "7c4b3c14781247a790c852fc"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 8,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9df9c76e6d3f472da1a7597a"
+    },
+    "productId": {
+      "$oid": "35e47aec4ca241c6b365c960"
+    },
+    "operation": "OUT",
+    "quantity": 6,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6971f72886364193a9595f99"
+    },
+    "productId": {
+      "$oid": "7bf4dd6445f44515ab7884ab"
+    },
+    "operation": "IN",
+    "quantity": 15,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f7450b68cd464741836b78e5"
+    },
+    "productId": {
+      "$oid": "25046d1a15044349a49c0ee2"
+    },
+    "operation": "OUT",
+    "quantity": 17,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f66f7b17195246ed8ddb1c07"
+    },
+    "productId": {
+      "$oid": "2f0843e57fad440bbda7236f"
+    },
+    "operation": "RETURN",
+    "quantity": 17,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ff0a3281bb1640d0865aebc3"
+    },
+    "productId": {
+      "$oid": "ec77f4f6b7224817bbd716a1"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 3,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0e515c51890242e8be5e9b25"
+    },
+    "productId": {
+      "$oid": "b37b72899d594891aa39288e"
+    },
+    "operation": "IN",
+    "quantity": 3,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "450a5bd70b314cc69f0a325f"
+    },
+    "productId": {
+      "$oid": "fb8de66937ab48f7b15b67cc"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 25,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0b7a572737be45218c6ae8f8"
+    },
+    "productId": {
+      "$oid": "f9b1f5f68e0c4200990e7ae1"
+    },
+    "operation": "RETURN",
+    "quantity": 16,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1e44fc8ba0174c9db1e4db89"
+    },
+    "productId": {
+      "$oid": "c45515711e9042a6b3674be4"
+    },
+    "operation": "RETURN",
+    "quantity": 1,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "84c56c4347f14bae885c5bd5"
+    },
+    "productId": {
+      "$oid": "ba647aecfeeb41a5abf69679"
+    },
+    "operation": "IN",
+    "quantity": 7,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cb9b4dfff3fd4416a97c5949"
+    },
+    "productId": {
+      "$oid": "7bf4dd6445f44515ab7884ab"
+    },
+    "operation": "IN",
+    "quantity": 5,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9764a9307b9b48d88a0a287c"
+    },
+    "productId": {
+      "$oid": "f0ecaa57f7414be68140b0bc"
+    },
+    "operation": "IN",
+    "quantity": 18,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "339df5f6bac448ae964685b7"
+    },
+    "productId": {
+      "$oid": "cb5d8bcf56cf4941a58f662a"
+    },
+    "operation": "OUT",
+    "quantity": 4,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "92aa85a084e448aa9215871c"
+    },
+    "productId": {
+      "$oid": "3abbd22581214770a4d3a1ad"
+    },
+    "operation": "IN",
+    "quantity": 13,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cd5f6562ecbe4eaa8a2cc4e9"
+    },
+    "productId": {
+      "$oid": "8f0f5699310a47678f498155"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 4,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "231749e8543d4a4990c40606"
+    },
+    "productId": {
+      "$oid": "3abbd22581214770a4d3a1ad"
+    },
+    "operation": "RETURN",
+    "quantity": 5,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e1af5133d78146598e4308ce"
+    },
+    "productId": {
+      "$oid": "a2ea261c36394b798fa198b3"
+    },
+    "operation": "OUT",
+    "quantity": 18,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0a70f8b916934690867daace"
+    },
+    "productId": {
+      "$oid": "be1f7c258964444bb2a2c2de"
+    },
+    "operation": "OUT",
+    "quantity": 11,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0ca39594993544718a62ce7d"
+    },
+    "productId": {
+      "$oid": "c45515711e9042a6b3674be4"
+    },
+    "operation": "OUT",
+    "quantity": 3,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c0a195e507924a539c6e32b7"
+    },
+    "productId": {
+      "$oid": "874e7081edb64c668052eb33"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 19,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d377f220f8f64bccab34189d"
+    },
+    "productId": {
+      "$oid": "7ecf5e5ef78f495fbe9a55b6"
+    },
+    "operation": "IN",
+    "quantity": 6,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e9e69bc4bd5c494681a9ba0e"
+    },
+    "productId": {
+      "$oid": "c67d350f37e14da6b275fa0a"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 2,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2ddd8c77b48a4667b041c01d"
+    },
+    "productId": {
+      "$oid": "a9d849debd8e4acda51e7c78"
+    },
+    "operation": "RETURN",
+    "quantity": 9,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "453c99e76f9048dca3d7964e"
+    },
+    "productId": {
+      "$oid": "95f70793e5dc47e3b99fc9b9"
+    },
+    "operation": "RETURN",
+    "quantity": 2,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a31f3ea9b5ce4d2a864f8e7f"
+    },
+    "productId": {
+      "$oid": "292fd38572314ea48c12194f"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 19,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ee8be55bddf04171b99ebf76"
+    },
+    "productId": {
+      "$oid": "a711efcf3a6042ebb518349a"
+    },
+    "operation": "RETURN",
+    "quantity": 7,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "917e9ba77d264ef8b70a3936"
+    },
+    "productId": {
+      "$oid": "690ff4ad60d14f73bb498d9e"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 4,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0f745cbb3cfd4a08b53697cc"
+    },
+    "productId": {
+      "$oid": "81172834b4c44e40bc90bfed"
+    },
+    "operation": "IN",
+    "quantity": 5,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e89e9ca575b04f98be8300ad"
+    },
+    "productId": {
+      "$oid": "9891c2724ff94b6e9530a1d6"
+    },
+    "operation": "RETURN",
+    "quantity": 22,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "87d8a42422a04c768d000bfc"
+    },
+    "productId": {
+      "$oid": "2cd2acc3f6944e80b9bf25f6"
+    },
+    "operation": "OUT",
+    "quantity": 13,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dc1fbae62ee34b259061378a"
+    },
+    "productId": {
+      "$oid": "885c97b089144f509e0bec95"
+    },
+    "operation": "OUT",
+    "quantity": 1,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bf8c357be1c7440b889caee9"
+    },
+    "productId": {
+      "$oid": "825febfef8654fe384c8acff"
+    },
+    "operation": "OUT",
+    "quantity": 17,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "db75029cd7ac4c97a8634cac"
+    },
+    "productId": {
+      "$oid": "dd5a9cf899674f6697d9ae32"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 10,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "70bc1771872f4388956d76aa"
+    },
+    "productId": {
+      "$oid": "786f09c0e39243daa991ebdd"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 2,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4936f4a8a54a4c909ab0efa8"
+    },
+    "productId": {
+      "$oid": "837776c34a43414a8427aa6a"
+    },
+    "operation": "OUT",
+    "quantity": 21,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8303bbf70ccb4823a8c2bc18"
+    },
+    "productId": {
+      "$oid": "f14048af02a5425c94553a0c"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 14,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0093f95146414b609d12ac00"
+    },
+    "productId": {
+      "$oid": "eb2fa730a5e14965aab69858"
+    },
+    "operation": "RETURN",
+    "quantity": 4,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b4d7f4b7547a4a4686411f19"
+    },
+    "productId": {
+      "$oid": "d4aabf69441f423d834c5544"
+    },
+    "operation": "IN",
+    "quantity": 5,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2e3c2bfbbbfc4655b9747ac3"
+    },
+    "productId": {
+      "$oid": "b44ea54d571d4536982bef4c"
+    },
+    "operation": "IN",
+    "quantity": 18,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "440c97e784a64aad86eca55a"
+    },
+    "productId": {
+      "$oid": "3258ee3654714507b7c48ccd"
+    },
+    "operation": "RETURN",
+    "quantity": 10,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "671601b1389f4c379a05c328"
+    },
+    "productId": {
+      "$oid": "749bb33d14684809915882da"
+    },
+    "operation": "RETURN",
+    "quantity": 11,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e50cab87346545ab9df5c52f"
+    },
+    "productId": {
+      "$oid": "9fef25b440ae415dbeab02b9"
+    },
+    "operation": "RETURN",
+    "quantity": 10,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "02cb7b39f1cc4fdda31639c6"
+    },
+    "productId": {
+      "$oid": "ce91a75dead04e228ed64edf"
+    },
+    "operation": "RETURN",
+    "quantity": 6,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b629828c10674695b7b34129"
+    },
+    "productId": {
+      "$oid": "b22f6deecede4aa99102855c"
+    },
+    "operation": "RETURN",
+    "quantity": 13,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9497d46d734f464c98d28f39"
+    },
+    "productId": {
+      "$oid": "f0ecaa57f7414be68140b0bc"
+    },
+    "operation": "RETURN",
+    "quantity": 21,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "40f6fe7085f1480baae48d82"
+    },
+    "productId": {
+      "$oid": "292fd38572314ea48c12194f"
+    },
+    "operation": "IN",
+    "quantity": 6,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bed2a305acdc48298f3ff0a0"
+    },
+    "productId": {
+      "$oid": "c0f45529b52c41f3a359f2d6"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 3,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "741e6d60eb354bae80069c63"
+    },
+    "productId": {
+      "$oid": "ff97efa4b3c0409093d515b1"
+    },
+    "operation": "OUT",
+    "quantity": 21,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ba7b7b7b08542f8b26e35c2"
+    },
+    "productId": {
+      "$oid": "786f09c0e39243daa991ebdd"
+    },
+    "operation": "OUT",
+    "quantity": 15,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1d0e4148bc5e41188cd6a221"
+    },
+    "productId": {
+      "$oid": "c45515711e9042a6b3674be4"
+    },
+    "operation": "OUT",
+    "quantity": 20,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eb31899a5f1b4eb4b34c00e5"
+    },
+    "productId": {
+      "$oid": "5dbb5582429647d79b9be514"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 2,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65c615aef96347aa99177e18"
+    },
+    "productId": {
+      "$oid": "885c97b089144f509e0bec95"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 25,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c4f45c58a3164b7a8c214cc8"
+    },
+    "productId": {
+      "$oid": "4594e0902fd34a76ad635769"
+    },
+    "operation": "OUT",
+    "quantity": 21,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "49347adc4f3743799c63cc5d"
+    },
+    "productId": {
+      "$oid": "3abbd22581214770a4d3a1ad"
+    },
+    "operation": "OUT",
+    "quantity": 22,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "983602d8862a4394ac006908"
+    },
+    "productId": {
+      "$oid": "a7b066a264734f1a94a89354"
+    },
+    "operation": "OUT",
+    "quantity": 5,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b144fc55c32b47269e06243f"
+    },
+    "productId": {
+      "$oid": "f3cd41646b244f2a831f7d6c"
+    },
+    "operation": "IN",
+    "quantity": 25,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1d2f9f9ee6644e849646587b"
+    },
+    "productId": {
+      "$oid": "6fb1726e70bf4ffaa50a2d7e"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 11,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3e07c26c8abf464385c7103c"
+    },
+    "productId": {
+      "$oid": "47e450527d724b4097262a07"
+    },
+    "operation": "OUT",
+    "quantity": 12,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a7fdb54d2e8742c482b3585d"
+    },
+    "productId": {
+      "$oid": "134fb65b9547460e8e43c663"
+    },
+    "operation": "OUT",
+    "quantity": 7,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b61c15536b774a5d8b0adaf0"
+    },
+    "productId": {
+      "$oid": "8685025bf81e43629b87141c"
+    },
+    "operation": "RETURN",
+    "quantity": 23,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4c99e5f1dff1441d88dfd516"
+    },
+    "productId": {
+      "$oid": "2cd2acc3f6944e80b9bf25f6"
+    },
+    "operation": "OUT",
+    "quantity": 5,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1a372ec065604ac8a169ff8b"
+    },
+    "productId": {
+      "$oid": "dd5a9cf899674f6697d9ae32"
+    },
+    "operation": "OUT",
+    "quantity": 4,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "341fca2a5ca24cd78601278c"
+    },
+    "productId": {
+      "$oid": "5e8d5c6f2ebd4cf6b421c689"
+    },
+    "operation": "RETURN",
+    "quantity": 11,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c3b5eb180bec4b2e82c8d18a"
+    },
+    "productId": {
+      "$oid": "7242738bc6714e35a6790273"
+    },
+    "operation": "OUT",
+    "quantity": 11,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f7a0bcb8e28a4e42975247ac"
+    },
+    "productId": {
+      "$oid": "68ae5f9185e746a7a01ef75b"
+    },
+    "operation": "OUT",
+    "quantity": 21,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "01b3a840a32e4f66a683643c"
+    },
+    "productId": {
+      "$oid": "8c65532352e7450b95c53300"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 23,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "459b5467b0e94194924bd5f0"
+    },
+    "productId": {
+      "$oid": "35f83524264f418aa758bf8d"
+    },
+    "operation": "RETURN",
+    "quantity": 4,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5a0f8e1ee79f4333b4826e49"
+    },
+    "productId": {
+      "$oid": "a7b066a264734f1a94a89354"
+    },
+    "operation": "OUT",
+    "quantity": 20,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "99b9ffa4097b457eb996b0bb"
+    },
+    "productId": {
+      "$oid": "2642615a8f35499abe54b089"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 4,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "babd4096792c4e95b8ed3938"
+    },
+    "productId": {
+      "$oid": "8568aaa6b2504e07882b473d"
+    },
+    "operation": "IN",
+    "quantity": 8,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ab8135953cdd4f21a3ab9781"
+    },
+    "productId": {
+      "$oid": "837776c34a43414a8427aa6a"
+    },
+    "operation": "RETURN",
+    "quantity": 5,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "600f9e59c495416e9ec27ccb"
+    },
+    "productId": {
+      "$oid": "15747f97ccb34eb5b122a81f"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 22,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a8cf73a4077342a2a192ad4a"
+    },
+    "productId": {
+      "$oid": "35e47aec4ca241c6b365c960"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 11,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1c84935383a84fb8b452c7e8"
+    },
+    "productId": {
+      "$oid": "5e8d5c6f2ebd4cf6b421c689"
+    },
+    "operation": "OUT",
+    "quantity": 25,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6f0f6287590d4f3f94adbfd4"
+    },
+    "productId": {
+      "$oid": "8c65532352e7450b95c53300"
+    },
+    "operation": "RETURN",
+    "quantity": 23,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "581cab5213994366bb952973"
+    },
+    "productId": {
+      "$oid": "690ff4ad60d14f73bb498d9e"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 6,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8635e836663448f8a0fb591b"
+    },
+    "productId": {
+      "$oid": "8df2cb2543844a0a8079cb28"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 2,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5a280880e5d24172bc8dabcd"
+    },
+    "productId": {
+      "$oid": "9891c2724ff94b6e9530a1d6"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 4,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0af8c8f85e0a402d97d58aa6"
+    },
+    "productId": {
+      "$oid": "6044457e736a4490a1fde654"
+    },
+    "operation": "IN",
+    "quantity": 8,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fce1c8ba16d04fefa60eafd2"
+    },
+    "productId": {
+      "$oid": "6d1627931e4648ad8c993b40"
+    },
+    "operation": "IN",
+    "quantity": 25,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "790cff5223c24843a8a64a17"
+    },
+    "productId": {
+      "$oid": "8f9b687aae2b43a09dc12075"
+    },
+    "operation": "RETURN",
+    "quantity": 5,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e32507f2c7484a9ba33a80ac"
+    },
+    "productId": {
+      "$oid": "f6b4570e30d9449babdd5717"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 18,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ae0a8867df1e4bc9b666934f"
+    },
+    "productId": {
+      "$oid": "a5d37afabc8042449c62881b"
+    },
+    "operation": "OUT",
+    "quantity": 19,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e14d903ac5924610a97c244c"
+    },
+    "productId": {
+      "$oid": "5f2243105ad14466b0c09e79"
+    },
+    "operation": "IN",
+    "quantity": 11,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1c3f0e66f69f4d169d29a3f6"
+    },
+    "productId": {
+      "$oid": "a7bad006bb214cb8a1625a0c"
+    },
+    "operation": "OUT",
+    "quantity": 19,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "aa78ef355bf64b62a0acd6dc"
+    },
+    "productId": {
+      "$oid": "c6b8cf95a42f44ee9fc8057c"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 23,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "51a948d0fbee4724bbc2ac39"
+    },
+    "productId": {
+      "$oid": "fc673f3e392748eca312a43f"
+    },
+    "operation": "OUT",
+    "quantity": 21,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "acdad188d28b46af905bc113"
+    },
+    "productId": {
+      "$oid": "c0f45529b52c41f3a359f2d6"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 25,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "90e3d5cdd6d947f0966a7d86"
+    },
+    "productId": {
+      "$oid": "a53790f7848f440992aef863"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 9,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "71ab5c16c5814984aa45b8fe"
+    },
+    "productId": {
+      "$oid": "a2e131e05ea741fba6b5ce75"
+    },
+    "operation": "RETURN",
+    "quantity": 6,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "420d1c799d95414c81a62f30"
+    },
+    "productId": {
+      "$oid": "bb3bf23c340f42ea9587420d"
+    },
+    "operation": "IN",
+    "quantity": 17,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d97cca22b0dd4f01b598feb3"
+    },
+    "productId": {
+      "$oid": "cdae1d02da444fb9b3959a7c"
+    },
+    "operation": "IN",
+    "quantity": 3,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4ee2a8080e9949a79ae06f3d"
+    },
+    "productId": {
+      "$oid": "2cd2acc3f6944e80b9bf25f6"
+    },
+    "operation": "IN",
+    "quantity": 2,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "35b68373106541ce8324eb7f"
+    },
+    "productId": {
+      "$oid": "84abe733a5a544fab6f7fac5"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 10,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "49478f4b7955499b924b3b0c"
+    },
+    "productId": {
+      "$oid": "319b87b0a8984e2493009085"
+    },
+    "operation": "OUT",
+    "quantity": 11,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e7ec10a0cc8e40e2b73e9235"
+    },
+    "productId": {
+      "$oid": "a9d849debd8e4acda51e7c78"
+    },
+    "operation": "OUT",
+    "quantity": 1,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "abfcfdb293334ba385b4be51"
+    },
+    "productId": {
+      "$oid": "3469bd54fa6547fb97886ad1"
+    },
+    "operation": "RETURN",
+    "quantity": 17,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f3a2e074540545cf9d7f66e6"
+    },
+    "productId": {
+      "$oid": "f9b1f5f68e0c4200990e7ae1"
+    },
+    "operation": "IN",
+    "quantity": 17,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1140c5dd9258489c859b1d9e"
+    },
+    "productId": {
+      "$oid": "04fba52e6d524092a41fa125"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 3,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "91cf2332d2784c55aeab9972"
+    },
+    "productId": {
+      "$oid": "568a3e8009ec4fe097e5d48e"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 7,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "910984ac30114f7b9cdefcbf"
+    },
+    "productId": {
+      "$oid": "5dda15b3a4ae4272bb87e51d"
+    },
+    "operation": "IN",
+    "quantity": 14,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a818858bdb7f45ef8dbce404"
+    },
+    "productId": {
+      "$oid": "00011871a6d942289ea3c8bf"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 15,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1999cd2082f34ab29992a5e5"
+    },
+    "productId": {
+      "$oid": "2254e2949718459eb83a572a"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 24,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7f5b8516a6d94ec4a00f27e2"
+    },
+    "productId": {
+      "$oid": "3ec693686b63493c956ff0c4"
+    },
+    "operation": "RETURN",
+    "quantity": 16,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "48901d9a96ad4a8aa3321820"
+    },
+    "productId": {
+      "$oid": "f0c69edaa8a447a8a7188444"
+    },
+    "operation": "IN",
+    "quantity": 25,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8e9e2b4877214720ad166f68"
+    },
+    "productId": {
+      "$oid": "431e24eca44048e4b1340b21"
+    },
+    "operation": "IN",
+    "quantity": 5,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9e72fa4ad1d842d89d7ad15d"
+    },
+    "productId": {
+      "$oid": "35f83524264f418aa758bf8d"
+    },
+    "operation": "OUT",
+    "quantity": 18,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c865e1e6f3884e5480dce292"
+    },
+    "productId": {
+      "$oid": "d02d7a8e7d9c4f6d95e36379"
+    },
+    "operation": "OUT",
+    "quantity": 19,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7735c326b82c4ed08a71595d"
+    },
+    "productId": {
+      "$oid": "49ac019b2fad4316ab840261"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 21,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "308622bd9e0849d882d7e76e"
+    },
+    "productId": {
+      "$oid": "a5d37afabc8042449c62881b"
+    },
+    "operation": "IN",
+    "quantity": 8,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5874693d90874bdab54a7092"
+    },
+    "productId": {
+      "$oid": "21262b945baf4b01b04c14c5"
+    },
+    "operation": "RETURN",
+    "quantity": 25,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4904bd64ee1f4b5ba710dd76"
+    },
+    "productId": {
+      "$oid": "568a3e8009ec4fe097e5d48e"
+    },
+    "operation": "OUT",
+    "quantity": 2,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "17f56e6a6bdf41af959737f7"
+    },
+    "productId": {
+      "$oid": "a88494ebe2ed4b04bf0167c7"
+    },
+    "operation": "IN",
+    "quantity": 15,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7a08cc6980ee48138f6e2910"
+    },
+    "productId": {
+      "$oid": "7d430d9e60f8435faa6390ec"
+    },
+    "operation": "RETURN",
+    "quantity": 18,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0c4e7e6bf48141a69dff329c"
+    },
+    "productId": {
+      "$oid": "c10a7fa58a5245409f1dc7ca"
+    },
+    "operation": "OUT",
+    "quantity": 11,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "346c142213ad44458f3ccd57"
+    },
+    "productId": {
+      "$oid": "1121ac31c2b74475925d150a"
+    },
+    "operation": "OUT",
+    "quantity": 5,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "46a2ba2983ec4925893871c9"
+    },
+    "productId": {
+      "$oid": "885c97b089144f509e0bec95"
+    },
+    "operation": "OUT",
+    "quantity": 13,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cd8da9da5cac4a57817b7657"
+    },
+    "productId": {
+      "$oid": "e2cd3ca4cca14a5fb6e3076e"
+    },
+    "operation": "IN",
+    "quantity": 15,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9d282fda019341378c38b186"
+    },
+    "productId": {
+      "$oid": "97b7bc64dcdc41e084db3569"
+    },
+    "operation": "IN",
+    "quantity": 15,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "28263cc89a6e4512a5ab2611"
+    },
+    "productId": {
+      "$oid": "f14048af02a5425c94553a0c"
+    },
+    "operation": "OUT",
+    "quantity": 23,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b89260faf6d746949f0e4578"
+    },
+    "productId": {
+      "$oid": "786f09c0e39243daa991ebdd"
+    },
+    "operation": "RETURN",
+    "quantity": 1,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2fde7928847441449d4d0934"
+    },
+    "productId": {
+      "$oid": "a41f5e8af32e42b1892a32bd"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 16,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5067f679ba6f46428b15a42c"
+    },
+    "productId": {
+      "$oid": "6e87cac4d756484cba8de349"
+    },
+    "operation": "OUT",
+    "quantity": 16,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a29912fe8b74e9fbe44a6a9"
+    },
+    "productId": {
+      "$oid": "4bc34234b4ad40679ee15635"
+    },
+    "operation": "RETURN",
+    "quantity": 13,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dddca7260b2f4cfd82a09f3c"
+    },
+    "productId": {
+      "$oid": "5470cfeac6b7412e89ac7b9c"
+    },
+    "operation": "IN",
+    "quantity": 4,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "288c98ebe15441eda6f9fdf5"
+    },
+    "productId": {
+      "$oid": "7f965a6292164ece945a1e16"
+    },
+    "operation": "RETURN",
+    "quantity": 13,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5fc6e698b88240d3bc48d74e"
+    },
+    "productId": {
+      "$oid": "73921be8fd3f46968f972c4f"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 16,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "821832f1a7244549a1de6cde"
+    },
+    "productId": {
+      "$oid": "e99d9d8afede41f78f6491a2"
+    },
+    "operation": "OUT",
+    "quantity": 1,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0967e2febf354986aff6f14d"
+    },
+    "productId": {
+      "$oid": "f912270b3a4e43969077dfa2"
+    },
+    "operation": "IN",
+    "quantity": 18,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cbdb3bf12aae42faa5658364"
+    },
+    "productId": {
+      "$oid": "094c3496e19a4a9f8c227420"
+    },
+    "operation": "RETURN",
+    "quantity": 17,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "01cfc41ccf064a2a9f1c0a55"
+    },
+    "productId": {
+      "$oid": "4c2b27eb68b34a4d95a1d4de"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 2,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "15102011ef044f60b0855cc9"
+    },
+    "productId": {
+      "$oid": "a7bad006bb214cb8a1625a0c"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 4,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2cc4c67a359749419e8f30d4"
+    },
+    "productId": {
+      "$oid": "5632af3c1ea042e8af721c07"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 25,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e4a21fb9e87c41e9a6a94997"
+    },
+    "productId": {
+      "$oid": "963866dcd122428a887e28ba"
+    },
+    "operation": "IN",
+    "quantity": 12,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7fb4c9724bde4b9783aa2d48"
+    },
+    "productId": {
+      "$oid": "134fb65b9547460e8e43c663"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 20,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "55b1b66a0f584f248cbbc875"
+    },
+    "productId": {
+      "$oid": "c6b8cf95a42f44ee9fc8057c"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 13,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "244bb5a19b2a412d93c79432"
+    },
+    "productId": {
+      "$oid": "b47083f66b344278985d10de"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 15,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3a281e40c5d646749dbb5d55"
+    },
+    "productId": {
+      "$oid": "fc673f3e392748eca312a43f"
+    },
+    "operation": "OUT",
+    "quantity": 18,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d2aadbce97284ca8ad64c3de"
+    },
+    "productId": {
+      "$oid": "d2ee1286b15d4bce8e00fc70"
+    },
+    "operation": "OUT",
+    "quantity": 20,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7eebf4fb660c42b1b3a2da09"
+    },
+    "productId": {
+      "$oid": "635d079a08444b11abb989a3"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 6,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ebfd3d34e1c9440cb4740f9a"
+    },
+    "productId": {
+      "$oid": "4fd7a051c89e455c8ebab03e"
+    },
+    "operation": "OUT",
+    "quantity": 4,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4221d0148bbe428ea57771a2"
+    },
+    "productId": {
+      "$oid": "3b35a83306e34660b47dfa6a"
+    },
+    "operation": "OUT",
+    "quantity": 5,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9a034b6c89d746998fe6e6a6"
+    },
+    "productId": {
+      "$oid": "8cb45361297f4e389ae0b922"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 7,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5e59e1d739e643be8e893e9b"
+    },
+    "productId": {
+      "$oid": "a7b066a264734f1a94a89354"
+    },
+    "operation": "OUT",
+    "quantity": 7,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "84474387f1b74fc29254e5f8"
+    },
+    "productId": {
+      "$oid": "cb5b9261cf304f1794060c73"
+    },
+    "operation": "IN",
+    "quantity": 24,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6e3b374206de47a09a217d40"
+    },
+    "productId": {
+      "$oid": "6add096431a84de19cd0129a"
+    },
+    "operation": "IN",
+    "quantity": 1,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "659412b5d48e4f04aed743d0"
+    },
+    "productId": {
+      "$oid": "3b35a83306e34660b47dfa6a"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 18,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "821b75c540d142158905d361"
+    },
+    "productId": {
+      "$oid": "01ce852523614307b4dbf572"
+    },
+    "operation": "RETURN",
+    "quantity": 14,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "98aa2e6b246f4a24930a5303"
+    },
+    "productId": {
+      "$oid": "ce91a75dead04e228ed64edf"
+    },
+    "operation": "OUT",
+    "quantity": 25,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "48317148e9d14bbc89b71e57"
+    },
+    "productId": {
+      "$oid": "d2ee1286b15d4bce8e00fc70"
+    },
+    "operation": "RETURN",
+    "quantity": 15,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c7fcd534376548fa87dd9232"
+    },
+    "productId": {
+      "$oid": "56f0c6ea1e814c929b45c40d"
+    },
+    "operation": "OUT",
+    "quantity": 24,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9a7eb2c743364007926954e0"
+    },
+    "productId": {
+      "$oid": "7024b3831c7c4cd29f0588eb"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 5,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "07083f735c394302906114b7"
+    },
+    "productId": {
+      "$oid": "ce7cbcab0cb7463482d787d8"
+    },
+    "operation": "IN",
+    "quantity": 11,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2eaf7bed1b5f44fc850a93c9"
+    },
+    "productId": {
+      "$oid": "6d1627931e4648ad8c993b40"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 7,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "593c274a7d32451286cf033d"
+    },
+    "productId": {
+      "$oid": "01ce852523614307b4dbf572"
+    },
+    "operation": "IN",
+    "quantity": 5,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9a0bdf776e5d4f3bae613c3f"
+    },
+    "productId": {
+      "$oid": "1121ac31c2b74475925d150a"
+    },
+    "operation": "OUT",
+    "quantity": 13,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6d6eefef880b42718142abfc"
+    },
+    "productId": {
+      "$oid": "a711efcf3a6042ebb518349a"
+    },
+    "operation": "IN",
+    "quantity": 16,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "27087efab04f4be2a91cb3c8"
+    },
+    "productId": {
+      "$oid": "68ae5f9185e746a7a01ef75b"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 20,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bac9fa483a704d2c91cbc8e2"
+    },
+    "productId": {
+      "$oid": "6dc962ac529a4660a63c4973"
+    },
+    "operation": "OUT",
+    "quantity": 4,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b0bb437f94de4f7394e86a99"
+    },
+    "productId": {
+      "$oid": "48a3049ee51b4e5cac79f5cc"
+    },
+    "operation": "IN",
+    "quantity": 24,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "04c07430f0114a84a2567f81"
+    },
+    "productId": {
+      "$oid": "7242738bc6714e35a6790273"
+    },
+    "operation": "RETURN",
+    "quantity": 4,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2f59d596ea9748dcba0e7dee"
+    },
+    "productId": {
+      "$oid": "a7b066a264734f1a94a89354"
+    },
+    "operation": "IN",
+    "quantity": 10,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "594b746b63d64e9484b955cb"
+    },
+    "productId": {
+      "$oid": "1ab5e956a641471b869071c9"
+    },
+    "operation": "RETURN",
+    "quantity": 16,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1fad7c7373a2442382841402"
+    },
+    "productId": {
+      "$oid": "11a1e83d06d343718edd3330"
+    },
+    "operation": "IN",
+    "quantity": 16,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f51b3314d68a41e490be9cc1"
+    },
+    "productId": {
+      "$oid": "95f70793e5dc47e3b99fc9b9"
+    },
+    "operation": "IN",
+    "quantity": 24,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d7178b391079455795ce69bc"
+    },
+    "productId": {
+      "$oid": "9891c2724ff94b6e9530a1d6"
+    },
+    "operation": "OUT",
+    "quantity": 19,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fde7e75b41da44ea896afc9f"
+    },
+    "productId": {
+      "$oid": "38a656ef17d247b0ad057a64"
+    },
+    "operation": "RETURN",
+    "quantity": 6,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9b72087c9b4e4e8086654efd"
+    },
+    "productId": {
+      "$oid": "d4aabf69441f423d834c5544"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 16,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a3a360e618ed451a82e18e41"
+    },
+    "productId": {
+      "$oid": "fb63e2b98d5144198e0994bb"
+    },
+    "operation": "OUT",
+    "quantity": 9,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3dbcabf0516e4930b177405e"
+    },
+    "productId": {
+      "$oid": "0a91816509d74dd7a2e1f370"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 19,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ba4c4a6648164895973faad1"
+    },
+    "productId": {
+      "$oid": "ff97efa4b3c0409093d515b1"
+    },
+    "operation": "IN",
+    "quantity": 16,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1aaa65825df5438095206f8e"
+    },
+    "productId": {
+      "$oid": "292fd38572314ea48c12194f"
+    },
+    "operation": "OUT",
+    "quantity": 9,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "326a6c68910c43a6bdfb68ac"
+    },
+    "productId": {
+      "$oid": "4a58c17511214f27a6752605"
+    },
+    "operation": "IN",
+    "quantity": 17,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "76728be9b0554b978c52d6c7"
+    },
+    "productId": {
+      "$oid": "3ec693686b63493c956ff0c4"
+    },
+    "operation": "IN",
+    "quantity": 7,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "46b75ce96eb64e55b6d85016"
+    },
+    "productId": {
+      "$oid": "d4aabf69441f423d834c5544"
+    },
+    "operation": "RETURN",
+    "quantity": 11,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1df4312acf3d4fc98f2d7653"
+    },
+    "productId": {
+      "$oid": "82c2e0984b0c479b968ab66e"
+    },
+    "operation": "OUT",
+    "quantity": 14,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "19fe9d14479d487084ec1d3c"
+    },
+    "productId": {
+      "$oid": "6d1627931e4648ad8c993b40"
+    },
+    "operation": "OUT",
+    "quantity": 17,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9327f8674df94a2da592a14c"
+    },
+    "productId": {
+      "$oid": "6cb86e63174d4bbcbc959177"
+    },
+    "operation": "IN",
+    "quantity": 3,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b124bab4537444c7b9b9572c"
+    },
+    "productId": {
+      "$oid": "705964f882ab45f3833e1447"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 23,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "40b4588026974e958e8c3698"
+    },
+    "productId": {
+      "$oid": "d4f37b593fbc4baca12cee2b"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 8,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0574215b6ae849569241553b"
+    },
+    "productId": {
+      "$oid": "4e9798b65f9244b08a923ae9"
+    },
+    "operation": "IN",
+    "quantity": 21,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "af316ea7872442b3bde7ce77"
+    },
+    "productId": {
+      "$oid": "56f0c6ea1e814c929b45c40d"
+    },
+    "operation": "RETURN",
+    "quantity": 4,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cd671b38bd8f44a4b80d7cdf"
+    },
+    "productId": {
+      "$oid": "2fae22467c97472c8520181f"
+    },
+    "operation": "RETURN",
+    "quantity": 2,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "88595a6ede134268b825b19a"
+    },
+    "productId": {
+      "$oid": "1ce80b38fee34bbbac437d1c"
+    },
+    "operation": "RETURN",
+    "quantity": 12,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f01690a4d23c4461a69f4224"
+    },
+    "productId": {
+      "$oid": "00011871a6d942289ea3c8bf"
+    },
+    "operation": "RETURN",
+    "quantity": 2,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f6efe1b70be6416eba400776"
+    },
+    "productId": {
+      "$oid": "41302a1ff56541648ffe26f4"
+    },
+    "operation": "IN",
+    "quantity": 21,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d469a13770ad48bb9ecb2ef7"
+    },
+    "productId": {
+      "$oid": "fb8de66937ab48f7b15b67cc"
+    },
+    "operation": "RETURN",
+    "quantity": 23,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eaac8d1b44d9433ea968e333"
+    },
+    "productId": {
+      "$oid": "97a32abfc0bf49679722b8fc"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 3,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0a57098e257d417b81b6bdd9"
+    },
+    "productId": {
+      "$oid": "cf317ecfc42649e1a73300eb"
+    },
+    "operation": "RETURN",
+    "quantity": 11,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6b6d47de01824530bac23340"
+    },
+    "productId": {
+      "$oid": "5dda15b3a4ae4272bb87e51d"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 18,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "067b80b9afe4498c9614956c"
+    },
+    "productId": {
+      "$oid": "8df2cb2543844a0a8079cb28"
+    },
+    "operation": "RETURN",
+    "quantity": 11,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1d7aa30f85ee4d36a468d0be"
+    },
+    "productId": {
+      "$oid": "080a3a186c5b4e1096c1596e"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 17,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "771fd161441d40169df57c24"
+    },
+    "productId": {
+      "$oid": "5c48f20011a84e20b97e6862"
+    },
+    "operation": "OUT",
+    "quantity": 10,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6d1c98ec766a4472acd82e26"
+    },
+    "productId": {
+      "$oid": "6add096431a84de19cd0129a"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 7,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f0f3222c344e413bad197b6e"
+    },
+    "productId": {
+      "$oid": "eb2fa730a5e14965aab69858"
+    },
+    "operation": "IN",
+    "quantity": 23,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eeaa4dab489a43f999cacac0"
+    },
+    "productId": {
+      "$oid": "3aee74e2d26d48ebaf2823fc"
+    },
+    "operation": "RETURN",
+    "quantity": 24,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e887438d5127470c964e12ab"
+    },
+    "productId": {
+      "$oid": "df6f39abaca4423495c4bb65"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 22,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fc41291fba374c43be4d1d77"
+    },
+    "productId": {
+      "$oid": "a190368aba0043e99a8f6ce4"
+    },
+    "operation": "RETURN",
+    "quantity": 18,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "acaad54a132d4cf887d041c8"
+    },
+    "productId": {
+      "$oid": "be20a95cecd9410cbd5aabd1"
+    },
+    "operation": "RETURN",
+    "quantity": 1,
+    "reason": "Stock Correction",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bba7e0b2df074582a55ffde3"
+    },
+    "productId": {
+      "$oid": "05c096a5dd584230be1e7205"
+    },
+    "operation": "RETURN",
+    "quantity": 15,
+    "reason": "Supplier Return",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e22417e66aa0443d850eff59"
+    },
+    "productId": {
+      "$oid": "2994e916f18d455cadf8bb95"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 23,
+    "reason": "Purchase",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e04843a0dc1944269aac4849"
+    },
+    "productId": {
+      "$oid": "ce7cbcab0cb7463482d787d8"
+    },
+    "operation": "OUT",
+    "quantity": 2,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b2b0a15d12d94eee964e9b3a"
+    },
+    "productId": {
+      "$oid": "a3f4c998fa604308b39f88ef"
+    },
+    "operation": "ADJUSTMENT",
+    "quantity": 2,
+    "reason": "Customer Order",
+    "createdAt": {
+      "$date": "2025-05-10T08:00:00Z"
+    }
+  }
+]

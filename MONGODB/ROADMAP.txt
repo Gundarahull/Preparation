@@ -1,0 +1,459 @@
+Awesome! That's exactly how a senior engineer approaches learning.
+
+Before writing code, we first build the **mental map** of the technology. Once you know where every concept fits, learning becomes much easier.
+
+Since our target is **Product Companies (Motorola, PayPal, Sony, Atlassian, Adobe, Microsoft, Amazon, etc.)**, this won't be a typical MongoDB course. It will be a **Backend Engineering + Production Architecture + Interview Mastery** roadmap.
+
+---
+
+# MongoDB Zero → Hero Roadmap
+
+## Backend Architecture | Node.js | Product Company Interviews
+
+```text
+                 MongoDB Mastery
+                        │
+ ┌──────────────────────┼────────────────────────┐
+ │                      │                        │
+ Fundamentals      Query Engine          Production Systems
+ │                      │                        │
+ CRUD            Aggregation          Scaling & Architecture
+                        │
+                 Performance Engineering
+```
+
+This roadmap has **4 Stages**, **18 Modules**, and **90+ interview topics**.
+
+---
+
+# Stage 1 — Core Fundamentals & CRUD
+
+> Goal: Understand how MongoDB thinks and build CRUD APIs confidently.
+
+## Module 1 — Introduction to NoSQL
+
+* Why NoSQL?
+* Evolution of databases
+* SQL vs NoSQL
+* CAP Theorem (Interview level)
+* ACID vs BASE
+* When MongoDB should NOT be used
+* Real-world companies using MongoDB
+
+---
+
+## Module 2 — MongoDB Architecture Basics
+
+* Database
+* Collection
+* Document
+* BSON
+* ObjectId internals
+* Data Types
+* Dynamic Schema
+* Namespace
+* Storage Engine (Introduction)
+
+---
+
+## Module 3 — MongoDB Installation & Shell
+
+* Local Installation
+* Compass
+* Atlas
+* mongosh
+* Database Operations
+* Collection Operations
+
+---
+
+## Module 4 — CRUD Deep Dive
+
+* Insert
+* Find
+* Update
+* Delete
+* Bulk Operations
+* Upsert
+* Return Documents
+* Write Acknowledgement
+
+---
+
+## Module 5 — Mongoose vs Native Driver
+
+* MongoDB Driver
+* Mongoose ODM
+* Schema
+* Models
+* Validation
+* Middleware
+* Virtuals
+* Plugins
+* Lean Queries (Introduction)
+
+---
+
+## Module 6 — Data Modeling
+
+This is one of the most important modules.
+
+* Embedding
+* Referencing
+* One-to-One
+* One-to-Many
+* Many-to-Many
+* Schema Design
+* Bucket Pattern
+* Attribute Pattern
+* Subset Pattern
+* Extended Reference Pattern
+* Polymorphic Pattern
+* Anti-Patterns
+
+---
+
+## Module 7 — Production CRUD APIs
+
+* Express Integration
+* Repository Pattern
+* Service Layer
+* Validation
+* Error Handling
+* API Design
+* Soft Delete
+* Pagination (Introduction)
+
+---
+
+# Stage 2 — Query Engine & Aggregation Framework
+
+> Goal: Learn how MongoDB executes complex queries and build analytical APIs.
+
+## Module 8 — Query Language
+
+* Comparison Operators
+* Logical Operators
+* Element Operators
+* Evaluation Operators
+* Array Operators
+* Bitwise Operators
+* Regex
+* Projection
+* Cursor
+* Sorting
+* Skip
+* Limit
+
+---
+
+## Module 9 — Update Operators
+
+* $set
+* $unset
+* $push
+* $pull
+* $inc
+* $rename
+* Positional Operators
+* Array Filters
+
+---
+
+## Module 10 — Aggregation Framework (Core)
+
+* Why Aggregation?
+* Pipeline Architecture
+## Module 11 — Aggregation Stages
+
+We'll master every major stage:
+
+* $match
+* $project
+* $group
+* $sort
+* $limit
+* $skip
+* $count
+* $lookup
+* $facet
+* $bucket
+* $bucketAuto
+* $unwind
+* $replaceRoot
+* $graphLookup
+* $unionWith
+* $merge
+* $out
+* $setWindowFields
+
+
+
+* Pipeline Optimization
+* Stage Ordering
+* Streaming vs Blocking Stages
+
+---
+
+## Module 11 — Aggregation Stages
+
+We'll master every major stage:
+
+* $match
+* $project
+* $group
+* $sort
+* $limit
+* $skip
+* $count
+* $lookup
+* $facet
+* $bucket
+* $bucketAuto
+* $unwind
+* $replaceRoot
+* $graphLookup
+* $unionWith
+* $merge
+* $out
+* $setWindowFields
+
+---
+
+## Module 12 — Real Production Aggregations
+
+Examples like:
+
+* Dashboard
+* Sales Report
+* Revenue Analytics
+* Inventory Report
+* User Activity
+* Product Recommendation
+* Social Media Feed
+* Order Analytics
+
+---
+
+# Stage 3 — Performance Engineering & Scaling
+
+> Goal: Think like a database performance engineer.
+
+## Module 13 — Indexing
+
+* B-Tree Internals
+* Single Index
+* Compound Index
+* Multikey
+* Text Index
+* Hashed Index
+* Geospatial Index
+* TTL Index
+* Partial Index
+* Sparse Index
+* Wildcard Index
+* Covered Query
+
+---
+
+## Module 14 — Query Optimization
+
+* Explain()
+* Query Planner
+* Winning Plan
+* Collection Scan
+* Index Scan
+* Sort Optimization
+* Projection Optimization
+* Aggregation Optimization
+
+---
+
+## Module 15 — Replication
+
+* Replica Sets
+* Primary
+* Secondary
+* Oplog
+* Elections
+* Read Preference
+* Write Concern
+* Read Concern
+* Failover
+* Rollback
+
+---
+
+## Module 16 — Sharding
+
+* Why Sharding?
+* Config Servers
+* Mongos
+* Chunk
+* Balancer
+* Chunk Migration
+* Shard Keys
+* Hashed vs Ranged Sharding
+* Hotspot Problems
+* Resharding
+
+---
+
+## Module 17 — Performance in Node.js
+
+* Connection Pooling
+* Pool Size
+* Retryable Writes
+* Read Preference
+* Transactions Performance
+* Bulk Writes
+* Batch Processing
+* Caching
+* Redis Integration
+
+---
+
+# Stage 4 — Production Architecture
+
+> Goal: Build enterprise-grade MongoDB systems.
+
+## Module 18 — Enterprise MongoDB
+
+### Security
+
+* Authentication
+* Authorization
+* RBAC
+* SCRAM
+* TLS
+* Encryption at Rest
+* Field Level Encryption
+
+---
+
+### Transactions
+
+* ACID
+* Sessions
+* Distributed Transactions
+* Retry Logic
+
+---
+
+### Validation
+
+* JSON Schema Validation
+* Mongoose Validation
+* Custom Validators
+
+---
+
+### Backup & Recovery
+
+* mongodump
+* mongorestore
+* Atlas Backup
+* Point-in-Time Recovery
+* Disaster Recovery
+
+---
+
+### Monitoring
+
+* Slow Query Logs
+* Atlas Metrics
+* Performance Advisor
+* Database Profiler
+
+---
+
+### Production Deployment
+
+* Docker
+* Kubernetes
+* Atlas
+* CI/CD
+* Environment Configuration
+* Secrets Management
+
+---
+
+### Change Streams
+
+* Event-driven architecture
+* Real-time notifications
+* Microservices integration
+
+---
+
+### Production Folder Structure
+
+* Models
+* Repositories
+* Services
+* Controllers
+* DTOs
+* Validation
+* Config
+* Database Layer
+
+---
+
+# Final Interview Preparation
+
+After completing all four stages, we'll have a dedicated interview-focused phase covering:
+
+### FAANG / Product Company Questions
+
+* 100+ MongoDB interview questions (basic to advanced)
+* MongoDB system design scenarios
+* Data modeling case studies
+* Query optimization challenges
+* Debugging slow queries
+* Whiteboard schema design
+* Node.js + MongoDB integration questions
+
+### Hands-on Projects
+
+We'll build production-style backend modules such as:
+
+* E-commerce backend
+* Chat application
+* Food delivery service
+* Banking transaction service
+* Inventory management system
+* Social media backend
+
+---
+
+# Learning Methodology
+
+Every module will follow the same disciplined pattern:
+
+```text
+1. Theory (High-density, concise)
+        ↓
+2. Internal Working (How MongoDB actually works)
+        ↓
+3. SQL Comparison (Reconnect with your current expertise)
+        ↓
+4. Node.js / Mongoose Implementation
+        ↓
+5. Production Best Practices
+        ↓
+6. Common Mistakes & Anti-patterns
+        ↓
+7. Performance Considerations
+        ↓
+8. FAANG / Product Interview Questions
+        ↓
+9. Real-world Coding Exercises
+        ↓
+10. Code Review & Feedback
+```
+
+## One enhancement I'd like to add
+
+Given your background and goals, I'd also include a **Stage 0 — Database Mindset Reset** before Stage 1. Since you've been working heavily with SQL for the past seven months, this short stage will bridge the relational mindset to MongoDB. It will cover topics like **why joins are expensive in distributed systems, how document databases change schema design, when normalization helps versus hurts, and why MongoDB encourages different modeling decisions**.
+
+I believe this will make the rest of the roadmap much more intuitive because you'll understand not just *how* MongoDB differs from SQL, but *why* those differences exist from a system design perspective.

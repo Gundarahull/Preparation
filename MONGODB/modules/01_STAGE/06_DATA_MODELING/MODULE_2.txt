@@ -1,0 +1,70 @@
+JSON cant store dates, decimals, binaries
+so we mongodb  uses BSON
+
+
+Senior Backend Interview Questions
+Q1
+
+Why does MongoDB use BSON instead of JSON?
+
+Q2
+
+Why are documents better than rows for user profile data?
+
+Q3
+
+A collection contains documents with different fields. Is MongoDB schema-less? Why or why not?
+
+(This is a trap question. Most developers answer it incorrectly.)
+
+
+Q1
+
+Why doesn't MongoDB use auto-increment IDs by default?
+
+Q2
+
+Why is ObjectId better suited for distributed systems than an auto-increment integer?
+
+Q3
+
+Can two MongoDB servers generate the same ObjectId? Why or why not?
+
+Q4 (Senior-Level)
+
+Suppose you're designing a payment system.
+
+Would you expose MongoDB's ObjectId directly in your public REST APIs?
+
+Or would you generate your own business IDs (like PAY-2026-000123)?
+
+Why?
+
+Think about security, user experience, integrations, and business requirements.
+
+
+===COMPLETE BSON FAMILY+=====================
+
+String
+
+Boolean
+
+Date
+
+Object
+
+Array
+
+ObjectId
+
+Null
+
+Binary
+
+Decimal128
+
+Int32
+
+Int64
+
+Double

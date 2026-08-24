@@ -1,0 +1,2202 @@
+[
+  {
+    "_id": {
+      "$oid": "a146b0fca0fc40328c8a5638"
+    },
+    "firstName": "Kiran",
+    "lastName": "Kumar",
+    "email": "kiran.kumar0@gmail.com",
+    "phone": "9218881444",
+    "city": "Mumbai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Delhi",
+        "country": "India",
+        "pincode": 554557
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "940c08d053d64285a1214fff"
+    },
+    "firstName": "Amit",
+    "lastName": "Shaik",
+    "email": "amit.shaik1@gmail.com",
+    "phone": "9687806720",
+    "city": "Ahmedabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 500721
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7553acd47237422598017dc7"
+    },
+    "firstName": "Kiran",
+    "lastName": "Sharma",
+    "email": "kiran.sharma2@gmail.com",
+    "phone": "9402864381",
+    "city": "Ahmedabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 529911
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e8b6eb2d14b541c491710c5b"
+    },
+    "firstName": "Rahul",
+    "lastName": "Nair",
+    "email": "rahul.nair3@gmail.com",
+    "phone": "9317092308",
+    "city": "Hyderabad",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 541825
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e53223dd5c144036b7f409ec"
+    },
+    "firstName": "Kiran",
+    "lastName": "Kumar",
+    "email": "kiran.kumar4@gmail.com",
+    "phone": "9662791008",
+    "city": "Pune",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 516535
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9700b1c5ad6b46c38df55889"
+    },
+    "firstName": "Ananya",
+    "lastName": "Kumar",
+    "email": "ananya.kumar5@gmail.com",
+    "phone": "9679334982",
+    "city": "Mumbai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 507323
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0cd23b2b13804e0ea7e6d4c0"
+    },
+    "firstName": "Arjun",
+    "lastName": "Gupta",
+    "email": "arjun.gupta6@gmail.com",
+    "phone": "9158280643",
+    "city": "Pune",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 538713
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "172db0b26ebe444eb76c8d61"
+    },
+    "firstName": "Rohit",
+    "lastName": "Kumar",
+    "email": "rohit.kumar7@gmail.com",
+    "phone": "9817730486",
+    "city": "Kolkata",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Mumbai",
+        "country": "India",
+        "pincode": 530477
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "864ba41ae13b454abd372518"
+    },
+    "firstName": "Arjun",
+    "lastName": "Gupta",
+    "email": "arjun.gupta8@gmail.com",
+    "phone": "9504529883",
+    "city": "Hyderabad",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 539051
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9cdbd3eb1f2843589489e029"
+    },
+    "firstName": "Sneha",
+    "lastName": "Gupta",
+    "email": "sneha.gupta9@gmail.com",
+    "phone": "9980742318",
+    "city": "Delhi",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 535037
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5e8dad4b56844981981fd253"
+    },
+    "firstName": "Ananya",
+    "lastName": "Sharma",
+    "email": "ananya.sharma10@gmail.com",
+    "phone": "9180099804",
+    "city": "Kolkata",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 538638
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8eb6b79c47ab4ce18625fbf8"
+    },
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "email": "rahul.gupta11@gmail.com",
+    "phone": "9311069463",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 538805
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "921d91b633154acaa37ffd01"
+    },
+    "firstName": "Amit",
+    "lastName": "Singh",
+    "email": "amit.singh12@gmail.com",
+    "phone": "9681226682",
+    "city": "Chennai",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 536069
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c02aebac54fb4e3db469e033"
+    },
+    "firstName": "Vijay",
+    "lastName": "Singh",
+    "email": "vijay.singh13@gmail.com",
+    "phone": "9136510729",
+    "city": "Hyderabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 544008
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3eb2586b9bd44162ad4b7fec"
+    },
+    "firstName": "Priya",
+    "lastName": "Nair",
+    "email": "priya.nair14@gmail.com",
+    "phone": "9888120869",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 511581
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bb08ee9030f84d6486fae076"
+    },
+    "firstName": "Rahul",
+    "lastName": "Das",
+    "email": "rahul.das15@gmail.com",
+    "phone": "9774241124",
+    "city": "Bengaluru",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Hyderabad",
+        "country": "India",
+        "pincode": 553210
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "29cf66c70408430d9b370a86"
+    },
+    "firstName": "Sneha",
+    "lastName": "Das",
+    "email": "sneha.das16@gmail.com",
+    "phone": "9436113573",
+    "city": "Ahmedabad",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 513753
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "95681080825e4455b1f0ead6"
+    },
+    "firstName": "Arjun",
+    "lastName": "Das",
+    "email": "arjun.das17@gmail.com",
+    "phone": "9386363994",
+    "city": "Hyderabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Bengaluru",
+        "country": "India",
+        "pincode": 543350
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "94167e632ae84aee85363faa"
+    },
+    "firstName": "Kiran",
+    "lastName": "Gupta",
+    "email": "kiran.gupta18@gmail.com",
+    "phone": "9862926247",
+    "city": "Bengaluru",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 545042
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a0c4f53f6d194e7a959391f9"
+    },
+    "firstName": "Kiran",
+    "lastName": "Reddy",
+    "email": "kiran.reddy19@gmail.com",
+    "phone": "9701050465",
+    "city": "Pune",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 542828
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "95d3fe2a85224aac91bd3623"
+    },
+    "firstName": "Amit",
+    "lastName": "Joshi",
+    "email": "amit.joshi20@gmail.com",
+    "phone": "9620026775",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Hyderabad",
+        "country": "India",
+        "pincode": 556260
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6eac6c92b5214aaf86dea5a2"
+    },
+    "firstName": "Ananya",
+    "lastName": "Nair",
+    "email": "ananya.nair21@gmail.com",
+    "phone": "9627410027",
+    "city": "Mumbai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Bengaluru",
+        "country": "India",
+        "pincode": 513685
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "927d3160634f4fd2b4315b6d"
+    },
+    "firstName": "Priya",
+    "lastName": "Reddy",
+    "email": "priya.reddy22@gmail.com",
+    "phone": "9894472778",
+    "city": "Mumbai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Mumbai",
+        "country": "India",
+        "pincode": 528896
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "db39bfb9351644d9bb33ac28"
+    },
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "email": "rahul.gupta23@gmail.com",
+    "phone": "9481366250",
+    "city": "Mumbai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Delhi",
+        "country": "India",
+        "pincode": 521160
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fae5c4182a6c455d9cae723e"
+    },
+    "firstName": "Kiran",
+    "lastName": "Shaik",
+    "email": "kiran.shaik24@gmail.com",
+    "phone": "9365783720",
+    "city": "Kolkata",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Bengaluru",
+        "country": "India",
+        "pincode": 508308
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fd73f8fba895446a86855108"
+    },
+    "firstName": "Neha",
+    "lastName": "Reddy",
+    "email": "neha.reddy25@gmail.com",
+    "phone": "9283216812",
+    "city": "Pune",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 519431
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "df54b3dc487b4455b5ec0df6"
+    },
+    "firstName": "Vijay",
+    "lastName": "Patel",
+    "email": "vijay.patel26@gmail.com",
+    "phone": "9175778370",
+    "city": "Chennai",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Delhi",
+        "country": "India",
+        "pincode": 539565
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "583251fb21fb43eab1f5b513"
+    },
+    "firstName": "Sneha",
+    "lastName": "Kumar",
+    "email": "sneha.kumar27@gmail.com",
+    "phone": "9418511679",
+    "city": "Kolkata",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 523947
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dc647a4d628c469ca6201500"
+    },
+    "firstName": "Priya",
+    "lastName": "Joshi",
+    "email": "priya.joshi28@gmail.com",
+    "phone": "9945759708",
+    "city": "Ahmedabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 506388
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1099005148a846c8adc44d75"
+    },
+    "firstName": "Neha",
+    "lastName": "Gupta",
+    "email": "neha.gupta29@gmail.com",
+    "phone": "9137179725",
+    "city": "Hyderabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Bengaluru",
+        "country": "India",
+        "pincode": 529162
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "215ffbce3acd4e8487430186"
+    },
+    "firstName": "Kiran",
+    "lastName": "Singh",
+    "email": "kiran.singh30@gmail.com",
+    "phone": "9167196528",
+    "city": "Kolkata",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 504299
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e181c443ab814eec9c260d13"
+    },
+    "firstName": "Vijay",
+    "lastName": "Shaik",
+    "email": "vijay.shaik31@gmail.com",
+    "phone": "9279333578",
+    "city": "Pune",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Bengaluru",
+        "country": "India",
+        "pincode": 509818
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9b6a72460fe1473c8f6077c8"
+    },
+    "firstName": "Priya",
+    "lastName": "Das",
+    "email": "priya.das32@gmail.com",
+    "phone": "9302466429",
+    "city": "Kolkata",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 526664
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8b8c063df534422fa5395339"
+    },
+    "firstName": "Rohit",
+    "lastName": "Patel",
+    "email": "rohit.patel33@gmail.com",
+    "phone": "9789647847",
+    "city": "Ahmedabad",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Mumbai",
+        "country": "India",
+        "pincode": 508235
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ec95227057214f96aeade326"
+    },
+    "firstName": "Kiran",
+    "lastName": "Sharma",
+    "email": "kiran.sharma34@gmail.com",
+    "phone": "9683616143",
+    "city": "Delhi",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Delhi",
+        "country": "India",
+        "pincode": 556832
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c725741e7ebb4312b8329df4"
+    },
+    "firstName": "Sneha",
+    "lastName": "Kumar",
+    "email": "sneha.kumar35@gmail.com",
+    "phone": "9639773701",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 532887
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "51442e8efdd042b4ab2b1866"
+    },
+    "firstName": "Ananya",
+    "lastName": "Nair",
+    "email": "ananya.nair36@gmail.com",
+    "phone": "9464666567",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Mumbai",
+        "country": "India",
+        "pincode": 500818
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b2c28d0720a8413080d33fa9"
+    },
+    "firstName": "Kiran",
+    "lastName": "Reddy",
+    "email": "kiran.reddy37@gmail.com",
+    "phone": "9484274402",
+    "city": "Ahmedabad",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Delhi",
+        "country": "India",
+        "pincode": 510016
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e7271b1b8a8c485fba9eabb8"
+    },
+    "firstName": "Ananya",
+    "lastName": "Kumar",
+    "email": "ananya.kumar38@gmail.com",
+    "phone": "9362961302",
+    "city": "Bengaluru",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Mumbai",
+        "country": "India",
+        "pincode": 532254
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ece07e1152b24fa996ee0855"
+    },
+    "firstName": "Ananya",
+    "lastName": "Joshi",
+    "email": "ananya.joshi39@gmail.com",
+    "phone": "9553730852",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 500148
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "33055fdf6ce34c0eb659992d"
+    },
+    "firstName": "Arjun",
+    "lastName": "Das",
+    "email": "arjun.das40@gmail.com",
+    "phone": "9552731741",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 537911
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ba333861dcec497988d35130"
+    },
+    "firstName": "Ananya",
+    "lastName": "Das",
+    "email": "ananya.das41@gmail.com",
+    "phone": "9743732119",
+    "city": "Pune",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Pune",
+        "country": "India",
+        "pincode": 557969
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e8595cd571e14b558a3886ae"
+    },
+    "firstName": "Rohit",
+    "lastName": "Kumar",
+    "email": "rohit.kumar42@gmail.com",
+    "phone": "9514198153",
+    "city": "Delhi",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Mumbai",
+        "country": "India",
+        "pincode": 500736
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "39a3b273429748b7a1812534"
+    },
+    "firstName": "Priya",
+    "lastName": "Kumar",
+    "email": "priya.kumar43@gmail.com",
+    "phone": "9499049568",
+    "city": "Pune",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Delhi",
+        "country": "India",
+        "pincode": 526529
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7ec97f85af3c4f72afed2760"
+    },
+    "firstName": "Amit",
+    "lastName": "Gupta",
+    "email": "amit.gupta44@gmail.com",
+    "phone": "9112474643",
+    "city": "Kolkata",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Bengaluru",
+        "country": "India",
+        "pincode": 505236
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8b45d81771824e04b4f82ee0"
+    },
+    "firstName": "Priya",
+    "lastName": "Sharma",
+    "email": "priya.sharma45@gmail.com",
+    "phone": "9744095719",
+    "city": "Ahmedabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Delhi",
+        "country": "India",
+        "pincode": 508856
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8ed23645f92143e08435aada"
+    },
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "email": "rahul.gupta46@gmail.com",
+    "phone": "9217174297",
+    "city": "Pune",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 527337
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "baf03a3bcde14aecbf25b528"
+    },
+    "firstName": "Rahul",
+    "lastName": "Patel",
+    "email": "rahul.patel47@gmail.com",
+    "phone": "9802205531",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Delhi",
+        "country": "India",
+        "pincode": 516698
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "af6bb5f44c5643d4aae1a991"
+    },
+    "firstName": "Kiran",
+    "lastName": "Sharma",
+    "email": "kiran.sharma48@gmail.com",
+    "phone": "9719446663",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Delhi",
+        "country": "India",
+        "pincode": 500408
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f40b0cbd2ebf458e88b4b469"
+    },
+    "firstName": "Vijay",
+    "lastName": "Sharma",
+    "email": "vijay.sharma49@gmail.com",
+    "phone": "9148859477",
+    "city": "Bengaluru",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 520514
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d21b039a64724d2b90a3fa1f"
+    },
+    "firstName": "Amit",
+    "lastName": "Sharma",
+    "email": "amit.sharma50@gmail.com",
+    "phone": "9712585505",
+    "city": "Ahmedabad",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Pune",
+        "country": "India",
+        "pincode": 513296
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0ffc65f8577948afaf1a986b"
+    },
+    "firstName": "Arjun",
+    "lastName": "Shaik",
+    "email": "arjun.shaik51@gmail.com",
+    "phone": "9585742180",
+    "city": "Pune",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Hyderabad",
+        "country": "India",
+        "pincode": 546158
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0af79404ad98486d9236e9cc"
+    },
+    "firstName": "Amit",
+    "lastName": "Kumar",
+    "email": "amit.kumar52@gmail.com",
+    "phone": "9389343546",
+    "city": "Hyderabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Hyderabad",
+        "country": "India",
+        "pincode": 506616
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0a5621691874430ea4270648"
+    },
+    "firstName": "Sneha",
+    "lastName": "Patel",
+    "email": "sneha.patel53@gmail.com",
+    "phone": "9499357228",
+    "city": "Ahmedabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Delhi",
+        "country": "India",
+        "pincode": 558284
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c446f5d195804800ac0b61bc"
+    },
+    "firstName": "Amit",
+    "lastName": "Kumar",
+    "email": "amit.kumar54@gmail.com",
+    "phone": "9863966017",
+    "city": "Bengaluru",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 536568
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "483a7dbbea104b91870bcad6"
+    },
+    "firstName": "Priya",
+    "lastName": "Kumar",
+    "email": "priya.kumar55@gmail.com",
+    "phone": "9643128830",
+    "city": "Mumbai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 541563
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1f908373035642be9cfb09a0"
+    },
+    "firstName": "Rohit",
+    "lastName": "Nair",
+    "email": "rohit.nair56@gmail.com",
+    "phone": "9142850386",
+    "city": "Hyderabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 549082
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b6fbb3600cf744a881a63e0a"
+    },
+    "firstName": "Vijay",
+    "lastName": "Nair",
+    "email": "vijay.nair57@gmail.com",
+    "phone": "9867570453",
+    "city": "Bengaluru",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 550642
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67a87ce0a4a74145b1951146"
+    },
+    "firstName": "Vijay",
+    "lastName": "Joshi",
+    "email": "vijay.joshi58@gmail.com",
+    "phone": "9578866881",
+    "city": "Delhi",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 523400
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c7bd0a8f7839498580363700"
+    },
+    "firstName": "Neha",
+    "lastName": "Kumar",
+    "email": "neha.kumar59@gmail.com",
+    "phone": "9109351541",
+    "city": "Ahmedabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Pune",
+        "country": "India",
+        "pincode": 515255
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0ac6e08fd16a4052b06403a6"
+    },
+    "firstName": "Arjun",
+    "lastName": "Shaik",
+    "email": "arjun.shaik60@gmail.com",
+    "phone": "9191802957",
+    "city": "Pune",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Bengaluru",
+        "country": "India",
+        "pincode": 553319
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d40f34ee37074aaf91997a03"
+    },
+    "firstName": "Kiran",
+    "lastName": "Patel",
+    "email": "kiran.patel61@gmail.com",
+    "phone": "9914964691",
+    "city": "Pune",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Mumbai",
+        "country": "India",
+        "pincode": 515524
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4dde90bd10c44a619829c0fe"
+    },
+    "firstName": "Priya",
+    "lastName": "Reddy",
+    "email": "priya.reddy62@gmail.com",
+    "phone": "9532282204",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Mumbai",
+        "country": "India",
+        "pincode": 502930
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a6fdb9a3082c4f48ae672819"
+    },
+    "firstName": "Rohit",
+    "lastName": "Sharma",
+    "email": "rohit.sharma63@gmail.com",
+    "phone": "9305377693",
+    "city": "Pune",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Mumbai",
+        "country": "India",
+        "pincode": 519730
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5e8984e1d6bf4f3abce782d2"
+    },
+    "firstName": "Priya",
+    "lastName": "Sharma",
+    "email": "priya.sharma64@gmail.com",
+    "phone": "9593833359",
+    "city": "Pune",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Pune",
+        "country": "India",
+        "pincode": 518649
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "028ac122dd5c429fa5ee278d"
+    },
+    "firstName": "Neha",
+    "lastName": "Das",
+    "email": "neha.das65@gmail.com",
+    "phone": "9986071132",
+    "city": "Mumbai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 512803
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b3b2bd3960924a2a8bd90372"
+    },
+    "firstName": "Rahul",
+    "lastName": "Patel",
+    "email": "rahul.patel66@gmail.com",
+    "phone": "9182797762",
+    "city": "Kolkata",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Mumbai",
+        "country": "India",
+        "pincode": 534601
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "962ce17efce1412499a5e5bb"
+    },
+    "firstName": "Neha",
+    "lastName": "Shaik",
+    "email": "neha.shaik67@gmail.com",
+    "phone": "9977773241",
+    "city": "Pune",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 502122
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4e3053ddfb504ad3ad36622f"
+    },
+    "firstName": "Sneha",
+    "lastName": "Singh",
+    "email": "sneha.singh68@gmail.com",
+    "phone": "9637801778",
+    "city": "Bengaluru",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Hyderabad",
+        "country": "India",
+        "pincode": 542798
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "986e670c7fdc4850a68da6c1"
+    },
+    "firstName": "Ananya",
+    "lastName": "Nair",
+    "email": "ananya.nair69@gmail.com",
+    "phone": "9482583441",
+    "city": "Bengaluru",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 558098
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "288383949d5b4602bb64760d"
+    },
+    "firstName": "Kiran",
+    "lastName": "Das",
+    "email": "kiran.das70@gmail.com",
+    "phone": "9951138704",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Bengaluru",
+        "country": "India",
+        "pincode": 518571
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7166d633150e4a03ba232ee0"
+    },
+    "firstName": "Rahul",
+    "lastName": "Kumar",
+    "email": "rahul.kumar71@gmail.com",
+    "phone": "9744708074",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Hyderabad",
+        "country": "India",
+        "pincode": 539833
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8d6349d8e1524a6f937ca40b"
+    },
+    "firstName": "Sneha",
+    "lastName": "Singh",
+    "email": "sneha.singh72@gmail.com",
+    "phone": "9135287705",
+    "city": "Chennai",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 501515
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "52ee823af91b43c2b53d3aeb"
+    },
+    "firstName": "Arjun",
+    "lastName": "Sharma",
+    "email": "arjun.sharma73@gmail.com",
+    "phone": "9274978270",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 513837
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "836e44147b754333b835881f"
+    },
+    "firstName": "Rahul",
+    "lastName": "Patel",
+    "email": "rahul.patel74@gmail.com",
+    "phone": "9987897337",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 549097
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e9829421a15e465e91b5f09f"
+    },
+    "firstName": "Ananya",
+    "lastName": "Patel",
+    "email": "ananya.patel75@gmail.com",
+    "phone": "9697252851",
+    "city": "Mumbai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Bengaluru",
+        "country": "India",
+        "pincode": 516057
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1d14d4ca83b04bdd96b32d69"
+    },
+    "firstName": "Rahul",
+    "lastName": "Patel",
+    "email": "rahul.patel76@gmail.com",
+    "phone": "9952670865",
+    "city": "Bengaluru",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 513329
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4f844d05d3364b8eb38e1cd8"
+    },
+    "firstName": "Rohit",
+    "lastName": "Singh",
+    "email": "rohit.singh77@gmail.com",
+    "phone": "9350806338",
+    "city": "Bengaluru",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 500705
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8c5a9f0e47d6441fa55e1bef"
+    },
+    "firstName": "Priya",
+    "lastName": "Singh",
+    "email": "priya.singh78@gmail.com",
+    "phone": "9482380090",
+    "city": "Kolkata",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 509611
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ff728565dc9145e796a572fb"
+    },
+    "firstName": "Sneha",
+    "lastName": "Kumar",
+    "email": "sneha.kumar79@gmail.com",
+    "phone": "9475145514",
+    "city": "Pune",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Hyderabad",
+        "country": "India",
+        "pincode": 522066
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "82a1d3e7aa5541819fa175f9"
+    },
+    "firstName": "Ananya",
+    "lastName": "Patel",
+    "email": "ananya.patel80@gmail.com",
+    "phone": "9660756932",
+    "city": "Ahmedabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Delhi",
+        "country": "India",
+        "pincode": 550446
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "42f54e52752f4789b41b8475"
+    },
+    "firstName": "Arjun",
+    "lastName": "Shaik",
+    "email": "arjun.shaik81@gmail.com",
+    "phone": "9741644097",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Mumbai",
+        "country": "India",
+        "pincode": 529311
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "24df0987c69542ec9f1e4086"
+    },
+    "firstName": "Rahul",
+    "lastName": "Nair",
+    "email": "rahul.nair82@gmail.com",
+    "phone": "9781451292",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Mumbai",
+        "country": "India",
+        "pincode": 538158
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d5cb3e6b38df4975a0b99fdf"
+    },
+    "firstName": "Rahul",
+    "lastName": "Sharma",
+    "email": "rahul.sharma83@gmail.com",
+    "phone": "9177324751",
+    "city": "Chennai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Pune",
+        "country": "India",
+        "pincode": 542940
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "71636fd2156448c9bf92c2b8"
+    },
+    "firstName": "Neha",
+    "lastName": "Shaik",
+    "email": "neha.shaik84@gmail.com",
+    "phone": "9737903968",
+    "city": "Hyderabad",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Hyderabad",
+        "country": "India",
+        "pincode": 553308
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e7b7979118c54f3ab575b735"
+    },
+    "firstName": "Rohit",
+    "lastName": "Joshi",
+    "email": "rohit.joshi85@gmail.com",
+    "phone": "9371268721",
+    "city": "Chennai",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Bengaluru",
+        "country": "India",
+        "pincode": 518216
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "26d8b00fe6a94cd1a1fc1682"
+    },
+    "firstName": "Sneha",
+    "lastName": "Nair",
+    "email": "sneha.nair86@gmail.com",
+    "phone": "9677828980",
+    "city": "Mumbai",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 538552
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0e0662fb9c6c4cbfb6b71083"
+    },
+    "firstName": "Sneha",
+    "lastName": "Sharma",
+    "email": "sneha.sharma87@gmail.com",
+    "phone": "9396312383",
+    "city": "Bengaluru",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Bengaluru",
+        "country": "India",
+        "pincode": 553326
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4472dcffe94f4c98ab079a82"
+    },
+    "firstName": "Ananya",
+    "lastName": "Shaik",
+    "email": "ananya.shaik88@gmail.com",
+    "phone": "9450916579",
+    "city": "Kolkata",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 545073
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ef391df492e743e38044b667"
+    },
+    "firstName": "Rohit",
+    "lastName": "Kumar",
+    "email": "rohit.kumar89@gmail.com",
+    "phone": "9594981294",
+    "city": "Pune",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 539455
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2c1e498922654f308800a64a"
+    },
+    "firstName": "Kiran",
+    "lastName": "Patel",
+    "email": "kiran.patel90@gmail.com",
+    "phone": "9691225253",
+    "city": "Mumbai",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Mumbai",
+        "country": "India",
+        "pincode": 507436
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1d52f2dfea8143cc9986a364"
+    },
+    "firstName": "Kiran",
+    "lastName": "Reddy",
+    "email": "kiran.reddy91@gmail.com",
+    "phone": "9205231160",
+    "city": "Bengaluru",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Hyderabad",
+        "country": "India",
+        "pincode": 556503
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b6b6e27275644342bb6eb109"
+    },
+    "firstName": "Rahul",
+    "lastName": "Reddy",
+    "email": "rahul.reddy92@gmail.com",
+    "phone": "9512851340",
+    "city": "Ahmedabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Bengaluru",
+        "country": "India",
+        "pincode": 506666
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dc3652b1661444388b267a5b"
+    },
+    "firstName": "Amit",
+    "lastName": "Reddy",
+    "email": "amit.reddy93@gmail.com",
+    "phone": "9317383972",
+    "city": "Mumbai",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Delhi",
+        "country": "India",
+        "pincode": 536723
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1ae59f7b229f47ba8e77e44f"
+    },
+    "firstName": "Ananya",
+    "lastName": "Das",
+    "email": "ananya.das94@gmail.com",
+    "phone": "9844864460",
+    "city": "Bengaluru",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 522967
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ec2506f58ac74ce490cc5611"
+    },
+    "firstName": "Rohit",
+    "lastName": "Shaik",
+    "email": "rohit.shaik95@gmail.com",
+    "phone": "9990749695",
+    "city": "Pune",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Ahmedabad",
+        "country": "India",
+        "pincode": 505319
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7ee46d0128f84069af39fafe"
+    },
+    "firstName": "Priya",
+    "lastName": "Das",
+    "email": "priya.das96@gmail.com",
+    "phone": "9767891619",
+    "city": "Bengaluru",
+    "status": "inactive",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Pune",
+        "country": "India",
+        "pincode": 510590
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0c37bd417f97461484f46209"
+    },
+    "firstName": "Rahul",
+    "lastName": "Nair",
+    "email": "rahul.nair97@gmail.com",
+    "phone": "9918541382",
+    "city": "Ahmedabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Chennai",
+        "country": "India",
+        "pincode": 505561
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7c312b942d404790b5f9abb6"
+    },
+    "firstName": "Kiran",
+    "lastName": "Nair",
+    "email": "kiran.nair98@gmail.com",
+    "phone": "9217159586",
+    "city": "Bengaluru",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Hyderabad",
+        "country": "India",
+        "pincode": 538682
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d97e38aa448b41cd9a30464b"
+    },
+    "firstName": "Rahul",
+    "lastName": "Gupta",
+    "email": "rahul.gupta99@gmail.com",
+    "phone": "9425913976",
+    "city": "Hyderabad",
+    "status": "active",
+    "addresses": [
+      {
+        "type": "Home",
+        "city": "Kolkata",
+        "country": "India",
+        "pincode": 513202
+      }
+    ],
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  }
+]

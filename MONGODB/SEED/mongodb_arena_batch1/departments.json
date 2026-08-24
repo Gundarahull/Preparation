@@ -1,0 +1,62 @@
+[
+  {
+    "_id": {
+      "$oid": "3f545c9b8a3b4f65bfb0c5dc"
+    },
+    "name": "Engineering"
+  },
+  {
+    "_id": {
+      "$oid": "81e1a75f1c5c449a8107511c"
+    },
+    "name": "HR"
+  },
+  {
+    "_id": {
+      "$oid": "e2146d8fadbc48539c6dd7f8"
+    },
+    "name": "Finance"
+  },
+  {
+    "_id": {
+      "$oid": "a79276c4c50c429889b52cac"
+    },
+    "name": "Marketing"
+  },
+  {
+    "_id": {
+      "$oid": "57b24ca44e9344d6a5f073ff"
+    },
+    "name": "Sales"
+  },
+  {
+    "_id": {
+      "$oid": "07bb803fc0aa40e1842e33e8"
+    },
+    "name": "Support"
+  },
+  {
+    "_id": {
+      "$oid": "ba2325a40f79407f85ae596e"
+    },
+    "name": "Operations"
+  },
+  {
+    "_id": {
+      "$oid": "b2aa609ac63644c690ea7265"
+    },
+    "name": "Legal"
+  },
+  {
+    "_id": {
+      "$oid": "851747481e9741588f18cb6c"
+    },
+    "name": "Security"
+  },
+  {
+    "_id": {
+      "$oid": "92305d04253d4a80a64e3748"
+    },
+    "name": "Product"
+  }
+]

@@ -1,0 +1,2802 @@
+[
+  {
+    "_id": {
+      "$oid": "f0e7f1ae10b6456eb36dcc48"
+    },
+    "userId": {
+      "$oid": "04200635b00945df847612d4"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "649b8886f9e344cdbcadb076"
+    },
+    "userId": {
+      "$oid": "55ffced5233848beaa2cae3d"
+    },
+    "device": "MacBook",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e60be6c31c1a484583b38d77"
+    },
+    "userId": {
+      "$oid": "3dd14d8dfc364af6af2cbdb9"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c32d31f66572476fa165d4da"
+    },
+    "userId": {
+      "$oid": "ee584ba82c2f40199f61169e"
+    },
+    "device": "MacBook",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b1c0153f73264fd1af9e20df"
+    },
+    "userId": {
+      "$oid": "367e0126e2344d669f7c32cd"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "44d671ef68d44e5abccd69fa"
+    },
+    "userId": {
+      "$oid": "40e64bb9748945ef81c9a418"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3c676efd2e1c413d9c86cd4d"
+    },
+    "userId": {
+      "$oid": "0d66fe99bb6c4c38b5dd4c09"
+    },
+    "device": "iPhone",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "343e8214d9e14453b1136fc5"
+    },
+    "userId": {
+      "$oid": "1951f33b5dfd487491eb318f"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6299fb765e084600958671d5"
+    },
+    "userId": {
+      "$oid": "c9469709560d4746bcedd609"
+    },
+    "device": "Windows",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9cb113e45a714654889b2507"
+    },
+    "userId": {
+      "$oid": "44acd51bb3904b6ba2a61fab"
+    },
+    "device": "Windows",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d8502346542340b39b0815eb"
+    },
+    "userId": {
+      "$oid": "40e64bb9748945ef81c9a418"
+    },
+    "device": "Windows",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "53cc914e85764f2cab54b3b9"
+    },
+    "userId": {
+      "$oid": "6bdcb396e7604bdc93b38a89"
+    },
+    "device": "Android",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a7b1ea8293f9400ab083f2e2"
+    },
+    "userId": {
+      "$oid": "e95142aca7124c06aecc4933"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b349039cf0ab41a084611f26"
+    },
+    "userId": {
+      "$oid": "ec6c1cd019c04c82b261237c"
+    },
+    "device": "Android",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "db370b93578a4d489dbacd79"
+    },
+    "userId": {
+      "$oid": "79e94974eed84d20bab0f3e1"
+    },
+    "device": "Android",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1ed459f0b1f84c84b131617e"
+    },
+    "userId": {
+      "$oid": "44ed1aee59b54096902371b6"
+    },
+    "device": "MacBook",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ecb0bfe7e0ca4e4685d768e9"
+    },
+    "userId": {
+      "$oid": "88129c764e1f41f4b41ad3b2"
+    },
+    "device": "Windows",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b17fa2fde8ef4b73a1a5b81b"
+    },
+    "userId": {
+      "$oid": "66f3cdf6f9a8486aa65f6c38"
+    },
+    "device": "iPhone",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dafa7a79e6074cf09d10fe26"
+    },
+    "userId": {
+      "$oid": "5df18cede44d4284b331fe86"
+    },
+    "device": "MacBook",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8940f1a3c6c146b58a93d101"
+    },
+    "userId": {
+      "$oid": "3f70e7f1037745ef8be539b0"
+    },
+    "device": "Windows",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a9530d8fbc684f3fb69f2b5b"
+    },
+    "userId": {
+      "$oid": "4ef2d75a2f34479886eca239"
+    },
+    "device": "MacBook",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d0dd78dbf972451491d06afa"
+    },
+    "userId": {
+      "$oid": "2b04d8539a144595b8195234"
+    },
+    "device": "MacBook",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fd29a25dab214c5a9882152b"
+    },
+    "userId": {
+      "$oid": "ba8e71af8e5a44539bdcbc39"
+    },
+    "device": "Windows",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "15aa5ac8c20f4b17b274ec7b"
+    },
+    "userId": {
+      "$oid": "a8cb2df9d0f740479916c3c3"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a2a4ada5b553489b94e29fa4"
+    },
+    "userId": {
+      "$oid": "e0e034c4c92f44a1a80ee19f"
+    },
+    "device": "MacBook",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "74ee7bb8ebf04397af83fac4"
+    },
+    "userId": {
+      "$oid": "1e22365a03434c5e9fec3d42"
+    },
+    "device": "MacBook",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "153fd1cdd23c42049e1a7fdb"
+    },
+    "userId": {
+      "$oid": "f9688436de534ea2b8bea1fd"
+    },
+    "device": "iPhone",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "129d0d6b9dee4ae59e67518e"
+    },
+    "userId": {
+      "$oid": "f9688436de534ea2b8bea1fd"
+    },
+    "device": "MacBook",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a07d38742d5d4f2aa5e0ba1f"
+    },
+    "userId": {
+      "$oid": "f24298e9f77d4d419212ae2e"
+    },
+    "device": "Windows",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ba49c78424a7478ea0c60838"
+    },
+    "userId": {
+      "$oid": "6bdcb396e7604bdc93b38a89"
+    },
+    "device": "Windows",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c2f43a3cd05e436cb2177c62"
+    },
+    "userId": {
+      "$oid": "9727746a0bfe4551806b11b8"
+    },
+    "device": "Android",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f45223bd06444853a33f4bca"
+    },
+    "userId": {
+      "$oid": "f9688436de534ea2b8bea1fd"
+    },
+    "device": "Android",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2792bcc348bb43698c5b785e"
+    },
+    "userId": {
+      "$oid": "4e41845d42e84b4b824bcc53"
+    },
+    "device": "iPhone",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "46c1c0a9134d42ffbcb5e03c"
+    },
+    "userId": {
+      "$oid": "2b04d8539a144595b8195234"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bee422db4cdf4b03a14f3dde"
+    },
+    "userId": {
+      "$oid": "bd849f069cc842528586292f"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0c9d6e3adcf64102996851c6"
+    },
+    "userId": {
+      "$oid": "07561c741c654ea8873f731f"
+    },
+    "device": "MacBook",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "df032ece12524ff5a5c5a693"
+    },
+    "userId": {
+      "$oid": "07a6a6d10d4f40bba691a0b4"
+    },
+    "device": "Android",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b6ab4686aff4447a89db9149"
+    },
+    "userId": {
+      "$oid": "44ed1aee59b54096902371b6"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "00bda256371d4e0aa93e0587"
+    },
+    "userId": {
+      "$oid": "5df18cede44d4284b331fe86"
+    },
+    "device": "Windows",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67775d411b424d00bea1afaf"
+    },
+    "userId": {
+      "$oid": "ec01851e2fd24d04ae889077"
+    },
+    "device": "Windows",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "51e02dc7176341b0b505c1ae"
+    },
+    "userId": {
+      "$oid": "cfe42cd7b4b34a68ae3c6089"
+    },
+    "device": "Windows",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7edba8902b8b47d7ad04da58"
+    },
+    "userId": {
+      "$oid": "3b332e156eb949b0b8b43cf2"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0f128a0e2c194ff784acd30a"
+    },
+    "userId": {
+      "$oid": "0e698c94945f4ffb9f6ea8db"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8306283ab5354a4585912e05"
+    },
+    "userId": {
+      "$oid": "07561c741c654ea8873f731f"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ea141f6d84894dd1878a72a5"
+    },
+    "userId": {
+      "$oid": "bd849f069cc842528586292f"
+    },
+    "device": "iPhone",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "73f0179b6c0d4f72b1df88f1"
+    },
+    "userId": {
+      "$oid": "6bdcb396e7604bdc93b38a89"
+    },
+    "device": "MacBook",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ed7012dcb57140ccb3db6a03"
+    },
+    "userId": {
+      "$oid": "e00ed41ee28d44d3981cb1e4"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3c46822a04d14278a36f4bf7"
+    },
+    "userId": {
+      "$oid": "40e64bb9748945ef81c9a418"
+    },
+    "device": "MacBook",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cefe57ddf9134a0f952c0800"
+    },
+    "userId": {
+      "$oid": "34d8df267e8541deb153af93"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4c2d9031153e4b2a89707dbf"
+    },
+    "userId": {
+      "$oid": "0f8ad86302094ebe96451d7d"
+    },
+    "device": "iPhone",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2d21ae6212d14965b9d008f1"
+    },
+    "userId": {
+      "$oid": "ec6c1cd019c04c82b261237c"
+    },
+    "device": "Android",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f4976f6f5f934b6a91fb0f6c"
+    },
+    "userId": {
+      "$oid": "fc6e453fe67c4291ab222f2d"
+    },
+    "device": "Windows",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b449508b90ca4d1fbd00c5fb"
+    },
+    "userId": {
+      "$oid": "55ffced5233848beaa2cae3d"
+    },
+    "device": "Android",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f1fd892fab2147738552565c"
+    },
+    "userId": {
+      "$oid": "9bbc6a7bc9c64a8489be9122"
+    },
+    "device": "iPhone",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ee6e3e80432347b887955d13"
+    },
+    "userId": {
+      "$oid": "fc6e453fe67c4291ab222f2d"
+    },
+    "device": "Windows",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666e9f56da824a68bde4a6f9"
+    },
+    "userId": {
+      "$oid": "d9e55b1005334a90925e0492"
+    },
+    "device": "Android",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "216da5700e0a4701b513ec91"
+    },
+    "userId": {
+      "$oid": "1685aac8a25944f9b266357b"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fac05ec4f97947e2bbebcf3f"
+    },
+    "userId": {
+      "$oid": "40e64bb9748945ef81c9a418"
+    },
+    "device": "MacBook",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e0060371395e45769051abb5"
+    },
+    "userId": {
+      "$oid": "bd849f069cc842528586292f"
+    },
+    "device": "iPhone",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6105e427da4d45fa860a4478"
+    },
+    "userId": {
+      "$oid": "7fd6e60c4b544bd7a056d7e4"
+    },
+    "device": "Windows",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "db3c3dac43514bc6b55b2767"
+    },
+    "userId": {
+      "$oid": "6396edf8be9f4df182a87cbe"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54a0da94495b45dea68038fb"
+    },
+    "userId": {
+      "$oid": "88c9723177fe4bcc95c5cd02"
+    },
+    "device": "MacBook",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "83bc18eb56d94ec7b92abf6c"
+    },
+    "userId": {
+      "$oid": "bd849f069cc842528586292f"
+    },
+    "device": "Windows",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "be0e6f57fec84b22b40b4e30"
+    },
+    "userId": {
+      "$oid": "44acd51bb3904b6ba2a61fab"
+    },
+    "device": "Windows",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8c6e3bbb2f6549ab9a11a03b"
+    },
+    "userId": {
+      "$oid": "9773146ba4074e708c761522"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2f137ff35a424f0d8fb6fbf8"
+    },
+    "userId": {
+      "$oid": "79e94974eed84d20bab0f3e1"
+    },
+    "device": "Windows",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7611d2375ec6484e82ffd5fc"
+    },
+    "userId": {
+      "$oid": "d1bd3a0e783946f0a4098912"
+    },
+    "device": "MacBook",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "979133eb3d5a48388ddc50b0"
+    },
+    "userId": {
+      "$oid": "ee584ba82c2f40199f61169e"
+    },
+    "device": "Android",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fbf2e6d7d0044d1d9343ab09"
+    },
+    "userId": {
+      "$oid": "230b8b0f389444958db193a3"
+    },
+    "device": "Android",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0070c97c8b6649f1b0bef5af"
+    },
+    "userId": {
+      "$oid": "44acd51bb3904b6ba2a61fab"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ac4e695b27ba4732aa28ccbc"
+    },
+    "userId": {
+      "$oid": "a572272e5c2e40109825d5e5"
+    },
+    "device": "Android",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "43ff1b7e64444c259c096100"
+    },
+    "userId": {
+      "$oid": "a572272e5c2e40109825d5e5"
+    },
+    "device": "Windows",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f66c47a4314a4d84a8cda44d"
+    },
+    "userId": {
+      "$oid": "3dd14d8dfc364af6af2cbdb9"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "643b575aaf844ec6944afc1c"
+    },
+    "userId": {
+      "$oid": "1fb8368648f6456387e3e104"
+    },
+    "device": "Windows",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d3749ff347ae41f1a9aa44fc"
+    },
+    "userId": {
+      "$oid": "dd3bfa0f6d904564bbdee594"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8417da76f9db449293e9ebf2"
+    },
+    "userId": {
+      "$oid": "1951f33b5dfd487491eb318f"
+    },
+    "device": "MacBook",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d63e4ea7273d480992c6b76b"
+    },
+    "userId": {
+      "$oid": "7c10cd23c3e24a209eec0bce"
+    },
+    "device": "MacBook",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6fae3e18c79c4e7da5e05e1c"
+    },
+    "userId": {
+      "$oid": "ee584ba82c2f40199f61169e"
+    },
+    "device": "iPhone",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "48a433f6a94e4d689b15a2ec"
+    },
+    "userId": {
+      "$oid": "a4f1eb7340da40c998c8c175"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a788a58cf2314644a687521d"
+    },
+    "userId": {
+      "$oid": "ee584ba82c2f40199f61169e"
+    },
+    "device": "iPhone",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "734b7b5e43964014a9d4c8c3"
+    },
+    "userId": {
+      "$oid": "d2024ea2b56246ef818ef5b5"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0992d43ec2c6409686f2b24b"
+    },
+    "userId": {
+      "$oid": "b0dcd74043ae4ceead47206a"
+    },
+    "device": "iPhone",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1f4a6ad60efa4a73855e8b76"
+    },
+    "userId": {
+      "$oid": "fc6e453fe67c4291ab222f2d"
+    },
+    "device": "Android",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "71114c1372eb4dea9791837c"
+    },
+    "userId": {
+      "$oid": "37ed776b32294ee292063374"
+    },
+    "device": "Windows",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "95cbf0a97d6f43e88ee1ec70"
+    },
+    "userId": {
+      "$oid": "40e64bb9748945ef81c9a418"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2649e7f03aa44f07b0e24807"
+    },
+    "userId": {
+      "$oid": "230b8b0f389444958db193a3"
+    },
+    "device": "Windows",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a9d3c5091b814b5988f64c44"
+    },
+    "userId": {
+      "$oid": "a572272e5c2e40109825d5e5"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "90721f85c2d4488a81c619c1"
+    },
+    "userId": {
+      "$oid": "d2024ea2b56246ef818ef5b5"
+    },
+    "device": "Windows",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "40bd15c0abf34cd88b1fd151"
+    },
+    "userId": {
+      "$oid": "0028ac9a74024ba7a4ae9b56"
+    },
+    "device": "Windows",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1912885933aa498aa640ce83"
+    },
+    "userId": {
+      "$oid": "b8227a1fa4e74688b060f00a"
+    },
+    "device": "Android",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4fb9eea61a1a4612a20b8295"
+    },
+    "userId": {
+      "$oid": "3dd14d8dfc364af6af2cbdb9"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eacea4d3098c4b02b312ebd0"
+    },
+    "userId": {
+      "$oid": "702f424bc7c94226beda9e56"
+    },
+    "device": "MacBook",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "807d506233644d088fd15eca"
+    },
+    "userId": {
+      "$oid": "702f424bc7c94226beda9e56"
+    },
+    "device": "MacBook",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "704c00e1347c44ea8a0308c7"
+    },
+    "userId": {
+      "$oid": "c9469709560d4746bcedd609"
+    },
+    "device": "Android",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d7398020d1e740aa8d4d96e6"
+    },
+    "userId": {
+      "$oid": "7ff0e0c4caef4f1995a2e249"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ea803f12bd894175a930025b"
+    },
+    "userId": {
+      "$oid": "f9688436de534ea2b8bea1fd"
+    },
+    "device": "Windows",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0b95f13e8c6d41dc9356b96f"
+    },
+    "userId": {
+      "$oid": "0f8ad86302094ebe96451d7d"
+    },
+    "device": "Android",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8055608183ea4175a6b064ca"
+    },
+    "userId": {
+      "$oid": "1e22365a03434c5e9fec3d42"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a55594062ccf415597cde079"
+    },
+    "userId": {
+      "$oid": "e00ed41ee28d44d3981cb1e4"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bdfc1ac1dd20474f88ae8727"
+    },
+    "userId": {
+      "$oid": "e00ed41ee28d44d3981cb1e4"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "023a72422e4846139c8a3dc0"
+    },
+    "userId": {
+      "$oid": "0785bcae2d694cef982f7951"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eb49f7777c8345e594858852"
+    },
+    "userId": {
+      "$oid": "3dd14d8dfc364af6af2cbdb9"
+    },
+    "device": "Windows",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "93539d3e7abb44beafc76619"
+    },
+    "userId": {
+      "$oid": "ee584ba82c2f40199f61169e"
+    },
+    "device": "iPhone",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "18ad17d0a9354d33b358e25a"
+    },
+    "userId": {
+      "$oid": "606214c6c51b4c538a086d6f"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9c33e88e079e47728110ca4e"
+    },
+    "userId": {
+      "$oid": "b10e24717623497c98e5257c"
+    },
+    "device": "iPhone",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "aafcfe89aed9481b955bbedb"
+    },
+    "userId": {
+      "$oid": "4e41845d42e84b4b824bcc53"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d06e2401af4747589e85d5f1"
+    },
+    "userId": {
+      "$oid": "bcc79bb888294f0aa9b92f9c"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4298366c9040464cb6dfd9a8"
+    },
+    "userId": {
+      "$oid": "9ab85707b6304f1895db5129"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "207bfa0e31884bbf83140faf"
+    },
+    "userId": {
+      "$oid": "0d66fe99bb6c4c38b5dd4c09"
+    },
+    "device": "MacBook",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7138a322b03d48878aed3a9c"
+    },
+    "userId": {
+      "$oid": "0b5a9bb5376c4e4abc79e0a3"
+    },
+    "device": "MacBook",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e66cb0e3e5a74fc2bb113cb1"
+    },
+    "userId": {
+      "$oid": "e95142aca7124c06aecc4933"
+    },
+    "device": "iPhone",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5fc9c616c9454bb39058a544"
+    },
+    "userId": {
+      "$oid": "3dd14d8dfc364af6af2cbdb9"
+    },
+    "device": "Windows",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8f97ca0b3b234257b4187033"
+    },
+    "userId": {
+      "$oid": "a572272e5c2e40109825d5e5"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d0773727531c438bb9799758"
+    },
+    "userId": {
+      "$oid": "ec01851e2fd24d04ae889077"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d820602ce9c84ce29f1db839"
+    },
+    "userId": {
+      "$oid": "606214c6c51b4c538a086d6f"
+    },
+    "device": "MacBook",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "481d592b79dd464dbfe2821c"
+    },
+    "userId": {
+      "$oid": "702f424bc7c94226beda9e56"
+    },
+    "device": "Windows",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "de58b2cf091542b58b1bec4c"
+    },
+    "userId": {
+      "$oid": "f9688436de534ea2b8bea1fd"
+    },
+    "device": "MacBook",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0aac0f07ac9a4126aa6b4f7c"
+    },
+    "userId": {
+      "$oid": "0028ac9a74024ba7a4ae9b56"
+    },
+    "device": "Android",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bfe1b218980c4b00b5328c76"
+    },
+    "userId": {
+      "$oid": "0f8ad86302094ebe96451d7d"
+    },
+    "device": "Windows",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "115383b942944a26b985e436"
+    },
+    "userId": {
+      "$oid": "55ffced5233848beaa2cae3d"
+    },
+    "device": "Android",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5838374384b847d1a06c30d1"
+    },
+    "userId": {
+      "$oid": "4e41845d42e84b4b824bcc53"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60b265f9c90c4ff5b3841cba"
+    },
+    "userId": {
+      "$oid": "1fb8368648f6456387e3e104"
+    },
+    "device": "Windows",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d035d8a7c501425a8ac3ad0d"
+    },
+    "userId": {
+      "$oid": "0f8ad86302094ebe96451d7d"
+    },
+    "device": "MacBook",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ee50de3d361345e9a0166f60"
+    },
+    "userId": {
+      "$oid": "3b332e156eb949b0b8b43cf2"
+    },
+    "device": "Windows",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ed41ffa5110d4372b41a7088"
+    },
+    "userId": {
+      "$oid": "a4f1eb7340da40c998c8c175"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4abdb094b97448719db6e245"
+    },
+    "userId": {
+      "$oid": "367e0126e2344d669f7c32cd"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "58ee5fa698c14416b928435b"
+    },
+    "userId": {
+      "$oid": "6396edf8be9f4df182a87cbe"
+    },
+    "device": "Windows",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a57d39811cd6429d94e17146"
+    },
+    "userId": {
+      "$oid": "88e3df3d90124bed80f13d9c"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "21d29d9c7ceb458abd45b449"
+    },
+    "userId": {
+      "$oid": "79e94974eed84d20bab0f3e1"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "79798256d98c411f85ef89e2"
+    },
+    "userId": {
+      "$oid": "0028ac9a74024ba7a4ae9b56"
+    },
+    "device": "MacBook",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c04c27d757d34501b7d3b2eb"
+    },
+    "userId": {
+      "$oid": "a035c20dc1d94842973b1657"
+    },
+    "device": "iPhone",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fe45803f3d9e4d008bb96804"
+    },
+    "userId": {
+      "$oid": "0028ac9a74024ba7a4ae9b56"
+    },
+    "device": "MacBook",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "de8eef267f834788b6b566c8"
+    },
+    "userId": {
+      "$oid": "4e41845d42e84b4b824bcc53"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cd2a76994f724503b3beb707"
+    },
+    "userId": {
+      "$oid": "40e64bb9748945ef81c9a418"
+    },
+    "device": "MacBook",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "266694f0bfce490a9520408e"
+    },
+    "userId": {
+      "$oid": "0d66fe99bb6c4c38b5dd4c09"
+    },
+    "device": "Windows",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8b3462ab73b546e18f46ebb8"
+    },
+    "userId": {
+      "$oid": "0f8ad86302094ebe96451d7d"
+    },
+    "device": "iPhone",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4941aada79004ba788ce7d0f"
+    },
+    "userId": {
+      "$oid": "606214c6c51b4c538a086d6f"
+    },
+    "device": "Windows",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0b41ce4638894f2c96f766d9"
+    },
+    "userId": {
+      "$oid": "07a6a6d10d4f40bba691a0b4"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9f5deac0831641f4ababcdec"
+    },
+    "userId": {
+      "$oid": "731ccc10af1a44d78356d8a2"
+    },
+    "device": "MacBook",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ca53f5742e6648b58ecc698b"
+    },
+    "userId": {
+      "$oid": "1ff66df48f854a51a71f835b"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a911673de7e24662af352cee"
+    },
+    "userId": {
+      "$oid": "a46e5a7f5f3b405896474029"
+    },
+    "device": "iPhone",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d4e6ad3f0d814e82a01821da"
+    },
+    "userId": {
+      "$oid": "88129c764e1f41f4b41ad3b2"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "80768113d86346788307b32a"
+    },
+    "userId": {
+      "$oid": "88e3df3d90124bed80f13d9c"
+    },
+    "device": "Windows",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1dcabf3170824687b37b0fc1"
+    },
+    "userId": {
+      "$oid": "4ef2d75a2f34479886eca239"
+    },
+    "device": "Windows",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ee89e84b3e4f4909865d74fb"
+    },
+    "userId": {
+      "$oid": "cfe42cd7b4b34a68ae3c6089"
+    },
+    "device": "MacBook",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b46dc268b81945f6add4c019"
+    },
+    "userId": {
+      "$oid": "04200635b00945df847612d4"
+    },
+    "device": "Android",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f933d7ef69784b518dfbebd7"
+    },
+    "userId": {
+      "$oid": "7fd6e60c4b544bd7a056d7e4"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4042e8baf9944e3380c9f0d5"
+    },
+    "userId": {
+      "$oid": "1ff66df48f854a51a71f835b"
+    },
+    "device": "Android",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2c22c11acfcb47519c25c097"
+    },
+    "userId": {
+      "$oid": "5df18cede44d4284b331fe86"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cc5d5ccfb5af459a901345d1"
+    },
+    "userId": {
+      "$oid": "40e64bb9748945ef81c9a418"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e79cc51850d6495182dc4751"
+    },
+    "userId": {
+      "$oid": "2af825bda63449caa453791e"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1a707279c18e4d718d110b1e"
+    },
+    "userId": {
+      "$oid": "d1a97f66e8e1499897c5b78c"
+    },
+    "device": "Windows",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a6d96573814449abf9edb61"
+    },
+    "userId": {
+      "$oid": "44acd51bb3904b6ba2a61fab"
+    },
+    "device": "MacBook",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "58d17d93daf84672a69e10c8"
+    },
+    "userId": {
+      "$oid": "bd849f069cc842528586292f"
+    },
+    "device": "Windows",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8fa9d598c4ef465e98df01c5"
+    },
+    "userId": {
+      "$oid": "606214c6c51b4c538a086d6f"
+    },
+    "device": "iPhone",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0f7b6c1eef8a4215b167ac8c"
+    },
+    "userId": {
+      "$oid": "1fb8368648f6456387e3e104"
+    },
+    "device": "MacBook",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "90a7e360daa14a55be4caf71"
+    },
+    "userId": {
+      "$oid": "7ddbc18568b544c39dc621a1"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d0325be4246e48f6945e4cc2"
+    },
+    "userId": {
+      "$oid": "0028ac9a74024ba7a4ae9b56"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fa041b20fac34da784926a75"
+    },
+    "userId": {
+      "$oid": "04200635b00945df847612d4"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b2364e89ec77462abff53e08"
+    },
+    "userId": {
+      "$oid": "702f424bc7c94226beda9e56"
+    },
+    "device": "iPhone",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b264b78adc894ab8a34308a1"
+    },
+    "userId": {
+      "$oid": "f9688436de534ea2b8bea1fd"
+    },
+    "device": "Windows",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5afb860c8422492abf36239b"
+    },
+    "userId": {
+      "$oid": "55ffced5233848beaa2cae3d"
+    },
+    "device": "Windows",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a7e187fca5ee4e8ba3b61ff0"
+    },
+    "userId": {
+      "$oid": "9ab85707b6304f1895db5129"
+    },
+    "device": "iPhone",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2a8a4e7225da4c1c934085a5"
+    },
+    "userId": {
+      "$oid": "d9e55b1005334a90925e0492"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ca25028b035946f4aa35e3a2"
+    },
+    "userId": {
+      "$oid": "1685aac8a25944f9b266357b"
+    },
+    "device": "Windows",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b70dac9fe4be40f9a667ea42"
+    },
+    "userId": {
+      "$oid": "3b332e156eb949b0b8b43cf2"
+    },
+    "device": "Windows",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5d3c8f5a37b44703bbe88ff6"
+    },
+    "userId": {
+      "$oid": "4d78f728d87344b5ad553a0b"
+    },
+    "device": "iPhone",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bab09e5b665047a48727f4cc"
+    },
+    "userId": {
+      "$oid": "a46e5a7f5f3b405896474029"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7df5db074a6744458b4c2438"
+    },
+    "userId": {
+      "$oid": "da721a7cb7e64460ac1e3987"
+    },
+    "device": "Windows",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "501b463bfb8a4881805c74ed"
+    },
+    "userId": {
+      "$oid": "3f70e7f1037745ef8be539b0"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cd2a28f36b2d4c17bff02ae1"
+    },
+    "userId": {
+      "$oid": "d2024ea2b56246ef818ef5b5"
+    },
+    "device": "Windows",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "21e579e71b9f4f25aeebda74"
+    },
+    "userId": {
+      "$oid": "98074a115e86418bba42a386"
+    },
+    "device": "iPhone",
+    "browser": "Safari",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f35c5a39641d4052a27f333b"
+    },
+    "userId": {
+      "$oid": "e00ed41ee28d44d3981cb1e4"
+    },
+    "device": "MacBook",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3cdd88a34be740f1b3f7a99e"
+    },
+    "userId": {
+      "$oid": "da721a7cb7e64460ac1e3987"
+    },
+    "device": "MacBook",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8ebef6547b2b4cde8bcfcdcd"
+    },
+    "userId": {
+      "$oid": "2b04d8539a144595b8195234"
+    },
+    "device": "Android",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b8bfbb7bc8544300b1728471"
+    },
+    "userId": {
+      "$oid": "da721a7cb7e64460ac1e3987"
+    },
+    "device": "iPhone",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6509e5807341462baff6517a"
+    },
+    "userId": {
+      "$oid": "9773146ba4074e708c761522"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6c06f4b035774f1b84cc141e"
+    },
+    "userId": {
+      "$oid": "7a00556757f34050b3063ef7"
+    },
+    "device": "MacBook",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "136df66409754733a3f97848"
+    },
+    "userId": {
+      "$oid": "367e0126e2344d669f7c32cd"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "96fb8983a3394404b217ff85"
+    },
+    "userId": {
+      "$oid": "7a0e3c62e70c41a5af817f1d"
+    },
+    "device": "Windows",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ff930ea9a433452c8c5073c5"
+    },
+    "userId": {
+      "$oid": "7da36fe5e3384c66af9302fc"
+    },
+    "device": "iPhone",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "84be798642304fad9078cb96"
+    },
+    "userId": {
+      "$oid": "f9688436de534ea2b8bea1fd"
+    },
+    "device": "Windows",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b2fbc0d2b1ba447890c60d0b"
+    },
+    "userId": {
+      "$oid": "c9469709560d4746bcedd609"
+    },
+    "device": "Windows",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8161542999ef4952814a5388"
+    },
+    "userId": {
+      "$oid": "c9469709560d4746bcedd609"
+    },
+    "device": "Android",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2d3003866a444b23848ad231"
+    },
+    "userId": {
+      "$oid": "37ed776b32294ee292063374"
+    },
+    "device": "Windows",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "03daba98477f474fafe14f04"
+    },
+    "userId": {
+      "$oid": "d1a97f66e8e1499897c5b78c"
+    },
+    "device": "Android",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b35313a808314fa2a207e47a"
+    },
+    "userId": {
+      "$oid": "a4f1eb7340da40c998c8c175"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5c2df61ef7084493b5ae7451"
+    },
+    "userId": {
+      "$oid": "ee584ba82c2f40199f61169e"
+    },
+    "device": "iPhone",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b00ac92aeac34fe59df3d535"
+    },
+    "userId": {
+      "$oid": "ec6c1cd019c04c82b261237c"
+    },
+    "device": "Android",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5457ee94a8074c928e599b75"
+    },
+    "userId": {
+      "$oid": "44ed1aee59b54096902371b6"
+    },
+    "device": "Android",
+    "browser": "Edge",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eefb89f0105f49ed8a1ce9aa"
+    },
+    "userId": {
+      "$oid": "d73b651e1fcc419990204736"
+    },
+    "device": "MacBook",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d79aae7cf7de486bbdb20f83"
+    },
+    "userId": {
+      "$oid": "40e64bb9748945ef81c9a418"
+    },
+    "device": "Android",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a47803bd758b4d7b96047843"
+    },
+    "userId": {
+      "$oid": "e00ed41ee28d44d3981cb1e4"
+    },
+    "device": "MacBook",
+    "browser": "Edge",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7bd4d1abf3804768a824a927"
+    },
+    "userId": {
+      "$oid": "88e3df3d90124bed80f13d9c"
+    },
+    "device": "MacBook",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1140cb92f75c479386c3ff44"
+    },
+    "userId": {
+      "$oid": "d73b651e1fcc419990204736"
+    },
+    "device": "MacBook",
+    "browser": "Safari",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ee8b0655da224514b4612ad1"
+    },
+    "userId": {
+      "$oid": "5352096ab31e40009b74b526"
+    },
+    "device": "Android",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1b3e98738d134e17b2359bfe"
+    },
+    "userId": {
+      "$oid": "f5ee53aed9744989adfa7a47"
+    },
+    "device": "Windows",
+    "browser": "Firefox",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e5411b22745147119f1a2e76"
+    },
+    "userId": {
+      "$oid": "9beb34469b7c4281bedb90bd"
+    },
+    "device": "Android",
+    "browser": "Chrome",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "105aabf7326a44a69f2e59ad"
+    },
+    "userId": {
+      "$oid": "f24298e9f77d4d419212ae2e"
+    },
+    "device": "Windows",
+    "browser": "Chrome",
+    "isActive": true,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8ff86c19c22c4c4bbe0df9d4"
+    },
+    "userId": {
+      "$oid": "9727746a0bfe4551806b11b8"
+    },
+    "device": "Windows",
+    "browser": "Firefox",
+    "isActive": false,
+    "lastSeen": {
+      "$date": "2025-06-01T18:45:00Z"
+    }
+  }
+]

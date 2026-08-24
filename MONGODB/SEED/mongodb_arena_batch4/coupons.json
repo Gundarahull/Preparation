@@ -1,0 +1,702 @@
+[
+  {
+    "_id": {
+      "$oid": "5b5d730da4e04503bd429f02"
+    },
+    "code": "SAVE100",
+    "discountType": "FLAT",
+    "discountValue": 250,
+    "minimumOrderAmount": 2494,
+    "maxDiscount": 818,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3d98dfa3f20e471bb9c6444e"
+    },
+    "code": "SAVE101",
+    "discountType": "PERCENTAGE",
+    "discountValue": 25,
+    "minimumOrderAmount": 3415,
+    "maxDiscount": 342,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f112c99fd62f458486248840"
+    },
+    "code": "SAVE102",
+    "discountType": "PERCENTAGE",
+    "discountValue": 250,
+    "minimumOrderAmount": 3598,
+    "maxDiscount": 352,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3ae7c769898b4d70b6cc904f"
+    },
+    "code": "SAVE103",
+    "discountType": "FLAT",
+    "discountValue": 20,
+    "minimumOrderAmount": 2377,
+    "maxDiscount": 340,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2a3ef444a0f54c878c0b1a3c"
+    },
+    "code": "SAVE104",
+    "discountType": "FLAT",
+    "discountValue": 50,
+    "minimumOrderAmount": 1467,
+    "maxDiscount": 896,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5a92369b4c05438b8ec6ee24"
+    },
+    "code": "SAVE105",
+    "discountType": "PERCENTAGE",
+    "discountValue": 10,
+    "minimumOrderAmount": 3931,
+    "maxDiscount": 884,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b69e225b6cc7431ea79a85c5"
+    },
+    "code": "SAVE106",
+    "discountType": "PERCENTAGE",
+    "discountValue": 10,
+    "minimumOrderAmount": 3264,
+    "maxDiscount": 432,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e3e8dbaaea474593920d5497"
+    },
+    "code": "SAVE107",
+    "discountType": "FLAT",
+    "discountValue": 10,
+    "minimumOrderAmount": 3665,
+    "maxDiscount": 573,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6666229ddacf42b59066798c"
+    },
+    "code": "SAVE108",
+    "discountType": "PERCENTAGE",
+    "discountValue": 10,
+    "minimumOrderAmount": 3573,
+    "maxDiscount": 664,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3d286b083f5144a68a064f54"
+    },
+    "code": "SAVE109",
+    "discountType": "FLAT",
+    "discountValue": 250,
+    "minimumOrderAmount": 4042,
+    "maxDiscount": 293,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8e457228791e45beba86d6f1"
+    },
+    "code": "SAVE110",
+    "discountType": "FLAT",
+    "discountValue": 10,
+    "minimumOrderAmount": 1917,
+    "maxDiscount": 270,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7a76b145b4ff4ceab0203319"
+    },
+    "code": "SAVE111",
+    "discountType": "PERCENTAGE",
+    "discountValue": 500,
+    "minimumOrderAmount": 2188,
+    "maxDiscount": 742,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1e7a5ab645554f979b07b708"
+    },
+    "code": "SAVE112",
+    "discountType": "PERCENTAGE",
+    "discountValue": 50,
+    "minimumOrderAmount": 954,
+    "maxDiscount": 477,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4d4e5ae7ad2e4ba18ad1ecdd"
+    },
+    "code": "SAVE113",
+    "discountType": "PERCENTAGE",
+    "discountValue": 100,
+    "minimumOrderAmount": 3265,
+    "maxDiscount": 314,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9c08cee2330c49fe8ee3b6b3"
+    },
+    "code": "SAVE114",
+    "discountType": "FLAT",
+    "discountValue": 10,
+    "minimumOrderAmount": 1781,
+    "maxDiscount": 973,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "763f07e01fea41048d6d4a04"
+    },
+    "code": "SAVE115",
+    "discountType": "FLAT",
+    "discountValue": 10,
+    "minimumOrderAmount": 3159,
+    "maxDiscount": 604,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2c3dbec1566f45f69283c6be"
+    },
+    "code": "SAVE116",
+    "discountType": "FLAT",
+    "discountValue": 20,
+    "minimumOrderAmount": 1417,
+    "maxDiscount": 594,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9b02c65ab90941ce929d23b5"
+    },
+    "code": "SAVE117",
+    "discountType": "FLAT",
+    "discountValue": 50,
+    "minimumOrderAmount": 1280,
+    "maxDiscount": 291,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8b47dc0d49a147998df90a5e"
+    },
+    "code": "SAVE118",
+    "discountType": "FLAT",
+    "discountValue": 10,
+    "minimumOrderAmount": 2456,
+    "maxDiscount": 866,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b10030fad5c447ce93cacbc3"
+    },
+    "code": "SAVE119",
+    "discountType": "FLAT",
+    "discountValue": 500,
+    "minimumOrderAmount": 837,
+    "maxDiscount": 977,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cf98fddeba5849109afead75"
+    },
+    "code": "SAVE120",
+    "discountType": "PERCENTAGE",
+    "discountValue": 250,
+    "minimumOrderAmount": 2848,
+    "maxDiscount": 869,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5adcc309e12047b9a08a0307"
+    },
+    "code": "SAVE121",
+    "discountType": "FLAT",
+    "discountValue": 10,
+    "minimumOrderAmount": 750,
+    "maxDiscount": 696,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7a4e0802aa80494998ce272e"
+    },
+    "code": "SAVE122",
+    "discountType": "PERCENTAGE",
+    "discountValue": 15,
+    "minimumOrderAmount": 1962,
+    "maxDiscount": 150,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ef753f1924a74fa4943e9e15"
+    },
+    "code": "SAVE123",
+    "discountType": "PERCENTAGE",
+    "discountValue": 100,
+    "minimumOrderAmount": 553,
+    "maxDiscount": 991,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d375cf04abf848cabbd7e430"
+    },
+    "code": "SAVE124",
+    "discountType": "PERCENTAGE",
+    "discountValue": 15,
+    "minimumOrderAmount": 4541,
+    "maxDiscount": 889,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "aa2a1d911a82430ba1962858"
+    },
+    "code": "SAVE125",
+    "discountType": "FLAT",
+    "discountValue": 15,
+    "minimumOrderAmount": 4459,
+    "maxDiscount": 215,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9ed946b3b1ab4d6fb8d8cc0e"
+    },
+    "code": "SAVE126",
+    "discountType": "PERCENTAGE",
+    "discountValue": 500,
+    "minimumOrderAmount": 1798,
+    "maxDiscount": 500,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c08f35703fdf41b797f6f5a6"
+    },
+    "code": "SAVE127",
+    "discountType": "FLAT",
+    "discountValue": 100,
+    "minimumOrderAmount": 1073,
+    "maxDiscount": 795,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a51766329ec7411589367007"
+    },
+    "code": "SAVE128",
+    "discountType": "PERCENTAGE",
+    "discountValue": 50,
+    "minimumOrderAmount": 1586,
+    "maxDiscount": 208,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "05bb778954514f4aac80ef67"
+    },
+    "code": "SAVE129",
+    "discountType": "PERCENTAGE",
+    "discountValue": 20,
+    "minimumOrderAmount": 3971,
+    "maxDiscount": 686,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8f512a5d5b02499ba97114d2"
+    },
+    "code": "SAVE130",
+    "discountType": "FLAT",
+    "discountValue": 500,
+    "minimumOrderAmount": 1559,
+    "maxDiscount": 668,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d15f69e1795b4a83a810ad22"
+    },
+    "code": "SAVE131",
+    "discountType": "PERCENTAGE",
+    "discountValue": 100,
+    "minimumOrderAmount": 2411,
+    "maxDiscount": 905,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "da8e414c19d247b69b145f0d"
+    },
+    "code": "SAVE132",
+    "discountType": "PERCENTAGE",
+    "discountValue": 100,
+    "minimumOrderAmount": 4558,
+    "maxDiscount": 755,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d019a988166747e988f0b84c"
+    },
+    "code": "SAVE133",
+    "discountType": "FLAT",
+    "discountValue": 25,
+    "minimumOrderAmount": 1561,
+    "maxDiscount": 749,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "41f9f34716c94195b399ce98"
+    },
+    "code": "SAVE134",
+    "discountType": "FLAT",
+    "discountValue": 250,
+    "minimumOrderAmount": 1671,
+    "maxDiscount": 914,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9b3a76464b864a41a70b7617"
+    },
+    "code": "SAVE135",
+    "discountType": "FLAT",
+    "discountValue": 50,
+    "minimumOrderAmount": 4715,
+    "maxDiscount": 808,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dd61ad119249417d936a17e5"
+    },
+    "code": "SAVE136",
+    "discountType": "FLAT",
+    "discountValue": 20,
+    "minimumOrderAmount": 3607,
+    "maxDiscount": 411,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "153c388e19154ceca03c00d1"
+    },
+    "code": "SAVE137",
+    "discountType": "FLAT",
+    "discountValue": 500,
+    "minimumOrderAmount": 2002,
+    "maxDiscount": 398,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ae2a1ba5e79048de93c41d39"
+    },
+    "code": "SAVE138",
+    "discountType": "PERCENTAGE",
+    "discountValue": 100,
+    "minimumOrderAmount": 3293,
+    "maxDiscount": 487,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "aa0816af8a1c44b79b411c54"
+    },
+    "code": "SAVE139",
+    "discountType": "FLAT",
+    "discountValue": 20,
+    "minimumOrderAmount": 1013,
+    "maxDiscount": 884,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7cece0567887465fb2c43fa3"
+    },
+    "code": "SAVE140",
+    "discountType": "PERCENTAGE",
+    "discountValue": 250,
+    "minimumOrderAmount": 3194,
+    "maxDiscount": 482,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ea6f30b71fe94a2fb875d58b"
+    },
+    "code": "SAVE141",
+    "discountType": "FLAT",
+    "discountValue": 25,
+    "minimumOrderAmount": 3357,
+    "maxDiscount": 544,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2df2c12097244c0cba0822b5"
+    },
+    "code": "SAVE142",
+    "discountType": "FLAT",
+    "discountValue": 50,
+    "minimumOrderAmount": 2888,
+    "maxDiscount": 238,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "02310b9d70b9494aabb6a58d"
+    },
+    "code": "SAVE143",
+    "discountType": "FLAT",
+    "discountValue": 15,
+    "minimumOrderAmount": 3955,
+    "maxDiscount": 768,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "923a8b3ac9ed47c6b908b879"
+    },
+    "code": "SAVE144",
+    "discountType": "PERCENTAGE",
+    "discountValue": 10,
+    "minimumOrderAmount": 4131,
+    "maxDiscount": 690,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8c87769c919e4e6abef2df78"
+    },
+    "code": "SAVE145",
+    "discountType": "FLAT",
+    "discountValue": 50,
+    "minimumOrderAmount": 4305,
+    "maxDiscount": 299,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0363ce1681594ec6a3edf4f2"
+    },
+    "code": "SAVE146",
+    "discountType": "PERCENTAGE",
+    "discountValue": 20,
+    "minimumOrderAmount": 3056,
+    "maxDiscount": 689,
+    "isActive": false,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ee54c001c2974032bb546cca"
+    },
+    "code": "SAVE147",
+    "discountType": "FLAT",
+    "discountValue": 100,
+    "minimumOrderAmount": 3003,
+    "maxDiscount": 346,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "361995be05a14fa9935197a3"
+    },
+    "code": "SAVE148",
+    "discountType": "FLAT",
+    "discountValue": 100,
+    "minimumOrderAmount": 2507,
+    "maxDiscount": 287,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "27e4739c14ee4bea962e9164"
+    },
+    "code": "SAVE149",
+    "discountType": "PERCENTAGE",
+    "discountValue": 500,
+    "minimumOrderAmount": 4038,
+    "maxDiscount": 195,
+    "isActive": true,
+    "expiryDate": {
+      "$date": "2026-12-31T23:59:59Z"
+    }
+  }
+]

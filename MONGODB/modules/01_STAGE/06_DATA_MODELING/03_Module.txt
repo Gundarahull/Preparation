@@ -1,0 +1,116 @@
+await User.findOne({
+    email: "rahul@gmail.com"
+});
+
+BEHIND THE SCENCES
+
+Node.js Application
+        │
+        ▼
+MongoDB Driver
+(Converts JS → BSON)
+        │
+        ▼
+mongod
+(Parses Query)
+        │
+        ▼
+WiredTiger
+(Reads Data)
+        │
+        ▼
+Disk
+        │
+        ▲
+Data Returned
+        │
+WiredTiger
+        │
+mongod
+        │
+MongoDB Driver
+(BSON → JS)
+        │
+        ▼
+Node.js Application
+
+
+
+
+Architecture Model
+Application
+
+↓
+
+Driver
+
+↓
+
+Database Server (mongod)
+
+↓
+
+Storage Engine (WiredTiger)
+
+↓
+
+Disk
+
+
+Product Company Interview Questions
+Q1
+
+What is the difference between MongoDB, mongod, and the MongoDB Driver?
+
+Q2
+
+Can Node.js communicate with MongoDB without a driver?
+
+Why?
+
+Q3
+
+What is the responsibility of mongod?
+
+Q4
+
+What is WiredTiger responsible for?
+
+Q5
+
+Who actually writes data to disk?
+
+===============================================================================================
+🎯 Architect Interview Questions
+Q1
+
+What's the difference between
+
+mongod
+
+mongosh
+
+Compass
+Q2
+
+Where are documents actually stored?
+
+Q3
+
+If you uninstall Compass,
+
+will MongoDB stop working?
+
+Q4
+
+If mongod is stopped,
+
+will Compass work?
+
+Q5
+
+If your Node.js application cannot connect to MongoDB,
+
+what are the first things you check?
+
+Think like a production engineer.

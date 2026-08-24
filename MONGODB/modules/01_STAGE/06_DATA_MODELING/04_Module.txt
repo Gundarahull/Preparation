@@ -1,0 +1,453 @@
+🎯 FAANG-Style Interview Questions
+Q1
+
+Why does MongoDB use _id instead of an auto-increment integer by default?
+
+Q2
+
+Who usually generates the ObjectId—the driver or the server?
+
+Why is that beneficial?
+
+Q3
+
+What happens internally when insertOne() is executed?
+
+Walk through the flow.
+
+Q4
+
+Can you insert a document without an _id?
+
+What happens?
+
+Q5
+
+What happens if two documents have the same _id?
+
+
+
+=====================================================
+INSERT MANY DUPLICATES
+Product 1 ✅
+
+Product 2 ✅
+
+Product 3 ❌ Duplicate
+
+↓
+
+STOP
+
+↓
+
+999,997 Products NOT Inserted
+
+===================
+db.products.insertMany(products, {
+    ordered: false
+})
+1 ✅
+
+2 ✅
+
+3 ❌
+
+4 ✅
+
+5 ✅
+
+6 ❌
+
+7 ✅
+
+8 ✅
+
+MongoDB skips the failures and continues inserting the rest.
+
+After the operation, you get a report showing which documents failed.
+
+==================
+
+
+
+UPDATEONE
+
+Interview Questions ⭐
+Q1. Why does MongoDB use $set?
+
+Because MongoDB must distinguish between:
+
+updating specific fields ($set)
+replacing the entire document (replaceOne)
+
+Without update operators, MongoDB couldn't know your intent.
+
+Q2. Difference between matchedCount and modifiedCount?
+
+Example:
+
+Document
+
+{
+    "city": "Hyderabad"
+}
+
+Update
+
+{
+    $set: {
+        city: "Hyderabad"
+    }
+}
+
+Result:
+
+matchedCount = 1
+modifiedCount = 0
+
+The document matched, but nothing actually changed.
+
+Q3. Can $set create a new field?
+
+✅ Yes.
+
+Interview Questions ⭐
+Q1. Difference between updateOne() and replaceOne()?
+
+updateOne() modifies only the specified fields using update operators.
+
+replaceOne() replaces the entire document (except _id) with the new document.
+
+Q2. Can replaceOne() change _id?
+
+No.
+
+MongoDB preserves the original _id, and attempting to replace it with a different value results in an error.
+
+Q3. Which is more common in backend APIs?
+
+
+
+========================================================================================================
+
+BULK Write
+
+
+await db.collection("users").bulkWrite([
+
+    {
+        insertOne: {
+            document: {
+                name: "Rahul",
+                city: "Bengaluru"
+            }
+        }
+    },
+
+    {
+        updateOne: {
+            filter: {
+                name: "Amit"
+            },
+            update: {
+                $set: {
+                    city: "Hyderabad"
+                }
+            }
+        }
+    },
+
+    {
+        deleteOne: {
+            filter: {
+                name: "Sneha"
+            }
+        }
+    }
+
+]);
+
+
+
+===========================================================================
+Acknowledgement
+
+| Method         | Important Return Fields                                                        |
+| -------------- | ------------------------------------------------------------------------------ |
+| `insertOne()`  | `acknowledged`, `insertedId`                                                   |
+| `insertMany()` | `acknowledged`, `insertedCount`, `insertedIds`                                 |
+| `updateOne()`  | `acknowledged`, `matchedCount`, `modifiedCount`, `upsertedCount`, `upsertedId` |
+| `updateMany()` | `acknowledged`, `matchedCount`, `modifiedCount`                                |
+| `replaceOne()` | `acknowledged`, `matchedCount`, `modifiedCount`                                |
+| `deleteOne()`  | `acknowledged`, `deletedCount`                                                 |
+| `deleteMany()` | `acknowledged`, `deletedCount`                                                 |
+| `bulkWrite()`  | `acknowledged` plus insert/update/delete counts                                |
+
+
+db.users.bulkWrite([
+    {insertOne:{document:{name:"gunda",branch:"Mech"}}},
+    {
+        updateOne:
+        {
+            filter:
+                {
+                    name:"gunda"
+                },
+            update:
+                {
+                    $set:{
+                        branch:"MECHANICAL"
+                    }
+                }
+        
+        }
+    },
+    {
+        deleteOne:{
+            filter:{
+                name:"gunda"
+            }
+        }
+    }
+    ])
+
+
+
+=========================================== QUESTIONS ==============================================
+Section A — Fundamentals (2 Marks Each)
+Q1.
+
+What is the difference between:
+
+insertOne()
+
+and
+
+insertMany()
+Q2.
+
+Which CRUD operations return an acknowledged field?
+
+Q3.
+
+What does modifiedCount = 0 indicate?
+
+Give one real example.
+
+Q4.
+
+What is the difference between:
+
+updateOne()
+
+and
+
+replaceOne()
+Q5.
+
+Which method should be used when updating all matching documents?
+
+Section B — Conceptual Questions (3 Marks Each)
+Q6.
+
+Explain the difference between:
+
+deleteOne()
+
+and
+
+deleteMany()
+
+Include a production example for each.
+
+Q7.
+
+Why does MongoDB require update operators like:
+
+$set
+
+instead of allowing:
+
+{
+    city: "Hyderabad"
+}
+Q8.
+
+Explain the purpose of:
+
+matchedCount
+
+and
+
+modifiedCount
+
+Can they be different?
+
+Q9.
+
+Why does
+
+updateOne()
+
+return metadata instead of the updated document?
+
+Q10.
+
+When should you use
+
+bulkWrite()
+
+instead of multiple
+
+updateOne()
+
+calls?
+
+Q11.
+
+What is the difference between
+
+ordered: true
+
+and
+
+ordered: false
+Q12.
+
+What happens if you execute
+
+deleteMany({})
+Q13.
+
+Can
+
+replaceOne()
+
+change the _id?
+
+Explain why.
+
+Q14.
+
+What does
+
+deletedCount
+
+represent?
+
+Q15.
+
+Can
+
+acknowledged
+
+be
+
+true
+
+while
+
+modifiedCount
+
+is
+
+0
+
+Explain with an example.
+
+Section C — Scenario-Based Questions (6 Marks Each)
+Q16.
+
+You receive an Excel file containing 20,000 products.
+
+Some products are new.
+
+Some require updates.
+
+Some should be removed.
+
+Which MongoDB API would you use?
+
+Explain your reasoning.
+
+Q17.
+
+A user updates only their mobile number.
+
+Which method is appropriate?
+
+Explain why the other update method is not suitable.
+
+Q18.
+
+Your company renames every occurrence of
+
+Bengaluru
+
+to
+
+Bangalore
+
+Which CRUD method would you use?
+
+Q19.
+
+You accidentally execute
+
+deleteMany({})
+
+in production.
+
+What happens?
+
+How can this be prevented?
+
+Q20.
+
+A frontend updates a profile and immediately needs the latest user object.
+
+Would you use
+
+updateOne()
+
+or another method?
+
+Explain your choice.
+
+Section D — Coding (6 Marks Each)
+
+Assume the collection is:
+
+users
+Q21.
+
+Write a Native Driver query to insert one user.
+
+Q22.
+
+Update Rahul's city to Hyderabad.
+
+Q23.
+
+Delete every inactive user.
+
+Q24.
+
+Replace Rahul's document with:
+
+{
+    "name": "Rahul",
+    "city": "Hyderabad"
+}
+Q25.
+
+Write one
+
+bulkWrite()
+
+that performs:
+
+Insert one user
+Update one user
+Delete one user

@@ -1,0 +1,122 @@
+[
+  {
+    "_id": {
+      "$oid": "dde309c033af47819c893d60"
+    },
+    "name": "Apple"
+  },
+  {
+    "_id": {
+      "$oid": "f635492a74104079aaa81575"
+    },
+    "name": "Samsung"
+  },
+  {
+    "_id": {
+      "$oid": "6c554399a1f7453c90e6c8da"
+    },
+    "name": "Sony"
+  },
+  {
+    "_id": {
+      "$oid": "67616c0d6fb94c3ea4fc6599"
+    },
+    "name": "Dell"
+  },
+  {
+    "_id": {
+      "$oid": "fc8cb21d35914a6b8b7a5987"
+    },
+    "name": "HP"
+  },
+  {
+    "_id": {
+      "$oid": "fc4080a22df3418382bf6f20"
+    },
+    "name": "Lenovo"
+  },
+  {
+    "_id": {
+      "$oid": "7530c8a1007c455e94481e56"
+    },
+    "name": "Asus"
+  },
+  {
+    "_id": {
+      "$oid": "aa04e582e3324c1b897c99d9"
+    },
+    "name": "Acer"
+  },
+  {
+    "_id": {
+      "$oid": "28c944360c604b52912645de"
+    },
+    "name": "Boat"
+  },
+  {
+    "_id": {
+      "$oid": "1df5f6125423403bb7a25c16"
+    },
+    "name": "OnePlus"
+  },
+  {
+    "_id": {
+      "$oid": "a4e0f72b5b64422e850493f2"
+    },
+    "name": "Nike"
+  },
+  {
+    "_id": {
+      "$oid": "d1ba21e507274ff2b50f680d"
+    },
+    "name": "Adidas"
+  },
+  {
+    "_id": {
+      "$oid": "f991c0fcd2a449b9b3c5df20"
+    },
+    "name": "Puma"
+  },
+  {
+    "_id": {
+      "$oid": "e91be2c405f348ca86a4f74d"
+    },
+    "name": "Canon"
+  },
+  {
+    "_id": {
+      "$oid": "61ada2c031d34089ba14dbdb"
+    },
+    "name": "Logitech"
+  },
+  {
+    "_id": {
+      "$oid": "a0963cb8307c496582f17bce"
+    },
+    "name": "LG"
+  },
+  {
+    "_id": {
+      "$oid": "a9ff16db05b649c2962f6661"
+    },
+    "name": "Xiaomi"
+  },
+  {
+    "_id": {
+      "$oid": "0eac7a8226b949ed95aa832e"
+    },
+    "name": "Realme"
+  },
+  {
+    "_id": {
+      "$oid": "6f3cb0e9149846f78a6e2673"
+    },
+    "name": "JBL"
+  },
+  {
+    "_id": {
+      "$oid": "cd7a173eb3ae487baf1be3a8"
+    },
+    "name": "Philips"
+  }
+]

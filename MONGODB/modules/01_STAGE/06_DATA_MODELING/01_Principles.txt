@@ -1,0 +1,143 @@
+| No | Principle                                      | One-Line Meaning                                                                           |
+| -- | ---------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| 1  | **Design for Reads, Not Relationships**        | Model data based on how the application reads it, not just how entities relate.            |
+| 2  | **Design Around Access Patterns**              | Start with the APIs and queries your application needs most frequently.                    |
+| 3  | **Keep Related Data Together (Data Locality)** | Data that is frequently accessed together should usually live together.                    |
+| 4  | **Move Computation to Design Time**            | Design documents to reduce expensive joins and complex queries later.                      |
+| 5  | **Optimize the Common Case**                   | Optimize for the operations that happen most often (usually reads).                        |
+| 6  | **Accept Controlled Duplication**              | Duplicate small amounts of data when it significantly improves performance.                |
+| 7  | **One Document = One Business Object**         | A document should represent a complete business entity or event whenever practical.        |
+| 8  | **Balance Read vs Write Trade-offs**           | Faster reads may mean more work during writes, and vice versa. Choose based on workload.   |
+| 9  | **Avoid Unnecessary Joins**                    | Prefer document structures that minimize `$lookup` operations when possible.               |
+| 10 | **Think About Growth Early**                   | Design for future document size, collection growth, and scalability—not just today's data. |
+
+
+
+=============================================================================================================
+                                                   EMBEDDDING
+==================================================================================================
+
+Is it always read with the parent?
+
+↓
+
+Does it belong only to one parent?
+
+↓
+
+Is it relatively small?
+
+↓
+
+Does it rarely change independently?
+
+IF most answers are yes then --> Embedding
+
+
+
+Interview Questions ⭐⭐⭐⭐⭐
+1. What is MongoDB's maximum document size?
+
+16 MB per BSON document.
+
+2. Why does MongoDB have a document size limit?
+
+To keep documents manageable for storage, memory, networking, and replication.
+
+3. Should we embed arrays?
+
+Yes, if they are bounded and closely related to the parent document.
+
+4. What is an unbounded array?
+
+An array with no predictable upper limit, such as comments, followers, or messages.
+
+5. Give examples of bounded arrays.
+Product images
+User addresses
+Emergency contacts
+Phone numbers
+Certificates
+6. Give examples of unbounded arrays.
+Comments
+Likes
+Followers
+Messages
+Orders
+Notifications
+
+
+
+=============================================================================================================
+                                                   REFERNCING
+==================================================================================================
+
+
+Interview Questions ⭐⭐⭐⭐⭐
+1. What is referencing?
+
+Storing the identifier of another document instead of embedding the document itself.
+
+2. When should we use references?
+
+When related data:
+
+Grows without bound
+Has its own lifecycle
+Is shared across many parent documents
+Is often accessed independently
+3. Is referencing similar to SQL foreign keys?
+
+Conceptually yes.
+
+But MongoDB references do not automatically enforce referential integrity like SQL foreign keys.
+
+4. Why are references more scalable?
+
+Because documents remain smaller, and related data can grow independently.
+
+
+          New Child Data
+                 │
+                 ▼
+      Can it grow forever?
+                 │
+      ┌──────────┴──────────┐
+      │                     │
+     Yes                   No
+      │                     │
+Reference 🔗         Continue Thinking
+                            │
+                            ▼
+      Is it always read together?
+                            │
+                     ┌──────┴──────┐
+                     │             │
+                    No            Yes
+                     │             │
+              Reference 🔗    Continue
+                                   │
+                                   ▼
+      Is it an independent business object?
+                                   │
+                     ┌─────────────┴─────────────┐
+                     │                           │
+                    Yes                         No
+                     │                           │
+              Reference 🔗                Embed 📦
+
+
+
+
+=============================================================================================================
+                                                   RELEATIONS
+==================================================================================================
+
+
+| Relationship            | Preferred MongoDB Design | Why                                  |
+| ----------------------- | ------------------------ | ------------------------------------ |
+| One-to-One              | Usually Embed            | Small, bounded, always read together |
+| One-to-Many (bounded)   | Embed                    | Simple and fast                      |
+| One-to-Many (unbounded) | Reference                | Prevents document growth             |
+| Many-to-Many            | Usually Reference        | Scalable and flexible                |
+

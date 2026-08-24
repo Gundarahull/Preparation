@@ -1,0 +1,7502 @@
+[
+  {
+    "_id": {
+      "$oid": "7630ecc2cbd24d3385700cb4"
+    },
+    "userId": {
+      "$oid": "b2bed4b6fbc84472a7b5cfc1"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d752eb4d8929442cb0b0aa1c"
+    },
+    "userId": {
+      "$oid": "893ddb6af25041bd9769ff09"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ffb50816e30d4629a1c5f5a2"
+    },
+    "userId": {
+      "$oid": "ae70679621e64425b973d412"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "13d5ec37108349ab9f7d62e3"
+    },
+    "userId": {
+      "$oid": "ccffb35c9ace4b58b835b38e"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "037cbec7efad4372aa3fbfa6"
+    },
+    "userId": {
+      "$oid": "e1eca6d101a5451f94cff9a0"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f7730547dc66461e9d880759"
+    },
+    "userId": {
+      "$oid": "bf5ee47098a44b8e9f62395a"
+    },
+    "type": "PAYMENT",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c367d0e4bd5b4691b464f69a"
+    },
+    "userId": {
+      "$oid": "ee5618919ac94ac290442054"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "beefe5db678e4e199f6decdb"
+    },
+    "userId": {
+      "$oid": "26ed7aa6207844a0915968c4"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "514d26fa632d4ae591c94c3f"
+    },
+    "userId": {
+      "$oid": "83bb552a509747368e44d3a9"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "012676e4abc24682ab43b41b"
+    },
+    "userId": {
+      "$oid": "aa4252e603324ababb9cf9bf"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "803cc7c96c43459eabd82858"
+    },
+    "userId": {
+      "$oid": "4c0297b02ef3403e912e4e23"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6cac8562301b4ff6888a40a8"
+    },
+    "userId": {
+      "$oid": "893ddb6af25041bd9769ff09"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8cfa5a01d0104ebebc564a13"
+    },
+    "userId": {
+      "$oid": "125aaecc355d4f218ed6047d"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "feb2702f27354cf6a186a190"
+    },
+    "userId": {
+      "$oid": "a9d89aada60e4d45b6d025c0"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "78ace515f4004538a2f99d6c"
+    },
+    "userId": {
+      "$oid": "69cdde69e4d540fa876490ae"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "653561ec1e7f4bae9f79e710"
+    },
+    "userId": {
+      "$oid": "819519aabf604c509b458951"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1c06adee756b43ec8c751d37"
+    },
+    "userId": {
+      "$oid": "40e7e274ea2b42b9accfa621"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fd3957093fa94b209c72fbf9"
+    },
+    "userId": {
+      "$oid": "391c2bfc46154328999aa9c2"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "81a804542ad24201992a7446"
+    },
+    "userId": {
+      "$oid": "85a813fd99b349d7b009260e"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2ae09aad7a4f463bbd0d01f8"
+    },
+    "userId": {
+      "$oid": "725141356c11458abe3212dc"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "86eb723ec7aa45d99d4697d0"
+    },
+    "userId": {
+      "$oid": "dc0dd6190c28476db9e0ac40"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8199a76229524964b7c6de05"
+    },
+    "userId": {
+      "$oid": "c9135da0cd684a5b995eafe5"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b2a1f72b3021426db730db99"
+    },
+    "userId": {
+      "$oid": "6280b5872f954a059b90b65a"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7542e8f6dc334d519964392c"
+    },
+    "userId": {
+      "$oid": "dc0dd6190c28476db9e0ac40"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3c06b30548554e608dfb84d1"
+    },
+    "userId": {
+      "$oid": "391c2bfc46154328999aa9c2"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d9cd31400f8c474e8a6054f3"
+    },
+    "userId": {
+      "$oid": "e1eca6d101a5451f94cff9a0"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "88861a0849cd4ddaba6e59fa"
+    },
+    "userId": {
+      "$oid": "072db182790f455ea95f1de2"
+    },
+    "type": "SYSTEM",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b2d926e9975143fcb574b41e"
+    },
+    "userId": {
+      "$oid": "0f45f4001edd468a9ce5bc76"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "48537ab279d44a15ac94ba41"
+    },
+    "userId": {
+      "$oid": "a9d89aada60e4d45b6d025c0"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66b7dc8658184adebf6f2aab"
+    },
+    "userId": {
+      "$oid": "f02b6de70474467ca17505f0"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7a2aedb390f24298a652c091"
+    },
+    "userId": {
+      "$oid": "ee5618919ac94ac290442054"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8108086f1c3f4eddace35418"
+    },
+    "userId": {
+      "$oid": "ccffb35c9ace4b58b835b38e"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "544ea81918b041379d272384"
+    },
+    "userId": {
+      "$oid": "55529acb74fb474a973543a0"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ad3e05ee240e4e76b6ca0f4c"
+    },
+    "userId": {
+      "$oid": "9489ad79e6854c1a9ceba6d1"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e08766a103b946fc907c088d"
+    },
+    "userId": {
+      "$oid": "0b3b480def8a400b843e9886"
+    },
+    "type": "PAYMENT",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "be99b52f2e564aaaafc54b82"
+    },
+    "userId": {
+      "$oid": "21f07ccdd2ea4cc2a8222638"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a818d59b96134e34aee843bd"
+    },
+    "userId": {
+      "$oid": "d0fde7cf00f74967826513ea"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7b33c99ad0884214923e125a"
+    },
+    "userId": {
+      "$oid": "196bb824ef264417894c7923"
+    },
+    "type": "PAYMENT",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "140b846b013440f595fcea64"
+    },
+    "userId": {
+      "$oid": "cb8bb0a1ba054f1a82ae12c3"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9d01c4c83084490399a4313e"
+    },
+    "userId": {
+      "$oid": "438b42620d1b4ea59b5e8903"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "774b2bdc2c7147bcae70b7b9"
+    },
+    "userId": {
+      "$oid": "0c763754f2da444f86bfa7cc"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "113277bfe24e462b8dd7e9c3"
+    },
+    "userId": {
+      "$oid": "ee5719454b6544b3a5c7a464"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "566a9c0340cf41199c8efd1d"
+    },
+    "userId": {
+      "$oid": "0fb5fbb8ce154268b638ed3f"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "900fc8377c344afbb3eb50aa"
+    },
+    "userId": {
+      "$oid": "26ed7aa6207844a0915968c4"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c861542eb57b4c49bf8eb3dd"
+    },
+    "userId": {
+      "$oid": "d354884b8b3649be9fe10f47"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "872013f59da24a56ac4860a1"
+    },
+    "userId": {
+      "$oid": "ee5618919ac94ac290442054"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0026a2867fdf46cb8708e5ae"
+    },
+    "userId": {
+      "$oid": "3779f4d7c10c48d593eb1035"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "956c0b2866d44d22aa3b7bce"
+    },
+    "userId": {
+      "$oid": "e3217161c2804d6c8c0f4eb2"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d9c4c3305f344e2582cedc5f"
+    },
+    "userId": {
+      "$oid": "02c93954718947e4af591371"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "600b162b34b04ad497f3ce82"
+    },
+    "userId": {
+      "$oid": "dc0dd6190c28476db9e0ac40"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "075d874cdfc442aebe800271"
+    },
+    "userId": {
+      "$oid": "02c93954718947e4af591371"
+    },
+    "type": "SYSTEM",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3eb85240c14640b28ff0d00a"
+    },
+    "userId": {
+      "$oid": "e86a3f0d75d9460f8bb9c84f"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8fbb0c6567ca476298d1053e"
+    },
+    "userId": {
+      "$oid": "9489ad79e6854c1a9ceba6d1"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2beeec374cf6498491b57dd7"
+    },
+    "userId": {
+      "$oid": "e3217161c2804d6c8c0f4eb2"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8b2cfffc584e418eb66bb65e"
+    },
+    "userId": {
+      "$oid": "f48d41e4717a452abb82f8ed"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a6bfd42d7df04ab6b8b8fb6b"
+    },
+    "userId": {
+      "$oid": "95decdfe489c487c925e06e9"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "67a15d32288b41a1bca0b235"
+    },
+    "userId": {
+      "$oid": "e3217161c2804d6c8c0f4eb2"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d9c59a36748444178d5ec6c5"
+    },
+    "userId": {
+      "$oid": "83bb552a509747368e44d3a9"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c38b03c8b8c542218d8475f2"
+    },
+    "userId": {
+      "$oid": "752180c494674c5a8839cfa5"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5473b1a57fdb42538824ffe1"
+    },
+    "userId": {
+      "$oid": "ae70679621e64425b973d412"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8dd57804ea094b29b27725e1"
+    },
+    "userId": {
+      "$oid": "5a5f000db19a490d82e8e143"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4c08f1818dc1472ba5a196a4"
+    },
+    "userId": {
+      "$oid": "468885a3f78c44ddaa94b213"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c94706bc74934eb9ab340e4a"
+    },
+    "userId": {
+      "$oid": "aa4252e603324ababb9cf9bf"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a08f4d5cbbcc4df9b0c5c01b"
+    },
+    "userId": {
+      "$oid": "d354884b8b3649be9fe10f47"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "88ed985f5ddf4f22989d0c54"
+    },
+    "userId": {
+      "$oid": "0c763754f2da444f86bfa7cc"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d39363164ec14b7797972b95"
+    },
+    "userId": {
+      "$oid": "819519aabf604c509b458951"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4a7322947cb64c988347d37f"
+    },
+    "userId": {
+      "$oid": "17f919f3570446388e5bf518"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0eedf5d542944031af44be4e"
+    },
+    "userId": {
+      "$oid": "addb780d58d84d559ba95286"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f4c5c8bf33894b55923608bd"
+    },
+    "userId": {
+      "$oid": "b2bed4b6fbc84472a7b5cfc1"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "20b9b3f3e7cf47b5b0f89f5e"
+    },
+    "userId": {
+      "$oid": "a8d429a4093a43b9ba93954a"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "471a2c7635c24c5aa6efa4c8"
+    },
+    "userId": {
+      "$oid": "196bb824ef264417894c7923"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6636b81e38cc4dafb3afa7ce"
+    },
+    "userId": {
+      "$oid": "19a4731c27984f3bb7125f8d"
+    },
+    "type": "SYSTEM",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "196ab8f1669a476ebd6ff8f1"
+    },
+    "userId": {
+      "$oid": "438b42620d1b4ea59b5e8903"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3a7a1906087e427d93077a5a"
+    },
+    "userId": {
+      "$oid": "3779f4d7c10c48d593eb1035"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "465db1eea8114ab5bd2e7551"
+    },
+    "userId": {
+      "$oid": "aa4252e603324ababb9cf9bf"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7f4cc92352034a6cb3abfe4b"
+    },
+    "userId": {
+      "$oid": "f02b6de70474467ca17505f0"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ee5cb8d66d5644458b2ec974"
+    },
+    "userId": {
+      "$oid": "196bb824ef264417894c7923"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "284646b87e7a4258a2406303"
+    },
+    "userId": {
+      "$oid": "69cdde69e4d540fa876490ae"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b1eac84b16af4284bd335026"
+    },
+    "userId": {
+      "$oid": "4cdc03b923b949dd9ac9fb47"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f4eb0cf4a9cb44deb105a581"
+    },
+    "userId": {
+      "$oid": "69cdde69e4d540fa876490ae"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b3147926d14c4c16b84098ad"
+    },
+    "userId": {
+      "$oid": "c9135da0cd684a5b995eafe5"
+    },
+    "type": "PAYMENT",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d37d6401289c41289bb2cb18"
+    },
+    "userId": {
+      "$oid": "c00509ab674845cd9193953e"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f8d1b425354f49c8875e9eb3"
+    },
+    "userId": {
+      "$oid": "4b71fcf1e217487598add4f7"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "06d75c66ef3c4c7cb7d73bde"
+    },
+    "userId": {
+      "$oid": "ede0742a5a8643e2baaa4ee2"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d9fc05eea4b5477db1e7eb35"
+    },
+    "userId": {
+      "$oid": "6280b5872f954a059b90b65a"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1d7e4434789e4c1fac47a5d5"
+    },
+    "userId": {
+      "$oid": "0f45f4001edd468a9ce5bc76"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e3fe0a5471694102a847d601"
+    },
+    "userId": {
+      "$oid": "9152b19099ca4884b72de6e1"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e54ff986bd20423cb8eb0e80"
+    },
+    "userId": {
+      "$oid": "893ddb6af25041bd9769ff09"
+    },
+    "type": "PAYMENT",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "14796d1b43e74db68701e23a"
+    },
+    "userId": {
+      "$oid": "41ba1a54a1c64534b8c2bd22"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6d219add9ae0423394b448a6"
+    },
+    "userId": {
+      "$oid": "8bc6fd543bdf444f8ea60462"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a15ec85507cd448c806060d2"
+    },
+    "userId": {
+      "$oid": "26ed7aa6207844a0915968c4"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5f1dea8bdc1c4a559335ffef"
+    },
+    "userId": {
+      "$oid": "e1496a61940d4508ae6b38e9"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2b5dd66a5c9a4f548d1bc1e4"
+    },
+    "userId": {
+      "$oid": "a1c604a6c7a44224917f4fd6"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4f9aa0464bec4bbea489010a"
+    },
+    "userId": {
+      "$oid": "b6b88f86ee7b442d91d45fed"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "38e671c41d1843c4a6091b84"
+    },
+    "userId": {
+      "$oid": "e3217161c2804d6c8c0f4eb2"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "aac4ead96fdc46c98b8fadb6"
+    },
+    "userId": {
+      "$oid": "ede0742a5a8643e2baaa4ee2"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c45ba6d302d84ff0be060433"
+    },
+    "userId": {
+      "$oid": "072db182790f455ea95f1de2"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d41448c1ab63488c9f36eaac"
+    },
+    "userId": {
+      "$oid": "5a5f000db19a490d82e8e143"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e4a8c6aa3af8472d96668fa9"
+    },
+    "userId": {
+      "$oid": "f02b6de70474467ca17505f0"
+    },
+    "type": "SYSTEM",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6749e70e320f42a0b9430f49"
+    },
+    "userId": {
+      "$oid": "4b71fcf1e217487598add4f7"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "103069944ca644b89c25ef7a"
+    },
+    "userId": {
+      "$oid": "b6b88f86ee7b442d91d45fed"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "29403434a8d64c0ea2ecba5e"
+    },
+    "userId": {
+      "$oid": "0796ffc37e284176bf89ac31"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a859d365c99b40ac9f7ebd69"
+    },
+    "userId": {
+      "$oid": "7df82b593b1545379ef89a84"
+    },
+    "type": "ORDER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "de12e7de0a55469c8f98da27"
+    },
+    "userId": {
+      "$oid": "752180c494674c5a8839cfa5"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1e4d403a414a4b1bbcf8eb84"
+    },
+    "userId": {
+      "$oid": "199874be17f6444d95d265af"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0cbaf5bdc1ad4783a0585226"
+    },
+    "userId": {
+      "$oid": "a8d429a4093a43b9ba93954a"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e96c949551684b198ee07b40"
+    },
+    "userId": {
+      "$oid": "b667a243b1de40b4834ff746"
+    },
+    "type": "PAYMENT",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5109cabd2e3a40bc9d69e1d9"
+    },
+    "userId": {
+      "$oid": "ae70679621e64425b973d412"
+    },
+    "type": "SYSTEM",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "41986de86bfa411a851bfe67"
+    },
+    "userId": {
+      "$oid": "f319a9f00570484ea259986a"
+    },
+    "type": "ORDER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dcbf7f9651d64872af598e58"
+    },
+    "userId": {
+      "$oid": "6dcad008315b4b1585fb7209"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fc7c334009074d9880df800b"
+    },
+    "userId": {
+      "$oid": "5a5f000db19a490d82e8e143"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f495f9a31c2c44b7b35a531f"
+    },
+    "userId": {
+      "$oid": "4c5681f402e5487d98497f81"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "23e0aa312215455680c0b45a"
+    },
+    "userId": {
+      "$oid": "8bc6fd543bdf444f8ea60462"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d435750f215d4a7db81950fc"
+    },
+    "userId": {
+      "$oid": "48253a266dd44273977971a8"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "47be32d272c14ff0a993a795"
+    },
+    "userId": {
+      "$oid": "40e7e274ea2b42b9accfa621"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9761768f41b34784b11f0636"
+    },
+    "userId": {
+      "$oid": "36925a5896ca48c0b47792be"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "47a8395da70a4d4a9281cee3"
+    },
+    "userId": {
+      "$oid": "4c618e4a4d54416e96990398"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "936ee6a7393a4409a7ee4327"
+    },
+    "userId": {
+      "$oid": "55529acb74fb474a973543a0"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "21715ac63b3f4278a8714c9a"
+    },
+    "userId": {
+      "$oid": "a8d429a4093a43b9ba93954a"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7c161494709347fea70e9bd3"
+    },
+    "userId": {
+      "$oid": "a9d89aada60e4d45b6d025c0"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a833280a9ad746019d5bde1f"
+    },
+    "userId": {
+      "$oid": "9489ad79e6854c1a9ceba6d1"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "18b92bd2f2ea40b5a8ad07cb"
+    },
+    "userId": {
+      "$oid": "4c5681f402e5487d98497f81"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "35bfef35e7e14a0bbd7970f6"
+    },
+    "userId": {
+      "$oid": "f48d41e4717a452abb82f8ed"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "42f497b84a004f2783abb85f"
+    },
+    "userId": {
+      "$oid": "ccffb35c9ace4b58b835b38e"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ad7970d535f74f7db507d363"
+    },
+    "userId": {
+      "$oid": "a1c604a6c7a44224917f4fd6"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8605d703559444739ddcb74d"
+    },
+    "userId": {
+      "$oid": "b9f3819e864149b38bc190f8"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "26eba9e5a8234326a0106d08"
+    },
+    "userId": {
+      "$oid": "ebef70858a144f8fa8274bac"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fac4cb63933741eb9641eb0d"
+    },
+    "userId": {
+      "$oid": "3779f4d7c10c48d593eb1035"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "473f0f4072b24f83a3f11913"
+    },
+    "userId": {
+      "$oid": "21f07ccdd2ea4cc2a8222638"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9f38f92858b64d2589e60992"
+    },
+    "userId": {
+      "$oid": "196bb824ef264417894c7923"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d4f02a164056457a965541f2"
+    },
+    "userId": {
+      "$oid": "b6b88f86ee7b442d91d45fed"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1e65a8d1f13141c78dc4fdaa"
+    },
+    "userId": {
+      "$oid": "79b73692a6124ff28b63e68f"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fe5c6842bf7f4846a363453a"
+    },
+    "userId": {
+      "$oid": "dc0dd6190c28476db9e0ac40"
+    },
+    "type": "ORDER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c723497adaa44139a1f1eb42"
+    },
+    "userId": {
+      "$oid": "e1496a61940d4508ae6b38e9"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "034c5b5ea33842efa548296e"
+    },
+    "userId": {
+      "$oid": "57597a2ba6964a08a85eda87"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d85a5a3f15b644f48795de65"
+    },
+    "userId": {
+      "$oid": "196bb824ef264417894c7923"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2d9b08a572c243eebd144aab"
+    },
+    "userId": {
+      "$oid": "40e7e274ea2b42b9accfa621"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cc4c86e472534ace99b8f613"
+    },
+    "userId": {
+      "$oid": "55529acb74fb474a973543a0"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "53ddc2b2ff264244bc9e2ddc"
+    },
+    "userId": {
+      "$oid": "a576dc21ba6343fe8e582f32"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64087a4b39494ac09a56cc15"
+    },
+    "userId": {
+      "$oid": "468885a3f78c44ddaa94b213"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e539db16419242a0afb48a59"
+    },
+    "userId": {
+      "$oid": "55529acb74fb474a973543a0"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4954c63558174cfa952df761"
+    },
+    "userId": {
+      "$oid": "f48d41e4717a452abb82f8ed"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "14699060772d4c068e294867"
+    },
+    "userId": {
+      "$oid": "bf87c9ce866f4978bc8458ab"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5d67fabe8f63494684db799c"
+    },
+    "userId": {
+      "$oid": "0796ffc37e284176bf89ac31"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "86ae0a244b9440fa841ee161"
+    },
+    "userId": {
+      "$oid": "c3dc617ed9ed400487925939"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ad58bb0d1be04d83b947aa73"
+    },
+    "userId": {
+      "$oid": "ebef70858a144f8fa8274bac"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8da3a227b88d43fe959de14d"
+    },
+    "userId": {
+      "$oid": "0fb5fbb8ce154268b638ed3f"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "745c920134164e47a6befc75"
+    },
+    "userId": {
+      "$oid": "5a5f000db19a490d82e8e143"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "38b67ba4124e4f9891627e15"
+    },
+    "userId": {
+      "$oid": "0796ffc37e284176bf89ac31"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "94eda09b8a714ac3b5d1ffb3"
+    },
+    "userId": {
+      "$oid": "d6871403596642e6ad33b2d9"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "aa0352484abc4755afc6dd18"
+    },
+    "userId": {
+      "$oid": "f319a9f00570484ea259986a"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c590a199f4444888ae545fdd"
+    },
+    "userId": {
+      "$oid": "55529acb74fb474a973543a0"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2601d5ecf33a4fc8aad7ef26"
+    },
+    "userId": {
+      "$oid": "6280b5872f954a059b90b65a"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "75f630b3c58b4552b095ba51"
+    },
+    "userId": {
+      "$oid": "a576dc21ba6343fe8e582f32"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9d1c74a6f83549ecb4a094c4"
+    },
+    "userId": {
+      "$oid": "dc0dd6190c28476db9e0ac40"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "73be65847cca4847ac22ef56"
+    },
+    "userId": {
+      "$oid": "196bb824ef264417894c7923"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0e3e17d61ede443f80dad5b1"
+    },
+    "userId": {
+      "$oid": "57597a2ba6964a08a85eda87"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f0348540c1b64273a3f4107b"
+    },
+    "userId": {
+      "$oid": "43463c6e5e4744a8bb399a81"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "91d963d22e75422c9d4a6aef"
+    },
+    "userId": {
+      "$oid": "dc80abf2c81441d98edc8cd9"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5b61fd08204c4f40ad304f06"
+    },
+    "userId": {
+      "$oid": "4b71fcf1e217487598add4f7"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7b4ad77a2bae436ca209e709"
+    },
+    "userId": {
+      "$oid": "85a813fd99b349d7b009260e"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2c8718a6863e4dc890b6c8f8"
+    },
+    "userId": {
+      "$oid": "21f07ccdd2ea4cc2a8222638"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "17e1ac21df044ef0be54c3ff"
+    },
+    "userId": {
+      "$oid": "468885a3f78c44ddaa94b213"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3e62ce5b5a5d42d9b8e88055"
+    },
+    "userId": {
+      "$oid": "36d8d5eb6be044c0884c2064"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e15a916c66164b2099fb2fd8"
+    },
+    "userId": {
+      "$oid": "36925a5896ca48c0b47792be"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2d7d3d5b1812457a8f438d15"
+    },
+    "userId": {
+      "$oid": "d0fde7cf00f74967826513ea"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1227a8e911d9495ca6b12a08"
+    },
+    "userId": {
+      "$oid": "17f919f3570446388e5bf518"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4e67b6c5ac1548e985373915"
+    },
+    "userId": {
+      "$oid": "4c0297b02ef3403e912e4e23"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f278bd16388f43e4b769e039"
+    },
+    "userId": {
+      "$oid": "01c3adeb07c44902a13a7133"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ed132c938eec4fcda98aaf6b"
+    },
+    "userId": {
+      "$oid": "bf5ee47098a44b8e9f62395a"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63527021f08d437aadc61811"
+    },
+    "userId": {
+      "$oid": "cb8bb0a1ba054f1a82ae12c3"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ff2c893248c94b4bbc745de6"
+    },
+    "userId": {
+      "$oid": "ede0742a5a8643e2baaa4ee2"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0d3704c56cc343d195c36035"
+    },
+    "userId": {
+      "$oid": "725141356c11458abe3212dc"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "dba95a28e5e14ce489644d1a"
+    },
+    "userId": {
+      "$oid": "a8d429a4093a43b9ba93954a"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bdb6ff04ca1245ec8e3ea9d4"
+    },
+    "userId": {
+      "$oid": "a8845999beee4cdea347b439"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b20d4071cd384cffa0ce5961"
+    },
+    "userId": {
+      "$oid": "21f07ccdd2ea4cc2a8222638"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "459b59b5606249e39f4462c5"
+    },
+    "userId": {
+      "$oid": "391c2bfc46154328999aa9c2"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fac7fd71617c4de2aa458909"
+    },
+    "userId": {
+      "$oid": "893ddb6af25041bd9769ff09"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4023198949bf431d8b4b1f5d"
+    },
+    "userId": {
+      "$oid": "69cdde69e4d540fa876490ae"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f743fbbaffec4500a2bfe3c0"
+    },
+    "userId": {
+      "$oid": "d354884b8b3649be9fe10f47"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8e7e9686a2c5480fb0c21a59"
+    },
+    "userId": {
+      "$oid": "0f45f4001edd468a9ce5bc76"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a41f245e833c4472a778dab1"
+    },
+    "userId": {
+      "$oid": "e1eca6d101a5451f94cff9a0"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1814f576328947dc8808da62"
+    },
+    "userId": {
+      "$oid": "125aaecc355d4f218ed6047d"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "15b079a2a91c4aae8a61f219"
+    },
+    "userId": {
+      "$oid": "69cdde69e4d540fa876490ae"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0c456c33869740f3925e8860"
+    },
+    "userId": {
+      "$oid": "4cdc03b923b949dd9ac9fb47"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cffb873eacc9440e8f612a67"
+    },
+    "userId": {
+      "$oid": "b2bed4b6fbc84472a7b5cfc1"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a9631b9f2ef94df0822a80f3"
+    },
+    "userId": {
+      "$oid": "3779f4d7c10c48d593eb1035"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "31099eceab084164a7d0aaea"
+    },
+    "userId": {
+      "$oid": "592aab7b91354f9db3783dce"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1f1a214822064f659601a62e"
+    },
+    "userId": {
+      "$oid": "9489ad79e6854c1a9ceba6d1"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e8c6df82ce3e48a4ad8e57aa"
+    },
+    "userId": {
+      "$oid": "452ad106e0c740b4a771071d"
+    },
+    "type": "SYSTEM",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2c08b4e387604ccda278c049"
+    },
+    "userId": {
+      "$oid": "07c567507ac64e4e98fc416e"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6b30d1c6501b413787602d13"
+    },
+    "userId": {
+      "$oid": "4b71fcf1e217487598add4f7"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d654fe49557c40f899d7b2a3"
+    },
+    "userId": {
+      "$oid": "55529acb74fb474a973543a0"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8b2830b39dff46d8bb019f56"
+    },
+    "userId": {
+      "$oid": "6280b5872f954a059b90b65a"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d143f36518d84e4bbabbeaa4"
+    },
+    "userId": {
+      "$oid": "199874be17f6444d95d265af"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fb359a87c0e04ab690a225aa"
+    },
+    "userId": {
+      "$oid": "e86a3f0d75d9460f8bb9c84f"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a3467f0981a44527981dbaea"
+    },
+    "userId": {
+      "$oid": "07c567507ac64e4e98fc416e"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "03c0cf0d24474aaeb5f3dc77"
+    },
+    "userId": {
+      "$oid": "752180c494674c5a8839cfa5"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cbdd2f93faa44d879a680cf6"
+    },
+    "userId": {
+      "$oid": "43463c6e5e4744a8bb399a81"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "61bd3a70798643a9b9a32da7"
+    },
+    "userId": {
+      "$oid": "68559420378a4ae5a988b206"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cfa0c85ab09249988a36462b"
+    },
+    "userId": {
+      "$oid": "cb8bb0a1ba054f1a82ae12c3"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0421057a772e40438a998f4c"
+    },
+    "userId": {
+      "$oid": "9489ad79e6854c1a9ceba6d1"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e0696f49a3de4a049590a94f"
+    },
+    "userId": {
+      "$oid": "438b42620d1b4ea59b5e8903"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "039323294cdd4e29b92ef989"
+    },
+    "userId": {
+      "$oid": "ee5618919ac94ac290442054"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ba3fb2811f10468ea59ae451"
+    },
+    "userId": {
+      "$oid": "c00509ab674845cd9193953e"
+    },
+    "type": "SYSTEM",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1984c05e7464400e84be58c4"
+    },
+    "userId": {
+      "$oid": "0b3b480def8a400b843e9886"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f44becba5efe45daba9804e0"
+    },
+    "userId": {
+      "$oid": "ae70679621e64425b973d412"
+    },
+    "type": "SYSTEM",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1e4e4dd32b474d06b87e0ecc"
+    },
+    "userId": {
+      "$oid": "9152b19099ca4884b72de6e1"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f40dcd7ea216490a946b8cbe"
+    },
+    "userId": {
+      "$oid": "2f5e6dd63cff4602a9d7ef31"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4b7c70ef0e0745e895a3ca7d"
+    },
+    "userId": {
+      "$oid": "00cf375f92c34367b0d2d335"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "184dea550115471ba3782254"
+    },
+    "userId": {
+      "$oid": "b667a243b1de40b4834ff746"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a1c85b886ac240709bb28ca7"
+    },
+    "userId": {
+      "$oid": "725141356c11458abe3212dc"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8b8f89c700d04ded924d4462"
+    },
+    "userId": {
+      "$oid": "5a5f000db19a490d82e8e143"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2d7b9380b3024c94aad3e475"
+    },
+    "userId": {
+      "$oid": "072db182790f455ea95f1de2"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0a109774a8c042d0a6d898b8"
+    },
+    "userId": {
+      "$oid": "ccffb35c9ace4b58b835b38e"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "709022a13a8f4b24baa452d8"
+    },
+    "userId": {
+      "$oid": "bf5ee47098a44b8e9f62395a"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b009a7ab5ce548a68674399a"
+    },
+    "userId": {
+      "$oid": "6280b5872f954a059b90b65a"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "530dc9cada62482da6078039"
+    },
+    "userId": {
+      "$oid": "41ba1a54a1c64534b8c2bd22"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "16e47776743a40699f7d5e0e"
+    },
+    "userId": {
+      "$oid": "5a5f000db19a490d82e8e143"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "704554604a7646c6947acb0c"
+    },
+    "userId": {
+      "$oid": "4cdc03b923b949dd9ac9fb47"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "909c4078f0a6429fadf0ffe7"
+    },
+    "userId": {
+      "$oid": "95decdfe489c487c925e06e9"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0f32e9156e8540b588a5ba53"
+    },
+    "userId": {
+      "$oid": "79b73692a6124ff28b63e68f"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ecc3dc2237ac45a9b2acb155"
+    },
+    "userId": {
+      "$oid": "199874be17f6444d95d265af"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cf54db674f7b4480b6d4ac47"
+    },
+    "userId": {
+      "$oid": "f02b6de70474467ca17505f0"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2ac4e5b0c8ba44119d481da2"
+    },
+    "userId": {
+      "$oid": "21f07ccdd2ea4cc2a8222638"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a11c96f57b134c209128ee13"
+    },
+    "userId": {
+      "$oid": "d6871403596642e6ad33b2d9"
+    },
+    "type": "ORDER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "88f4916c515e4a99bbe061a9"
+    },
+    "userId": {
+      "$oid": "a576dc21ba6343fe8e582f32"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9d31ac4682a9431687bffdb0"
+    },
+    "userId": {
+      "$oid": "36d8d5eb6be044c0884c2064"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5e8d2c7b6c444f51b4ad2032"
+    },
+    "userId": {
+      "$oid": "0b3b480def8a400b843e9886"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5afd26e7cb104855935b2d09"
+    },
+    "userId": {
+      "$oid": "dc0dd6190c28476db9e0ac40"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "54076aced4d346078e72692a"
+    },
+    "userId": {
+      "$oid": "bf87c9ce866f4978bc8458ab"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "181f39298bb342ee8c7edfe4"
+    },
+    "userId": {
+      "$oid": "48253a266dd44273977971a8"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e033ecad3f0548f8af995584"
+    },
+    "userId": {
+      "$oid": "95decdfe489c487c925e06e9"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6d207a6915eb44a0b6ec6d4d"
+    },
+    "userId": {
+      "$oid": "5a5f000db19a490d82e8e143"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a666169950f6469b88132eee"
+    },
+    "userId": {
+      "$oid": "0796ffc37e284176bf89ac31"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ee138e6ecbcd4bdc8a8ce347"
+    },
+    "userId": {
+      "$oid": "41ba1a54a1c64534b8c2bd22"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "81f265f9989249babfe7c0cd"
+    },
+    "userId": {
+      "$oid": "6280b5872f954a059b90b65a"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ab8c80daadba4cc69485d912"
+    },
+    "userId": {
+      "$oid": "391c2bfc46154328999aa9c2"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f4e5d811400c40bf9b2569e0"
+    },
+    "userId": {
+      "$oid": "05556d85642649938ed6f4d4"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ead445858fc04f0496ccb861"
+    },
+    "userId": {
+      "$oid": "592aab7b91354f9db3783dce"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "baff9a3b31f04c44aef76f77"
+    },
+    "userId": {
+      "$oid": "b2bed4b6fbc84472a7b5cfc1"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2b417b44f75b4ee5a84df2d0"
+    },
+    "userId": {
+      "$oid": "a8845999beee4cdea347b439"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4849e5c4329e42529a7df118"
+    },
+    "userId": {
+      "$oid": "a576dc21ba6343fe8e582f32"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e0ada1c491a84eb6af8ee239"
+    },
+    "userId": {
+      "$oid": "5a5f000db19a490d82e8e143"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f162e48f3a374d2f9384b299"
+    },
+    "userId": {
+      "$oid": "c3dc617ed9ed400487925939"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "431dfaabb6024e76a5466a58"
+    },
+    "userId": {
+      "$oid": "e3217161c2804d6c8c0f4eb2"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "00fab58c51ff459b9aa8c915"
+    },
+    "userId": {
+      "$oid": "79b73692a6124ff28b63e68f"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e2e37aa9d76742d7a190c09a"
+    },
+    "userId": {
+      "$oid": "17f919f3570446388e5bf518"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0c57cabbfffa4130be3e7502"
+    },
+    "userId": {
+      "$oid": "893ddb6af25041bd9769ff09"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3e9dd8f7288e4e9db6b0965d"
+    },
+    "userId": {
+      "$oid": "a808447668f34308a11f227f"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "723d5223a2614fb1b06786a6"
+    },
+    "userId": {
+      "$oid": "7467b44a89cc40cd8814b337"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e4752edb136d472a9b4fa698"
+    },
+    "userId": {
+      "$oid": "c9135da0cd684a5b995eafe5"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "87d0b11cb4c7482bae611bab"
+    },
+    "userId": {
+      "$oid": "4b71fcf1e217487598add4f7"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b41c1155f5414113ab8a13a7"
+    },
+    "userId": {
+      "$oid": "41ba1a54a1c64534b8c2bd22"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0febb477500a492a8f0680ae"
+    },
+    "userId": {
+      "$oid": "ee5719454b6544b3a5c7a464"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "003999b05c1145609dc40362"
+    },
+    "userId": {
+      "$oid": "b6b88f86ee7b442d91d45fed"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "194276050ee34f46b9290c64"
+    },
+    "userId": {
+      "$oid": "05556d85642649938ed6f4d4"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "90b767ae1c8d4b738a937243"
+    },
+    "userId": {
+      "$oid": "2e4f1a3ef08943e894dc7ada"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b5f73fe0e89b40dab52d6503"
+    },
+    "userId": {
+      "$oid": "53b9026d1dc34a14a7bf962c"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "345e79a10a6e40f48928addf"
+    },
+    "userId": {
+      "$oid": "85a813fd99b349d7b009260e"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "14664f30a2014c30b842003b"
+    },
+    "userId": {
+      "$oid": "55529acb74fb474a973543a0"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1091b27c1c9044c5962506a0"
+    },
+    "userId": {
+      "$oid": "48253a266dd44273977971a8"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "be93f29f80b44d4a9ec9160c"
+    },
+    "userId": {
+      "$oid": "defe9b4c17cb42eabafe8c97"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8ba17b26a10541ccb1a222cd"
+    },
+    "userId": {
+      "$oid": "68559420378a4ae5a988b206"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "59642dbfd8764397a7f7f643"
+    },
+    "userId": {
+      "$oid": "53b9026d1dc34a14a7bf962c"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7e7baffe543649d6acff518f"
+    },
+    "userId": {
+      "$oid": "a576dc21ba6343fe8e582f32"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3418fdef8ba04f92bc3c15ac"
+    },
+    "userId": {
+      "$oid": "ccffb35c9ace4b58b835b38e"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "051cd12bf05849c98247b78c"
+    },
+    "userId": {
+      "$oid": "57597a2ba6964a08a85eda87"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cca433d8434b4d059902ffe3"
+    },
+    "userId": {
+      "$oid": "0796ffc37e284176bf89ac31"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5029fcf75b6c40fdb9b99d40"
+    },
+    "userId": {
+      "$oid": "55529acb74fb474a973543a0"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "808ccfb3232d48fba965515b"
+    },
+    "userId": {
+      "$oid": "07c567507ac64e4e98fc416e"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "95a44193f0954cf5ba80194e"
+    },
+    "userId": {
+      "$oid": "4ce5cd277317452297cbd755"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "29655b9e8c5a412cbc82a7fd"
+    },
+    "userId": {
+      "$oid": "40e7e274ea2b42b9accfa621"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "009fd7d621674c70bb5fa255"
+    },
+    "userId": {
+      "$oid": "201cc12f1b844836be3cee43"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b67869532f7342e3bc0f438c"
+    },
+    "userId": {
+      "$oid": "ee5618919ac94ac290442054"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d4c9856c8e0f434f881848e8"
+    },
+    "userId": {
+      "$oid": "8e69ab9e8f9d4faa9adaf0fe"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bde1b59e5d5b4223bc5429e8"
+    },
+    "userId": {
+      "$oid": "a8d429a4093a43b9ba93954a"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "79f60eb1e041445ab900b99e"
+    },
+    "userId": {
+      "$oid": "21f07ccdd2ea4cc2a8222638"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "97f6265aaf00447e951e4658"
+    },
+    "userId": {
+      "$oid": "893ddb6af25041bd9769ff09"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fce6753db573484eb3a8295d"
+    },
+    "userId": {
+      "$oid": "85a813fd99b349d7b009260e"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ec6c7cd9c8e47d09d1117e4"
+    },
+    "userId": {
+      "$oid": "bf5ee47098a44b8e9f62395a"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "822e44e5dd0b46b3a72b6b99"
+    },
+    "userId": {
+      "$oid": "d0fde7cf00f74967826513ea"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c2813e42e020443d8a5d8f17"
+    },
+    "userId": {
+      "$oid": "aa4252e603324ababb9cf9bf"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5fe469d868864a5d8877730b"
+    },
+    "userId": {
+      "$oid": "176af09d1f26446bb6009fbc"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6fee0738d5ab4916b0246f2f"
+    },
+    "userId": {
+      "$oid": "83bb552a509747368e44d3a9"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "32febd61f1a14b48bf207a56"
+    },
+    "userId": {
+      "$oid": "201cc12f1b844836be3cee43"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ccd94faee3564db2b92e8283"
+    },
+    "userId": {
+      "$oid": "ee5719454b6544b3a5c7a464"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "07d77dc8d08d46e5b16c2809"
+    },
+    "userId": {
+      "$oid": "ee5618919ac94ac290442054"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0b456530d8ce44a8acfd70cf"
+    },
+    "userId": {
+      "$oid": "21f07ccdd2ea4cc2a8222638"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9847973b936b474cb7a4c14f"
+    },
+    "userId": {
+      "$oid": "893ddb6af25041bd9769ff09"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "42ac55e3b33546539299cd28"
+    },
+    "userId": {
+      "$oid": "4ce5cd277317452297cbd755"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2538262f4ba8439aaf85c184"
+    },
+    "userId": {
+      "$oid": "aa4252e603324ababb9cf9bf"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2c70bb4bf8074ef797ec3524"
+    },
+    "userId": {
+      "$oid": "7467b44a89cc40cd8814b337"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c974d7a382b3472dad65f605"
+    },
+    "userId": {
+      "$oid": "17f919f3570446388e5bf518"
+    },
+    "type": "ORDER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "28bdd9476f2344cdbf14b469"
+    },
+    "userId": {
+      "$oid": "4cdc03b923b949dd9ac9fb47"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "060eec7e88044e55a739e33b"
+    },
+    "userId": {
+      "$oid": "a576dc21ba6343fe8e582f32"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "31d930d872f64a3c8247fe1c"
+    },
+    "userId": {
+      "$oid": "36925a5896ca48c0b47792be"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63a0745209aa49cfa89ade93"
+    },
+    "userId": {
+      "$oid": "69cdde69e4d540fa876490ae"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4df177808dab4557a059dc3a"
+    },
+    "userId": {
+      "$oid": "0fb5fbb8ce154268b638ed3f"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a924f8274e4c44d2824dcafa"
+    },
+    "userId": {
+      "$oid": "d354884b8b3649be9fe10f47"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3f104f28b7774a02ba64dd23"
+    },
+    "userId": {
+      "$oid": "7df82b593b1545379ef89a84"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e0308ba44ea94111ae4885ed"
+    },
+    "userId": {
+      "$oid": "592aab7b91354f9db3783dce"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ad7222ea43134cdeb1d0c572"
+    },
+    "userId": {
+      "$oid": "7467b44a89cc40cd8814b337"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "68bd36ca56094db483b9adbb"
+    },
+    "userId": {
+      "$oid": "dc80abf2c81441d98edc8cd9"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7d68d75d50d341b2b8dab1b1"
+    },
+    "userId": {
+      "$oid": "468885a3f78c44ddaa94b213"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6b18fa9af811468fb04a3ec2"
+    },
+    "userId": {
+      "$oid": "95decdfe489c487c925e06e9"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "27d5d7924ed74171965aafce"
+    },
+    "userId": {
+      "$oid": "9489ad79e6854c1a9ceba6d1"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ab2bb8ca5524edf93cc048b"
+    },
+    "userId": {
+      "$oid": "e3217161c2804d6c8c0f4eb2"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "daa8504a0abb4045ba4febb0"
+    },
+    "userId": {
+      "$oid": "c9135da0cd684a5b995eafe5"
+    },
+    "type": "ORDER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "563e3a1a2f104bd981a5a673"
+    },
+    "userId": {
+      "$oid": "19a4731c27984f3bb7125f8d"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "994303995262427e9b25cba8"
+    },
+    "userId": {
+      "$oid": "2e4f1a3ef08943e894dc7ada"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "eb3afc4954364f0cb8377f5a"
+    },
+    "userId": {
+      "$oid": "0fb5fbb8ce154268b638ed3f"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5e8b9f01f7e04e8fa0e09361"
+    },
+    "userId": {
+      "$oid": "a9d89aada60e4d45b6d025c0"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e393442e63ca4c21bda519b2"
+    },
+    "userId": {
+      "$oid": "ccffb35c9ace4b58b835b38e"
+    },
+    "type": "ORDER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "da285dfe874d4c45bb521cbb"
+    },
+    "userId": {
+      "$oid": "4cdc03b923b949dd9ac9fb47"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e116f5e3712f41af8ccbff3a"
+    },
+    "userId": {
+      "$oid": "b29c5cc8d9ea49d3b879a029"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e337e82d5cba4491a5a77adb"
+    },
+    "userId": {
+      "$oid": "68559420378a4ae5a988b206"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fe0fa89f31204ccc922ee50b"
+    },
+    "userId": {
+      "$oid": "4c618e4a4d54416e96990398"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c85270d7d43b48cda93cf81d"
+    },
+    "userId": {
+      "$oid": "9152b19099ca4884b72de6e1"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "35a6cd915cb74191bf4ad2a1"
+    },
+    "userId": {
+      "$oid": "a808447668f34308a11f227f"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3651596c5a6447eaac5ec5e3"
+    },
+    "userId": {
+      "$oid": "53b9026d1dc34a14a7bf962c"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4c7301f1041e43ef88e6e038"
+    },
+    "userId": {
+      "$oid": "c9135da0cd684a5b995eafe5"
+    },
+    "type": "SYSTEM",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ddd57dd0ef3c451c94a701b3"
+    },
+    "userId": {
+      "$oid": "41ba1a54a1c64534b8c2bd22"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6b2107343c034e909a9543d1"
+    },
+    "userId": {
+      "$oid": "ede0742a5a8643e2baaa4ee2"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a3fe3d510ba74706a8565a04"
+    },
+    "userId": {
+      "$oid": "e86a3f0d75d9460f8bb9c84f"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "20e60c6931c343f59cf6a60a"
+    },
+    "userId": {
+      "$oid": "a808447668f34308a11f227f"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "30be16fe74734fb59bd422c1"
+    },
+    "userId": {
+      "$oid": "addb780d58d84d559ba95286"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "edfa3506da2644b99ab75181"
+    },
+    "userId": {
+      "$oid": "19a4731c27984f3bb7125f8d"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9bf29dd3900749ae965ea7a4"
+    },
+    "userId": {
+      "$oid": "a576dc21ba6343fe8e582f32"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e80f31bea1364e9a95f5e8f6"
+    },
+    "userId": {
+      "$oid": "176af09d1f26446bb6009fbc"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7a045299c3374a3e90a3ae39"
+    },
+    "userId": {
+      "$oid": "43463c6e5e4744a8bb399a81"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "420b8115ae7b4af6a68b80e6"
+    },
+    "userId": {
+      "$oid": "072db182790f455ea95f1de2"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f20cca5e49014cf18eda6595"
+    },
+    "userId": {
+      "$oid": "e3217161c2804d6c8c0f4eb2"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b21c9f5a120c460e9bc67848"
+    },
+    "userId": {
+      "$oid": "6dcad008315b4b1585fb7209"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "266e9f40cf744780abe09dc1"
+    },
+    "userId": {
+      "$oid": "0b3b480def8a400b843e9886"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "09530a5cd96f4c0580dace3f"
+    },
+    "userId": {
+      "$oid": "5a5f000db19a490d82e8e143"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1ca0c292262e406a8060184c"
+    },
+    "userId": {
+      "$oid": "aa4252e603324ababb9cf9bf"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d49828cf43f3403d9973026a"
+    },
+    "userId": {
+      "$oid": "ee5618919ac94ac290442054"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5ea9cef085eb42cfa4870bdb"
+    },
+    "userId": {
+      "$oid": "b2bed4b6fbc84472a7b5cfc1"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e6982a5742b348deb5970baf"
+    },
+    "userId": {
+      "$oid": "48253a266dd44273977971a8"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "715e0f74f45140c08205354f"
+    },
+    "userId": {
+      "$oid": "4ce5cd277317452297cbd755"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a0e4b4e14e784c0fa37ce704"
+    },
+    "userId": {
+      "$oid": "ccffb35c9ace4b58b835b38e"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8d8c68d20d344a279dffbda3"
+    },
+    "userId": {
+      "$oid": "0f45f4001edd468a9ce5bc76"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "549d72df08f1496c9fecaf5f"
+    },
+    "userId": {
+      "$oid": "69cdde69e4d540fa876490ae"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cf0dc4ad73d34841938e102b"
+    },
+    "userId": {
+      "$oid": "05556d85642649938ed6f4d4"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "073c1752c99941c4bb873a5d"
+    },
+    "userId": {
+      "$oid": "21f07ccdd2ea4cc2a8222638"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a087f027928d47ce8285f675"
+    },
+    "userId": {
+      "$oid": "b9f3819e864149b38bc190f8"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "954a295c7ad241f4a2c13729"
+    },
+    "userId": {
+      "$oid": "bf87c9ce866f4978bc8458ab"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cddb772ddd014dd28c36ff3c"
+    },
+    "userId": {
+      "$oid": "125aaecc355d4f218ed6047d"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8a64d805c92349ea9e9948b0"
+    },
+    "userId": {
+      "$oid": "defe9b4c17cb42eabafe8c97"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b108cae56c4d4a108803f775"
+    },
+    "userId": {
+      "$oid": "dc0dd6190c28476db9e0ac40"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "211da316be3746e6b9426d59"
+    },
+    "userId": {
+      "$oid": "41ba1a54a1c64534b8c2bd22"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e147f9172f82418295866c82"
+    },
+    "userId": {
+      "$oid": "4c0297b02ef3403e912e4e23"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a6c4e7e7fd13478c82df235d"
+    },
+    "userId": {
+      "$oid": "7467b44a89cc40cd8814b337"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6dd1d4fc86b9439287decc05"
+    },
+    "userId": {
+      "$oid": "79b73692a6124ff28b63e68f"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2bf793549e044ac69b9d3c47"
+    },
+    "userId": {
+      "$oid": "9489ad79e6854c1a9ceba6d1"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1384308631444db1a85f5453"
+    },
+    "userId": {
+      "$oid": "a9d89aada60e4d45b6d025c0"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "028352e6da5c44f7bca7ec3c"
+    },
+    "userId": {
+      "$oid": "201cc12f1b844836be3cee43"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c0921227f7ab437ba02fb6a0"
+    },
+    "userId": {
+      "$oid": "199874be17f6444d95d265af"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e142c7910fc24491b67fd430"
+    },
+    "userId": {
+      "$oid": "4c618e4a4d54416e96990398"
+    },
+    "type": "PAYMENT",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "caef10976b264ce687ff9f33"
+    },
+    "userId": {
+      "$oid": "d354884b8b3649be9fe10f47"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1ce5b88e2e9544c8b86d3568"
+    },
+    "userId": {
+      "$oid": "a8845999beee4cdea347b439"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b746b9eff8e5447bbd7768cc"
+    },
+    "userId": {
+      "$oid": "c00509ab674845cd9193953e"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "19771f142e9d4418b4cdf4fb"
+    },
+    "userId": {
+      "$oid": "8e69ab9e8f9d4faa9adaf0fe"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3d238b2ac4874343a813346a"
+    },
+    "userId": {
+      "$oid": "26ed7aa6207844a0915968c4"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a0f18cdb5eb044c2add3cfeb"
+    },
+    "userId": {
+      "$oid": "4c0297b02ef3403e912e4e23"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "00b38096bcc8405e823e3f62"
+    },
+    "userId": {
+      "$oid": "a1c604a6c7a44224917f4fd6"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c5166fc553cf4b85902e6a34"
+    },
+    "userId": {
+      "$oid": "b29c5cc8d9ea49d3b879a029"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3062b1ee04e0465d94556b4c"
+    },
+    "userId": {
+      "$oid": "a1c604a6c7a44224917f4fd6"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e4e712fe35c14fcd87e018b2"
+    },
+    "userId": {
+      "$oid": "468885a3f78c44ddaa94b213"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a88effcc1efd463fba0b3584"
+    },
+    "userId": {
+      "$oid": "b2bed4b6fbc84472a7b5cfc1"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b1491a898fea499cbd2301f1"
+    },
+    "userId": {
+      "$oid": "79b73692a6124ff28b63e68f"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "052c26f1ea4a4939bbb3a516"
+    },
+    "userId": {
+      "$oid": "6dcad008315b4b1585fb7209"
+    },
+    "type": "SYSTEM",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "24e3770197464182a8460a4f"
+    },
+    "userId": {
+      "$oid": "8e69ab9e8f9d4faa9adaf0fe"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "94fe5491c1db48e78fc89e6c"
+    },
+    "userId": {
+      "$oid": "391c2bfc46154328999aa9c2"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6faeb69b25a247f889e7754d"
+    },
+    "userId": {
+      "$oid": "f02b6de70474467ca17505f0"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5e56d56d191f4089af8f2f27"
+    },
+    "userId": {
+      "$oid": "7467b44a89cc40cd8814b337"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "97805a7867c246dc8cac8580"
+    },
+    "userId": {
+      "$oid": "4c0297b02ef3403e912e4e23"
+    },
+    "type": "ORDER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "77cb59e5798b4c4fbdb4b85d"
+    },
+    "userId": {
+      "$oid": "072db182790f455ea95f1de2"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "443ba836fe144ce182f4f92f"
+    },
+    "userId": {
+      "$oid": "79b73692a6124ff28b63e68f"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "02052f47d957442d8b69d642"
+    },
+    "userId": {
+      "$oid": "0f45f4001edd468a9ce5bc76"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ba5b3bb5562140a29b01a586"
+    },
+    "userId": {
+      "$oid": "b29c5cc8d9ea49d3b879a029"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e683e9e6f2e44c56b1edc0ab"
+    },
+    "userId": {
+      "$oid": "c9135da0cd684a5b995eafe5"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0ecdb2e1bc3f4987bf7ad1af"
+    },
+    "userId": {
+      "$oid": "072db182790f455ea95f1de2"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "456ee4ff6f4e46bbb0f95804"
+    },
+    "userId": {
+      "$oid": "dc80abf2c81441d98edc8cd9"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ff175f2b73c547758add36fc"
+    },
+    "userId": {
+      "$oid": "8e69ab9e8f9d4faa9adaf0fe"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e85c2bc72adb4c4e8106ff2f"
+    },
+    "userId": {
+      "$oid": "85a813fd99b349d7b009260e"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0cf9cdc03de447f5aa02ada6"
+    },
+    "userId": {
+      "$oid": "438b42620d1b4ea59b5e8903"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "39fc62662973467c93df89f9"
+    },
+    "userId": {
+      "$oid": "e1eca6d101a5451f94cff9a0"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2c6e9f1ca1ee4d67af4da7da"
+    },
+    "userId": {
+      "$oid": "199874be17f6444d95d265af"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9f18fa55424549b0a8c505b7"
+    },
+    "userId": {
+      "$oid": "cb8bb0a1ba054f1a82ae12c3"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6fc6005b0ee4441d9a90db5f"
+    },
+    "userId": {
+      "$oid": "e1eca6d101a5451f94cff9a0"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "52a6c0ae44564116bffc3ef1"
+    },
+    "userId": {
+      "$oid": "a8845999beee4cdea347b439"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f41d6ffbb1e24a5599ddfbf6"
+    },
+    "userId": {
+      "$oid": "dc0dd6190c28476db9e0ac40"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1ba1451d25c748f99423f454"
+    },
+    "userId": {
+      "$oid": "d6871403596642e6ad33b2d9"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a28412786f5144839288eaed"
+    },
+    "userId": {
+      "$oid": "83bb552a509747368e44d3a9"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f2fd082464344ad4b7d1c1b4"
+    },
+    "userId": {
+      "$oid": "02c93954718947e4af591371"
+    },
+    "type": "PAYMENT",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a0c5350e0ec14ec692576fa8"
+    },
+    "userId": {
+      "$oid": "752180c494674c5a8839cfa5"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fee25ca069254b9e9edf1fcd"
+    },
+    "userId": {
+      "$oid": "893ddb6af25041bd9769ff09"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d031ffa7bda8431f91076d54"
+    },
+    "userId": {
+      "$oid": "725141356c11458abe3212dc"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "be564982032e40e2aa8f7d00"
+    },
+    "userId": {
+      "$oid": "f48d41e4717a452abb82f8ed"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "25c48614976d420a8bf05422"
+    },
+    "userId": {
+      "$oid": "6280b5872f954a059b90b65a"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "022157a28b48421585837f8c"
+    },
+    "userId": {
+      "$oid": "addb780d58d84d559ba95286"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7189a117c8c843019b646193"
+    },
+    "userId": {
+      "$oid": "ebef70858a144f8fa8274bac"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a3da1544a4ab4a39a4112445"
+    },
+    "userId": {
+      "$oid": "b9f3819e864149b38bc190f8"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8508e3f7c9c247bbbc80b4a1"
+    },
+    "userId": {
+      "$oid": "f48d41e4717a452abb82f8ed"
+    },
+    "type": "ORDER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "afda1f54c27d42b6a5131e1d"
+    },
+    "userId": {
+      "$oid": "d0fde7cf00f74967826513ea"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2902f7dcc4024ec8be1cad3c"
+    },
+    "userId": {
+      "$oid": "addb780d58d84d559ba95286"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5f1547e1f2f049ad801d0d1d"
+    },
+    "userId": {
+      "$oid": "ae70679621e64425b973d412"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ffb2ac4343c44ff4ac5b172c"
+    },
+    "userId": {
+      "$oid": "bf5ee47098a44b8e9f62395a"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "690e92ffd5ee477bae37c3fd"
+    },
+    "userId": {
+      "$oid": "79b73692a6124ff28b63e68f"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ef4ede6227e842bda9035127"
+    },
+    "userId": {
+      "$oid": "b9f3819e864149b38bc190f8"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fe8a4981536f4f049dc772fa"
+    },
+    "userId": {
+      "$oid": "53b9026d1dc34a14a7bf962c"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b7c7a964fb024194990490d1"
+    },
+    "userId": {
+      "$oid": "4c5681f402e5487d98497f81"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7beac2ef374147c1b58c3137"
+    },
+    "userId": {
+      "$oid": "5a5f000db19a490d82e8e143"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a8f8702ec0ba478d94230eaf"
+    },
+    "userId": {
+      "$oid": "391c2bfc46154328999aa9c2"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "87bd9e9d7a3a4edb95df591b"
+    },
+    "userId": {
+      "$oid": "e86a3f0d75d9460f8bb9c84f"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ce9c669f9334f3fa962370c"
+    },
+    "userId": {
+      "$oid": "2f5e6dd63cff4602a9d7ef31"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fec5d816bb45406a9c9660a6"
+    },
+    "userId": {
+      "$oid": "b9f3819e864149b38bc190f8"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6be1b991e1df4f80b92283c6"
+    },
+    "userId": {
+      "$oid": "defe9b4c17cb42eabafe8c97"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7b791720de1d4fe28da93b56"
+    },
+    "userId": {
+      "$oid": "b2bed4b6fbc84472a7b5cfc1"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "be1837a378d34b439212cdc9"
+    },
+    "userId": {
+      "$oid": "3779f4d7c10c48d593eb1035"
+    },
+    "type": "ORDER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6248868f3e114d999b7627e7"
+    },
+    "userId": {
+      "$oid": "391c2bfc46154328999aa9c2"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3b259bd324c046f7beffdad7"
+    },
+    "userId": {
+      "$oid": "6dcad008315b4b1585fb7209"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f3fa136c83154e60ba0b5813"
+    },
+    "userId": {
+      "$oid": "b29c5cc8d9ea49d3b879a029"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "89ea7da9078144f9876372a5"
+    },
+    "userId": {
+      "$oid": "819519aabf604c509b458951"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4fa556a606ff41c9be0dd23d"
+    },
+    "userId": {
+      "$oid": "f02b6de70474467ca17505f0"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3a60ff1b33e74b74925bf367"
+    },
+    "userId": {
+      "$oid": "bf87c9ce866f4978bc8458ab"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b5e1eb3b056846fea2d880b5"
+    },
+    "userId": {
+      "$oid": "725141356c11458abe3212dc"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ade50a0689a46909be3bc55"
+    },
+    "userId": {
+      "$oid": "a808447668f34308a11f227f"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c3ff9242afc44afd869884c6"
+    },
+    "userId": {
+      "$oid": "0c763754f2da444f86bfa7cc"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "09cc56b9303947078c5e818e"
+    },
+    "userId": {
+      "$oid": "ccffb35c9ace4b58b835b38e"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "32b3a0d8881b4f47a46d7c63"
+    },
+    "userId": {
+      "$oid": "4c618e4a4d54416e96990398"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "55e9a9d9f7b74fda95767b0b"
+    },
+    "userId": {
+      "$oid": "55529acb74fb474a973543a0"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3477bc0a188146f1ba531a9d"
+    },
+    "userId": {
+      "$oid": "0c763754f2da444f86bfa7cc"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9faa17ebebe84e3db942059a"
+    },
+    "userId": {
+      "$oid": "79b73692a6124ff28b63e68f"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ce978881cc9c45798f1b9f38"
+    },
+    "userId": {
+      "$oid": "9489ad79e6854c1a9ceba6d1"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1c54f0d8375343ea8315a463"
+    },
+    "userId": {
+      "$oid": "85a813fd99b349d7b009260e"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2bded1d323164346ae5982b0"
+    },
+    "userId": {
+      "$oid": "2e4f1a3ef08943e894dc7ada"
+    },
+    "type": "PAYMENT",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "91f89bfa66b94f91bfd55e92"
+    },
+    "userId": {
+      "$oid": "53b9026d1dc34a14a7bf962c"
+    },
+    "type": "SYSTEM",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d8cf175de0c94c02b9954a60"
+    },
+    "userId": {
+      "$oid": "f02b6de70474467ca17505f0"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1d44998563df46618e588e7e"
+    },
+    "userId": {
+      "$oid": "d6871403596642e6ad33b2d9"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9bf380e90d8741e397acc205"
+    },
+    "userId": {
+      "$oid": "ae70679621e64425b973d412"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f256d702aee14ad3b6a6cfb6"
+    },
+    "userId": {
+      "$oid": "21f07ccdd2ea4cc2a8222638"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7b710ba993e3404b9ce6f54f"
+    },
+    "userId": {
+      "$oid": "b9f3819e864149b38bc190f8"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "08749a8d30be469a85f878f3"
+    },
+    "userId": {
+      "$oid": "b6b88f86ee7b442d91d45fed"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "99a214e479374097b0f9754b"
+    },
+    "userId": {
+      "$oid": "40e7e274ea2b42b9accfa621"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7c6fac8a8da940b9bfb4ec43"
+    },
+    "userId": {
+      "$oid": "43463c6e5e4744a8bb399a81"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d0fb25a574c7496997046961"
+    },
+    "userId": {
+      "$oid": "072db182790f455ea95f1de2"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "260f237d85d04f489f3145dd"
+    },
+    "userId": {
+      "$oid": "4c5681f402e5487d98497f81"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "28571347d2bf400ca37e8c73"
+    },
+    "userId": {
+      "$oid": "2f5e6dd63cff4602a9d7ef31"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1e1f3b653fc6490085f6de9e"
+    },
+    "userId": {
+      "$oid": "4ce5cd277317452297cbd755"
+    },
+    "type": "SYSTEM",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4a871f30165b4005b45108e0"
+    },
+    "userId": {
+      "$oid": "01c3adeb07c44902a13a7133"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7a5c6179f8474760acaba7a9"
+    },
+    "userId": {
+      "$oid": "201cc12f1b844836be3cee43"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e4b38ec7e5294aa3b4fae269"
+    },
+    "userId": {
+      "$oid": "dc80abf2c81441d98edc8cd9"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ba3c612904ce411fb9ffa538"
+    },
+    "userId": {
+      "$oid": "a9d89aada60e4d45b6d025c0"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1970b361965146ca9db2a413"
+    },
+    "userId": {
+      "$oid": "8bc6fd543bdf444f8ea60462"
+    },
+    "type": "ORDER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a3978e12d80346b0bc4e5cda"
+    },
+    "userId": {
+      "$oid": "d354884b8b3649be9fe10f47"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "55c49454cf9942209f27433b"
+    },
+    "userId": {
+      "$oid": "0fb5fbb8ce154268b638ed3f"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ae5791173d1e4fb494f2c42c"
+    },
+    "userId": {
+      "$oid": "725141356c11458abe3212dc"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ccaf400478a74ecd95348bf1"
+    },
+    "userId": {
+      "$oid": "55529acb74fb474a973543a0"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c9d9c4e65a7f484690e15f5e"
+    },
+    "userId": {
+      "$oid": "201cc12f1b844836be3cee43"
+    },
+    "type": "OFFER",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a3452dffe1fc4fe08f270824"
+    },
+    "userId": {
+      "$oid": "d6871403596642e6ad33b2d9"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "be3b053a5c76431a9186ce78"
+    },
+    "userId": {
+      "$oid": "02c93954718947e4af591371"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f2b54e3155e54e6bae1cf599"
+    },
+    "userId": {
+      "$oid": "bf5ee47098a44b8e9f62395a"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e1984a25b28e4ddcbf95ea85"
+    },
+    "userId": {
+      "$oid": "69cdde69e4d540fa876490ae"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d864d9219ff74366af3e0f22"
+    },
+    "userId": {
+      "$oid": "a8d429a4093a43b9ba93954a"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3309aced6d1f4556a45f7c6c"
+    },
+    "userId": {
+      "$oid": "26ed7aa6207844a0915968c4"
+    },
+    "type": "ORDER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d5c8c4e6d3c747bc88ed365d"
+    },
+    "userId": {
+      "$oid": "4c0297b02ef3403e912e4e23"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5670ae284e21436b994b5e55"
+    },
+    "userId": {
+      "$oid": "a576dc21ba6343fe8e582f32"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a0405e622d0c4b6aa44eed2b"
+    },
+    "userId": {
+      "$oid": "69cdde69e4d540fa876490ae"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "35ebe9fbb62440f4a8c5065e"
+    },
+    "userId": {
+      "$oid": "8bc6fd543bdf444f8ea60462"
+    },
+    "type": "OFFER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8c466b8302f649969e86dce3"
+    },
+    "userId": {
+      "$oid": "85a813fd99b349d7b009260e"
+    },
+    "type": "ORDER",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bc0d22ace80e491eb136c2f6"
+    },
+    "userId": {
+      "$oid": "0c763754f2da444f86bfa7cc"
+    },
+    "type": "SYSTEM",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3e4ba6e97b104b2ab282e662"
+    },
+    "userId": {
+      "$oid": "a1c604a6c7a44224917f4fd6"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "666caf016b4842e6aecd1389"
+    },
+    "userId": {
+      "$oid": "893ddb6af25041bd9769ff09"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ae84febdf66340f9b5d45406"
+    },
+    "userId": {
+      "$oid": "aa4252e603324ababb9cf9bf"
+    },
+    "type": "OFFER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "89c6a4205be04930988d640f"
+    },
+    "userId": {
+      "$oid": "addb780d58d84d559ba95286"
+    },
+    "type": "DELIVERY",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b7b37e6e453e4f708ea5783b"
+    },
+    "userId": {
+      "$oid": "00cf375f92c34367b0d2d335"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0ced3965b22d4dab8418cb9f"
+    },
+    "userId": {
+      "$oid": "83bb552a509747368e44d3a9"
+    },
+    "type": "DELIVERY",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ffdf4fa451734d05bce9eddd"
+    },
+    "userId": {
+      "$oid": "e1496a61940d4508ae6b38e9"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "468c47b57017475c8b80e837"
+    },
+    "userId": {
+      "$oid": "00cf375f92c34367b0d2d335"
+    },
+    "type": "PAYMENT",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d2a19a0f706744018676e800"
+    },
+    "userId": {
+      "$oid": "819519aabf604c509b458951"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f0d241d9f4214c17838f9558"
+    },
+    "userId": {
+      "$oid": "a808447668f34308a11f227f"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6d2e5a30e39f43fba03ee3db"
+    },
+    "userId": {
+      "$oid": "36925a5896ca48c0b47792be"
+    },
+    "type": "SYSTEM",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b280d6e6598043a089f34e45"
+    },
+    "userId": {
+      "$oid": "e1eca6d101a5451f94cff9a0"
+    },
+    "type": "PAYMENT",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d273d85f66f14f389c7c917a"
+    },
+    "userId": {
+      "$oid": "0b3b480def8a400b843e9886"
+    },
+    "type": "ORDER",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7ca9e103fd0d4c40a1dffde2"
+    },
+    "userId": {
+      "$oid": "893ddb6af25041bd9769ff09"
+    },
+    "type": "ORDER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "652f5b9d8d89428cb4252df4"
+    },
+    "userId": {
+      "$oid": "0fb5fbb8ce154268b638ed3f"
+    },
+    "type": "DELIVERY",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "e9f3bbf45aa946c7aa9549ba"
+    },
+    "userId": {
+      "$oid": "ede0742a5a8643e2baaa4ee2"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "291a549e85114d359425cf9a"
+    },
+    "userId": {
+      "$oid": "201cc12f1b844836be3cee43"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4ffcfba2c4b34c30a17a47c4"
+    },
+    "userId": {
+      "$oid": "f02b6de70474467ca17505f0"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "1873ac6f99df436eb00c3417"
+    },
+    "userId": {
+      "$oid": "a9d89aada60e4d45b6d025c0"
+    },
+    "type": "OFFER",
+    "title": "Order Shipped",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "266586d332d24799baec2158"
+    },
+    "userId": {
+      "$oid": "b2bed4b6fbc84472a7b5cfc1"
+    },
+    "type": "PAYMENT",
+    "title": "Welcome",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a444893468ee4a9f98e3a523"
+    },
+    "userId": {
+      "$oid": "68559420378a4ae5a988b206"
+    },
+    "type": "PAYMENT",
+    "title": "Order Delivered",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "18b7fd76262a4edcb4de3cb5"
+    },
+    "userId": {
+      "$oid": "a9d89aada60e4d45b6d025c0"
+    },
+    "type": "DELIVERY",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "668f1019e2c2434587717d8d"
+    },
+    "userId": {
+      "$oid": "e1496a61940d4508ae6b38e9"
+    },
+    "type": "DELIVERY",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8162b033362142e8a344c93e"
+    },
+    "userId": {
+      "$oid": "69cdde69e4d540fa876490ae"
+    },
+    "type": "PAYMENT",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ae91848dcd60446190f52468"
+    },
+    "userId": {
+      "$oid": "01c3adeb07c44902a13a7133"
+    },
+    "type": "OFFER",
+    "title": "Big Sale",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": true,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3dafdba8456f4a0596e402d7"
+    },
+    "userId": {
+      "$oid": "0c763754f2da444f86bfa7cc"
+    },
+    "type": "PAYMENT",
+    "title": "Payment Successful",
+    "message": "Sample notification for MongoDB practice.",
+    "isRead": false,
+    "createdAt": {
+      "$date": "2025-03-15T08:30:00Z"
+    }
+  }
+]

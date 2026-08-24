@@ -1,0 +1,802 @@
+[
+  {
+    "_id": {
+      "$oid": "c5c530b5167f46d1bca43e8a"
+    },
+    "employeeCode": "EMP1000",
+    "name": "Kiran Patel",
+    "departmentId": {
+      "$oid": "a79276c4c50c429889b52cac"
+    },
+    "designation": "HR",
+    "salary": 508226,
+    "city": "Kolkata",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "2591ee60acb246ce87d46554"
+    },
+    "employeeCode": "EMP1001",
+    "name": "Amit Singh",
+    "departmentId": {
+      "$oid": "a79276c4c50c429889b52cac"
+    },
+    "designation": "QA Engineer",
+    "salary": 1584935,
+    "city": "Hyderabad",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9c153227732d4ae599c7412f"
+    },
+    "employeeCode": "EMP1002",
+    "name": "Ananya Singh",
+    "departmentId": {
+      "$oid": "ba2325a40f79407f85ae596e"
+    },
+    "designation": "Software Engineer",
+    "salary": 1931735,
+    "city": "Bengaluru",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9e5e5cc747984db0a333aa60"
+    },
+    "employeeCode": "EMP1003",
+    "name": "Amit Nair",
+    "departmentId": {
+      "$oid": "a79276c4c50c429889b52cac"
+    },
+    "designation": "Senior Engineer",
+    "salary": 757228,
+    "city": "Hyderabad",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8bb731ca6fdd4ab592fe334b"
+    },
+    "employeeCode": "EMP1004",
+    "name": "Amit Nair",
+    "departmentId": {
+      "$oid": "92305d04253d4a80a64e3748"
+    },
+    "designation": "Manager",
+    "salary": 1402739,
+    "city": "Pune",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6ab932141d7148159c9f96b7"
+    },
+    "employeeCode": "EMP1005",
+    "name": "Neha Nair",
+    "departmentId": {
+      "$oid": "57b24ca44e9344d6a5f073ff"
+    },
+    "designation": "HR",
+    "salary": 548126,
+    "city": "Bengaluru",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ed38b463bd9b4841906611d6"
+    },
+    "employeeCode": "EMP1006",
+    "name": "Sneha Sharma",
+    "departmentId": {
+      "$oid": "ba2325a40f79407f85ae596e"
+    },
+    "designation": "Senior Engineer",
+    "salary": 842282,
+    "city": "Bengaluru",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "97265ebfa77346a39ba64874"
+    },
+    "employeeCode": "EMP1007",
+    "name": "Rahul Shaik",
+    "departmentId": {
+      "$oid": "b2aa609ac63644c690ea7265"
+    },
+    "designation": "QA Engineer",
+    "salary": 1622850,
+    "city": "Chennai",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "a51c7ff71cb54901b15d59ed"
+    },
+    "employeeCode": "EMP1008",
+    "name": "Neha Nair",
+    "departmentId": {
+      "$oid": "e2146d8fadbc48539c6dd7f8"
+    },
+    "designation": "Manager",
+    "salary": 1870631,
+    "city": "Bengaluru",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "cfd17af368b546848faeb147"
+    },
+    "employeeCode": "EMP1009",
+    "name": "Rahul Gupta",
+    "departmentId": {
+      "$oid": "ba2325a40f79407f85ae596e"
+    },
+    "designation": "QA Engineer",
+    "salary": 1699433,
+    "city": "Ahmedabad",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "7776276edde74841b677d023"
+    },
+    "employeeCode": "EMP1010",
+    "name": "Vijay Patel",
+    "departmentId": {
+      "$oid": "b2aa609ac63644c690ea7265"
+    },
+    "designation": "HR",
+    "salary": 1800476,
+    "city": "Bengaluru",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "20ee04043e06492f9e7e468d"
+    },
+    "employeeCode": "EMP1011",
+    "name": "Amit Das",
+    "departmentId": {
+      "$oid": "57b24ca44e9344d6a5f073ff"
+    },
+    "designation": "Manager",
+    "salary": 816863,
+    "city": "Hyderabad",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c9901396849e4a1783254a73"
+    },
+    "employeeCode": "EMP1012",
+    "name": "Arjun Das",
+    "departmentId": {
+      "$oid": "b2aa609ac63644c690ea7265"
+    },
+    "designation": "Software Engineer",
+    "salary": 1687377,
+    "city": "Kolkata",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "83924c773f384d0ea0d7dcee"
+    },
+    "employeeCode": "EMP1013",
+    "name": "Priya Sharma",
+    "departmentId": {
+      "$oid": "92305d04253d4a80a64e3748"
+    },
+    "designation": "QA Engineer",
+    "salary": 542250,
+    "city": "Mumbai",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "86788d4722dc4e688ade6bfb"
+    },
+    "employeeCode": "EMP1014",
+    "name": "Sneha Das",
+    "departmentId": {
+      "$oid": "92305d04253d4a80a64e3748"
+    },
+    "designation": "HR",
+    "salary": 670281,
+    "city": "Pune",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bcfea081b78b4a39853d5a0c"
+    },
+    "employeeCode": "EMP1015",
+    "name": "Priya Nair",
+    "departmentId": {
+      "$oid": "92305d04253d4a80a64e3748"
+    },
+    "designation": "Senior Engineer",
+    "salary": 2042516,
+    "city": "Kolkata",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "4f4d6e3b695c45c5b3714ac2"
+    },
+    "employeeCode": "EMP1016",
+    "name": "Rohit Kumar",
+    "departmentId": {
+      "$oid": "e2146d8fadbc48539c6dd7f8"
+    },
+    "designation": "QA Engineer",
+    "salary": 1666622,
+    "city": "Kolkata",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "b93485d1f84444a1916d6e52"
+    },
+    "employeeCode": "EMP1017",
+    "name": "Sneha Reddy",
+    "departmentId": {
+      "$oid": "92305d04253d4a80a64e3748"
+    },
+    "designation": "QA Engineer",
+    "salary": 1316816,
+    "city": "Kolkata",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "324556ef1c3e45518270a211"
+    },
+    "employeeCode": "EMP1018",
+    "name": "Rahul Gupta",
+    "departmentId": {
+      "$oid": "e2146d8fadbc48539c6dd7f8"
+    },
+    "designation": "Senior Engineer",
+    "salary": 1399256,
+    "city": "Delhi",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0bb2f13c62074f008ae2d279"
+    },
+    "employeeCode": "EMP1019",
+    "name": "Ananya Das",
+    "departmentId": {
+      "$oid": "b2aa609ac63644c690ea7265"
+    },
+    "designation": "Manager",
+    "salary": 446947,
+    "city": "Chennai",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f45fac7e199f43889b93269a"
+    },
+    "employeeCode": "EMP1020",
+    "name": "Arjun Singh",
+    "departmentId": {
+      "$oid": "b2aa609ac63644c690ea7265"
+    },
+    "designation": "Software Engineer",
+    "salary": 1762763,
+    "city": "Pune",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5d4b59212f9c4d0585e61518"
+    },
+    "employeeCode": "EMP1021",
+    "name": "Priya Kumar",
+    "departmentId": {
+      "$oid": "81e1a75f1c5c449a8107511c"
+    },
+    "designation": "QA Engineer",
+    "salary": 1681649,
+    "city": "Chennai",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "60ca5a2fd5d04aca8eb30cc5"
+    },
+    "employeeCode": "EMP1022",
+    "name": "Rahul Singh",
+    "departmentId": {
+      "$oid": "e2146d8fadbc48539c6dd7f8"
+    },
+    "designation": "QA Engineer",
+    "salary": 934769,
+    "city": "Hyderabad",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "792716553a6e4e489462f8e6"
+    },
+    "employeeCode": "EMP1023",
+    "name": "Amit Singh",
+    "departmentId": {
+      "$oid": "81e1a75f1c5c449a8107511c"
+    },
+    "designation": "Manager",
+    "salary": 776060,
+    "city": "Hyderabad",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "8a4ed26299b848bdb39a71ca"
+    },
+    "employeeCode": "EMP1024",
+    "name": "Ananya Patel",
+    "departmentId": {
+      "$oid": "b2aa609ac63644c690ea7265"
+    },
+    "designation": "Manager",
+    "salary": 616986,
+    "city": "Kolkata",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "88b4fe0930b04803b3033063"
+    },
+    "employeeCode": "EMP1025",
+    "name": "Priya Kumar",
+    "departmentId": {
+      "$oid": "ba2325a40f79407f85ae596e"
+    },
+    "designation": "Senior Engineer",
+    "salary": 1300010,
+    "city": "Pune",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9ad23e1de7fb4823bc00264d"
+    },
+    "employeeCode": "EMP1026",
+    "name": "Amit Das",
+    "departmentId": {
+      "$oid": "b2aa609ac63644c690ea7265"
+    },
+    "designation": "Manager",
+    "salary": 775538,
+    "city": "Delhi",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "071656f14e7e4e8eafc19c1f"
+    },
+    "employeeCode": "EMP1027",
+    "name": "Vijay Singh",
+    "departmentId": {
+      "$oid": "57b24ca44e9344d6a5f073ff"
+    },
+    "designation": "QA Engineer",
+    "salary": 1423658,
+    "city": "Mumbai",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3d297915335a4ed984cb11fe"
+    },
+    "employeeCode": "EMP1028",
+    "name": "Kiran Reddy",
+    "departmentId": {
+      "$oid": "e2146d8fadbc48539c6dd7f8"
+    },
+    "designation": "Senior Engineer",
+    "salary": 808673,
+    "city": "Mumbai",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6c144470001a402e8321e573"
+    },
+    "employeeCode": "EMP1029",
+    "name": "Arjun Shaik",
+    "departmentId": {
+      "$oid": "92305d04253d4a80a64e3748"
+    },
+    "designation": "Manager",
+    "salary": 904835,
+    "city": "Ahmedabad",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "f3884a494571457cb949588a"
+    },
+    "employeeCode": "EMP1030",
+    "name": "Amit Singh",
+    "departmentId": {
+      "$oid": "e2146d8fadbc48539c6dd7f8"
+    },
+    "designation": "QA Engineer",
+    "salary": 929903,
+    "city": "Delhi",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "3a15fa7af83f4e1eb9d0eaff"
+    },
+    "employeeCode": "EMP1031",
+    "name": "Rahul Singh",
+    "departmentId": {
+      "$oid": "b2aa609ac63644c690ea7265"
+    },
+    "designation": "Senior Engineer",
+    "salary": 1828404,
+    "city": "Hyderabad",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fe2a3e8886c845dbb2af9d30"
+    },
+    "employeeCode": "EMP1032",
+    "name": "Arjun Sharma",
+    "departmentId": {
+      "$oid": "81e1a75f1c5c449a8107511c"
+    },
+    "designation": "Senior Engineer",
+    "salary": 945906,
+    "city": "Ahmedabad",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "00e49bb853b84933a54da908"
+    },
+    "employeeCode": "EMP1033",
+    "name": "Sneha Shaik",
+    "departmentId": {
+      "$oid": "81e1a75f1c5c449a8107511c"
+    },
+    "designation": "Software Engineer",
+    "salary": 631938,
+    "city": "Kolkata",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6a9bfe5bd8514170ac46e670"
+    },
+    "employeeCode": "EMP1034",
+    "name": "Vijay Sharma",
+    "departmentId": {
+      "$oid": "3f545c9b8a3b4f65bfb0c5dc"
+    },
+    "designation": "Manager",
+    "salary": 1731522,
+    "city": "Bengaluru",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "793390fbe68e43da8d19b065"
+    },
+    "employeeCode": "EMP1035",
+    "name": "Ananya Nair",
+    "departmentId": {
+      "$oid": "e2146d8fadbc48539c6dd7f8"
+    },
+    "designation": "Senior Engineer",
+    "salary": 601690,
+    "city": "Chennai",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "afc0f0bbc306419a87395c44"
+    },
+    "employeeCode": "EMP1036",
+    "name": "Priya Patel",
+    "departmentId": {
+      "$oid": "3f545c9b8a3b4f65bfb0c5dc"
+    },
+    "designation": "Manager",
+    "salary": 1034453,
+    "city": "Ahmedabad",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d6aa5f032f2446d69ac478e0"
+    },
+    "employeeCode": "EMP1037",
+    "name": "Arjun Singh",
+    "departmentId": {
+      "$oid": "ba2325a40f79407f85ae596e"
+    },
+    "designation": "Software Engineer",
+    "salary": 870338,
+    "city": "Delhi",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "77c260405143448fa9f92301"
+    },
+    "employeeCode": "EMP1038",
+    "name": "Ananya Das",
+    "departmentId": {
+      "$oid": "3f545c9b8a3b4f65bfb0c5dc"
+    },
+    "designation": "QA Engineer",
+    "salary": 1882792,
+    "city": "Pune",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "02a0a3e3330d4e46a4667115"
+    },
+    "employeeCode": "EMP1039",
+    "name": "Arjun Das",
+    "departmentId": {
+      "$oid": "e2146d8fadbc48539c6dd7f8"
+    },
+    "designation": "HR",
+    "salary": 1118176,
+    "city": "Chennai",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "5e8270cc2ef04a04b4c30411"
+    },
+    "employeeCode": "EMP1040",
+    "name": "Vijay Nair",
+    "departmentId": {
+      "$oid": "81e1a75f1c5c449a8107511c"
+    },
+    "designation": "Senior Engineer",
+    "salary": 598229,
+    "city": "Chennai",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "558d7e49058340afb1bc20a6"
+    },
+    "employeeCode": "EMP1041",
+    "name": "Rahul Sharma",
+    "departmentId": {
+      "$oid": "07bb803fc0aa40e1842e33e8"
+    },
+    "designation": "Manager",
+    "salary": 924152,
+    "city": "Ahmedabad",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "0e6f132e4e3f4726bb4719cd"
+    },
+    "employeeCode": "EMP1042",
+    "name": "Amit Singh",
+    "departmentId": {
+      "$oid": "07bb803fc0aa40e1842e33e8"
+    },
+    "designation": "Manager",
+    "salary": 691211,
+    "city": "Pune",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "9af957e4f4bd48aa9850cba6"
+    },
+    "employeeCode": "EMP1043",
+    "name": "Amit Das",
+    "departmentId": {
+      "$oid": "3f545c9b8a3b4f65bfb0c5dc"
+    },
+    "designation": "HR",
+    "salary": 1654852,
+    "city": "Delhi",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "01270e6fb8ad421aa4d0e8d1"
+    },
+    "employeeCode": "EMP1044",
+    "name": "Sneha Reddy",
+    "departmentId": {
+      "$oid": "ba2325a40f79407f85ae596e"
+    },
+    "designation": "Software Engineer",
+    "salary": 1084841,
+    "city": "Mumbai",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c09fb8f77c07439f9f8e5bff"
+    },
+    "employeeCode": "EMP1045",
+    "name": "Arjun Nair",
+    "departmentId": {
+      "$oid": "3f545c9b8a3b4f65bfb0c5dc"
+    },
+    "designation": "Senior Engineer",
+    "salary": 2042340,
+    "city": "Chennai",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "d5f52656686b4870aa8dc82e"
+    },
+    "employeeCode": "EMP1046",
+    "name": "Rohit Sharma",
+    "departmentId": {
+      "$oid": "b2aa609ac63644c690ea7265"
+    },
+    "designation": "QA Engineer",
+    "salary": 1261110,
+    "city": "Pune",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "fa70f107e0c349e298aed097"
+    },
+    "employeeCode": "EMP1047",
+    "name": "Ananya Nair",
+    "departmentId": {
+      "$oid": "81e1a75f1c5c449a8107511c"
+    },
+    "designation": "HR",
+    "salary": 1157937,
+    "city": "Kolkata",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bb3ac71d496d4469ab43f926"
+    },
+    "employeeCode": "EMP1048",
+    "name": "Arjun Joshi",
+    "departmentId": {
+      "$oid": "ba2325a40f79407f85ae596e"
+    },
+    "designation": "HR",
+    "salary": 981836,
+    "city": "Chennai",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "bec3499b374d45cca540739d"
+    },
+    "employeeCode": "EMP1049",
+    "name": "Rohit Nair",
+    "departmentId": {
+      "$oid": "07bb803fc0aa40e1842e33e8"
+    },
+    "designation": "Software Engineer",
+    "salary": 2108361,
+    "city": "Mumbai",
+    "createdAt": {
+      "$date": "2025-01-01T10:00:00Z"
+    }
+  }
+]
