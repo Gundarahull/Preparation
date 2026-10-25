@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Meeting Schedule",
+    "content": "Meeting at 1:30 PM tomorrow.",
+    "noteid": "5d131b5c-d53b-465e-ab2b-4143a8df6faa",
+    "createdAt": "2026-10-17T12:12:22.098Z"
+  },
+  {
+    "title": "User Plans",
+    "content": "User Name: Virat\nActivity: Going to a movie tomorrow.",
+    "noteid": "e3b70269-be2f-49d5-82ea-5a9825eb2f73",
+    "createdAt": "2026-10-17T18:17:34.356Z"
+  },
+  {
+    "title": "Movie Plan",
+    "content": "User plans to go watch the movie 'Jailer 2' tomorrow.",
+    "noteid": "ace4b5bf-15a0-42d2-bc95-fbc402c910c2",
+    "createdAt": "2026-10-17T18:35:45.761Z"
+  }
+]
